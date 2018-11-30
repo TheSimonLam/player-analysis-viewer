@@ -1,0 +1,27 @@
+{
+  "name": "playeranalysis",
+  "version": "1.0.0",
+  "description": "A LoL Player Analysis App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files --source-maps",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSimonLam/PlayerAnalysis.git"
+  },
+  "author": "Simon Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSimonLam/PlayerAnalysis/issues"
+  },
+  "homepage": "https://github.com/TheSimonLam/PlayerAnalysis#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "node-fetch": "^2.1.2",
+    "rimraf": "^2.6.2"
+  }
+}
