@@ -5,7 +5,7 @@ let fs = require("fs");
 let options = {
         method: 'GET',
         headers: {
-            "X-Riot-Token": "RGAPI-e3595cc9-b785-4b16-b8f4-d6933dda004c"
+            "X-Riot-Token": "RGAPI-446e6953-885c-4bde-8bba-1eeb2002395b"
         }
     },
     MAX_MATCHES_TO_GET = 20;
@@ -24,14 +24,14 @@ export class Main{
     }
 
     getAccountIds(){
-        fetch('https://' + this.region + '.api.riotgames.com/lol/summoner/v3/summoners/by-name/' + this.name, options)
+        fetch('https://' + this.region + '.api.riotgames.com/lol/summoner/v4/summoners/by-name/' + this.name, options)
             .then(res => res.json())
             .then(json => this.getMatchList(json));
     }
 
     getMatchList(data){
         this.accountId = data.accountId;
-        fetch('https://' + this.region + '.api.riotgames.com/lol/match/v3/matchlists/by-account/'+ this.accountId + '?beginIndex=0&endIndex='+ MAX_MATCHES_TO_GET +'&queue=420', options)
+        fetch('https://' + this.region + '.api.riotgames.com/lol/match/v4/matchlists/by-account/'+ this.accountId + '?beginIndex=0&endIndex='+ MAX_MATCHES_TO_GET +'&queue=420', options)
             .then(res => res.json())
             .then(function(data){
                 for (let match of data.matches) {
@@ -42,7 +42,7 @@ export class Main{
     }
 
     getMatch(match){
-        fetch('https://' + this.region + '.api.riotgames.com/lol/match/v3/matches/' + match.matchId, options)
+        fetch('https://' + this.region + '.api.riotgames.com/lol/match/v4/matches/' + match.matchId, options)
             .then(res => res.json())
             .then(function(data){
                 match.setPatch(data.gameVersion);
@@ -67,7 +67,7 @@ export class Main{
 
     getTimelineMatch(match){
         setTimeout(() => {
-            fetch('https://' + this.region + '.api.riotgames.com/lol/match/v3/timelines/by-match/' + match.matchId, options)
+            fetch('https://' + this.region + '.api.riotgames.com/lol/match/v4/timelines/by-match/' + match.matchId, options)
                 .then(res => res.json())
                 .then(function(data){
                     match.setCompletedItemsPath(this.generateCompletedItems(data.frames, match.participantId));
