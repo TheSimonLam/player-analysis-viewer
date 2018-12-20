@@ -1,28 +1,29 @@
 <template>
   <div>
-    <select v-model="selectedPlayer">
-      <option value="" disabled hidden>Select Player</option>
-      <option v-for="player in players">{{player.name}}</option>
-    </select>
-
+    <div v-for="player in playerData">
+      <playerButton v-bind:player="player"></playerButton>
+    </div>
   </div>
 </template>
 
 <script>
-const fs = require('fs');
+
+import PlayerButton from './PlayerButton';
+import * as playerData from "../../player-data";
 
 export default {
   name: 'Start',
+  components: {
+      PlayerButton
+  },
   data(){
       return{
-
+        playerData: playerData.players,
+        selectedPlayer: ''
       }
   },
   methods:{
 
-  },
-  created(){
-    //TODO: Get the things somehow
   }
 }
 </script>
