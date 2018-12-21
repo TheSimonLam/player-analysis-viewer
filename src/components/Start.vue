@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div v-for="player in playerData">
+  <div class="player-button-container">
+    <div class="player-button" v-for="player in playerData">
       <playerButton v-bind:player="player"></playerButton>
     </div>
   </div>
@@ -30,5 +30,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+  .player-button-container{
+    text-align: center;
+  }
+
+  .player-button{
+    margin: 10px;
+  }
 
 </style>
