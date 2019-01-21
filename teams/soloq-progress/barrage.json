@@ -5,6 +5,496 @@
       "region": "euw1",
       "matches": [
         {
+          "Champ": "Akali",
+          "Patch": "9.1.",
+          "Date": 1548087155996,
+          "Enemy Team": [
+            "Zac",
+            "Tristana",
+            "Zoe",
+            "Thresh",
+            "Rumble"
+          ],
+          "Ally Team": [
+            "Lee Sin",
+            "Kai'sa",
+            "Galio",
+            "Akali",
+            "Zyra"
+          ],
+          "Item Slot 1": "Hextech Gunblade",
+          "Item Slot 2": "Morellonomicon",
+          "Item Slot 3": "Mercury's Treads",
+          "Item Slot 4": "Doran's Shield",
+          "Item Slot 5": "Liandry's Torment",
+          "Item Slot 6": " ",
+          "Build Order": [
+            "Doran's Shield",
+            "Warding Totem (Trinket)",
+            "Health Potion",
+            "Refillable Potion",
+            "Boots of Speed",
+            "Amplifying Tome",
+            "Hextech Revolver",
+            "Control Ward",
+            "Long Sword",
+            "Long Sword",
+            "Hextech Gunblade",
+            "Mercury's Treads",
+            "Oblivion Orb",
+            "Haunting Guise",
+            "Blasting Wand",
+            "Liandry's Torment",
+            "Control Ward",
+            "Blasting Wand",
+            "Morellonomicon"
+          ],
+          "Mastery 1": "Fleet Footwork",
+          "Mastery 2": "Triumph",
+          "Mastery 3": "Legend: Tenacity",
+          "Mastery 4": "Coup de Grace",
+          "Mastery 5": "Sudden Impact",
+          "Mastery 6": "Ravenous Hunter",
+          "Max": [
+            "Q",
+            "W"
+          ],
+          "Skill Order": [
+            "Q",
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "Victory": false,
+          "Blue Side": false,
+          "Summ Spell 1": "Teleport",
+          "Summ Spell 2": "Flash",
+          "kda": {
+            "kills": 5,
+            "deaths": 6,
+            "assists": 8
+          },
+          "ccDealt": 96,
+          "totalMinionsKilled": 161,
+          "wardsKilled": 4,
+          "wardsPlaced": 12,
+          "gameDuration": 1963
+        },
+        {
+          "Champ": "Akali",
+          "Patch": "9.1.",
+          "Date": 1548085096685,
+          "Enemy Team": [
+            "Alistar",
+            "Jayce",
+            "Gragas",
+            "Draven",
+            "Ryze"
+          ],
+          "Ally Team": [
+            "Galio",
+            "Karma",
+            "Sejuani",
+            "Akali",
+            "Lucian"
+          ],
+          "Item Slot 1": "Hextech Gunblade",
+          "Item Slot 2": "Sorcerer's Shoes",
+          "Item Slot 3": "Doran's Shield",
+          "Item Slot 4": "Amplifying Tome",
+          "Item Slot 5": "Refillable Potion",
+          "Item Slot 6": " ",
+          "Build Order": [
+            "Doran's Shield",
+            "Health Potion",
+            "Warding Totem (Trinket)",
+            "Hextech Revolver",
+            "Health Potion",
+            "Health Potion",
+            "Boots of Speed",
+            "Long Sword",
+            "Control Ward",
+            "Bilgewater Cutlass",
+            "Refillable Potion",
+            "Hextech Gunblade",
+            "Sorcerer's Shoes",
+            "Amplifying Tome",
+            "Control Ward"
+          ],
+          "Mastery 1": "Fleet Footwork",
+          "Mastery 2": "Triumph",
+          "Mastery 3": "Legend: Tenacity",
+          "Mastery 4": "Coup de Grace",
+          "Mastery 5": "Sudden Impact",
+          "Mastery 6": "Ravenous Hunter",
+          "Max": [
+            "Q"
+          ],
+          "Skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R"
+          ],
+          "Victory": true,
+          "Blue Side": true,
+          "Summ Spell 1": "Teleport",
+          "Summ Spell 2": "Flash",
+          "kda": {
+            "kills": 5,
+            "deaths": 0,
+            "assists": 1
+          },
+          "ccDealt": 110,
+          "totalMinionsKilled": 92,
+          "wardsKilled": 0,
+          "wardsPlaced": 5,
+          "gameDuration": 930
+        },
+        {
+          "Champ": "Cassiopeia",
+          "Patch": "9.1.",
+          "Date": 1548082691298,
+          "Enemy Team": [
+            "Ahri",
+            "Gragas",
+            "Urgot",
+            "Lee Sin",
+            "Kai'sa"
+          ],
+          "Ally Team": [
+            "Zac",
+            "Ezreal",
+            "Yasuo",
+            "Fiddlesticks",
+            "Cassiopeia"
+          ],
+          "Item Slot 1": "Corrupting Potion",
+          "Item Slot 2": "Seraph's Embrace",
+          "Item Slot 3": "Rylai's Crystal Scepter",
+          "Item Slot 4": " ",
+          "Item Slot 5": "Liandry's Torment",
+          "Item Slot 6": "Luden's Echo",
+          "Build Order": [
+            "Corrupting Potion",
+            "Warding Totem (Trinket)",
+            "Tear of the Goddess",
+            "Control Ward",
+            "Faerie Charm",
+            "Lost Chapter",
+            "Luden's Echo",
+            "Control Ward",
+            "Haunting Guise",
+            "Haunting Guise",
+            "Liandry's Torment",
+            "Amplifying Tome",
+            "Amplifying Tome",
+            "Archangel's Staff",
+            "Blasting Wand",
+            "Amplifying Tome",
+            "Elixir of Sorcery",
+            "Rylai's Crystal Scepter"
+          ],
+          "Mastery 1": "Arcane Comet",
+          "Mastery 2": "Manaflow Band",
+          "Mastery 3": "Transcendence",
+          "Mastery 4": "Gathering Storm",
+          "Mastery 5": "Cheap Shot",
+          "Mastery 6": "Ravenous Hunter",
+          "Max": [
+            "Q",
+            "W"
+          ],
+          "Skill Order": [
+            "Q",
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "Victory": false,
+          "Blue Side": true,
+          "Summ Spell 1": "Teleport",
+          "Summ Spell 2": "Flash",
+          "kda": {
+            "kills": 9,
+            "deaths": 7,
+            "assists": 3
+          },
+          "ccDealt": 3418,
+          "totalMinionsKilled": 190,
+          "wardsKilled": 4,
+          "wardsPlaced": 10,
+          "gameDuration": 1719
+        },
+        {
+          "Champ": "Leona",
+          "Patch": "9.1.",
+          "Date": 1548081667437,
+          "Enemy Team": [
+            "Rakan",
+            "Irelia",
+            "Sejuani",
+            "Ezreal",
+            "Ryze"
+          ],
+          "Ally Team": [
+            "Aatrox",
+            "Cassiopeia",
+            "Kai'sa",
+            "Kha'Zix",
+            "Leona"
+          ],
+          "Item Slot 1": " ",
+          "Item Slot 2": "Health Potion",
+          "Item Slot 3": " ",
+          "Item Slot 4": " ",
+          "Item Slot 5": " ",
+          "Item Slot 6": "Ancient Coin",
+          "Build Order": [
+            "Ancient Coin",
+            "Health Potion",
+            "Health Potion",
+            "Warding Totem (Trinket)"
+          ],
+          "Mastery 1": "Aftershock",
+          "Mastery 2": "Font of Life",
+          "Mastery 3": "Bone Plating",
+          "Mastery 4": "Unflinching",
+          "Mastery 5": "Hextech Flashtraption",
+          "Mastery 6": "Cosmic Insight",
+          "Max": [],
+          "Skill Order": [
+            "Q",
+            "E"
+          ],
+          "Victory": true,
+          "Blue Side": false,
+          "Summ Spell 1": "Ignite",
+          "Summ Spell 2": "Flash",
+          "kda": {
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0
+          },
+          "ccDealt": 1,
+          "totalMinionsKilled": 0,
+          "wardsKilled": 0,
+          "wardsPlaced": 0,
+          "gameDuration": 193
+        },
+        {
+          "Champ": "Akali",
+          "Patch": "9.1.",
+          "Date": 1548078954581,
+          "Enemy Team": [
+            "Kai'sa",
+            "Camille",
+            "Corki",
+            "Thresh",
+            "Urgot"
+          ],
+          "Ally Team": [
+            "Ezreal",
+            "Pyke",
+            "Cassiopeia",
+            "Xin Zhao",
+            "Akali"
+          ],
+          "Item Slot 1": "Hextech Gunblade",
+          "Item Slot 2": "Zhonya's Hourglass",
+          "Item Slot 3": "Ninja Tabi",
+          "Item Slot 4": "Morellonomicon",
+          "Item Slot 5": "Lich Bane",
+          "Item Slot 6": "Needlessly Large Rod",
+          "Build Order": [
+            "Doran's Shield",
+            "Health Potion",
+            "Warding Totem (Trinket)",
+            "Hextech Revolver",
+            "Health Potion",
+            "Long Sword",
+            "Long Sword",
+            "Refillable Potion",
+            "Control Ward",
+            "Hextech Gunblade",
+            "Control Ward",
+            "Ninja Tabi",
+            "Control Ward",
+            "Oblivion Orb",
+            "Amplifying Tome",
+            "Morellonomicon",
+            "Aether Wisp",
+            "Sheen",
+            "Lich Bane",
+            "Stopwatch",
+            "Seeker's Armguard",
+            "Zhonya's Hourglass",
+            "Needlessly Large Rod"
+          ],
+          "Mastery 1": "Fleet Footwork",
+          "Mastery 2": "Triumph",
+          "Mastery 3": "Legend: Tenacity",
+          "Mastery 4": "Coup de Grace",
+          "Mastery 5": "Sudden Impact",
+          "Mastery 6": "Ravenous Hunter",
+          "Max": [
+            "Q",
+            "W",
+            "E"
+          ],
+          "Skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E",
+            "R",
+            "E",
+            "E"
+          ],
+          "Victory": true,
+          "Blue Side": false,
+          "Summ Spell 1": "Teleport",
+          "Summ Spell 2": "Flash",
+          "kda": {
+            "kills": 13,
+            "deaths": 7,
+            "assists": 16
+          },
+          "ccDealt": 185,
+          "totalMinionsKilled": 175,
+          "wardsKilled": 1,
+          "wardsPlaced": 13,
+          "gameDuration": 1948
+        },
+        {
+          "Champ": "Cassiopeia",
+          "Patch": "9.1.",
+          "Date": 1548030159110,
+          "Enemy Team": [
+            "Zoe",
+            "Xerath",
+            "Mordekaiser",
+            "Caitlyn",
+            "Sion"
+          ],
+          "Ally Team": [
+            "Sejuani",
+            "Talon",
+            "Lucian",
+            "Morgana",
+            "Cassiopeia"
+          ],
+          "Item Slot 1": "Corrupting Potion",
+          "Item Slot 2": "The Dark Seal",
+          "Item Slot 3": "Luden's Echo",
+          "Item Slot 4": "Liandry's Torment",
+          "Item Slot 5": "Blasting Wand",
+          "Item Slot 6": "Amplifying Tome",
+          "Build Order": [
+            "Corrupting Potion",
+            "Warding Totem (Trinket)",
+            "The Dark Seal",
+            "Control Ward",
+            "Amplifying Tome",
+            "Amplifying Tome",
+            "Control Ward",
+            "Lost Chapter",
+            "Control Ward",
+            "Blasting Wand",
+            "Luden's Echo",
+            "Control Ward",
+            "Blasting Wand",
+            "Amplifying Tome",
+            "Ruby Crystal",
+            "Haunting Guise",
+            "Liandry's Torment",
+            "Blasting Wand",
+            "Control Ward",
+            "Control Ward",
+            "Amplifying Tome"
+          ],
+          "Mastery 1": "Arcane Comet",
+          "Mastery 2": "Manaflow Band",
+          "Mastery 3": "Transcendence",
+          "Mastery 4": "Gathering Storm",
+          "Mastery 5": "Cheap Shot",
+          "Mastery 6": "Ravenous Hunter",
+          "Max": [
+            "Q",
+            "W"
+          ],
+          "Skill Order": [
+            "Q",
+            "E",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E"
+          ],
+          "Victory": true,
+          "Blue Side": false,
+          "Summ Spell 1": "Teleport",
+          "Summ Spell 2": "Flash",
+          "kda": {
+            "kills": 2,
+            "deaths": 6,
+            "assists": 7
+          },
+          "ccDealt": 2984,
+          "totalMinionsKilled": 182,
+          "wardsKilled": 6,
+          "wardsPlaced": 13,
+          "gameDuration": 1700
+        },
+        {
           "Champ": "Cassiopeia",
           "Patch": "9.1.",
           "Date": 1547948430574,
@@ -79,8 +569,10 @@
             "assists": 3
           },
           "ccDealt": 2766,
+          "totalMinionsKilled": 151,
           "wardsKilled": 2,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1580
         },
         {
           "Champ": "Cassiopeia",
@@ -149,8 +641,10 @@
             "assists": 1
           },
           "ccDealt": 2137,
+          "totalMinionsKilled": 100,
           "wardsKilled": 0,
-          "wardsPlaced": 2
+          "wardsPlaced": 2,
+          "gameDuration": 1001
         },
         {
           "Champ": "Urgot",
@@ -236,8 +730,10 @@
             "assists": 3
           },
           "ccDealt": 221,
+          "totalMinionsKilled": 172,
           "wardsKilled": 1,
-          "wardsPlaced": 10
+          "wardsPlaced": 10,
+          "gameDuration": 1648
         },
         {
           "Champ": "Xayah",
@@ -317,8 +813,10 @@
             "assists": 7
           },
           "ccDealt": 112,
+          "totalMinionsKilled": 144,
           "wardsKilled": 1,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1323
         },
         {
           "Champ": "Darius",
@@ -404,8 +902,10 @@
             "assists": 5
           },
           "ccDealt": 231,
+          "totalMinionsKilled": 142,
           "wardsKilled": 1,
-          "wardsPlaced": 9
+          "wardsPlaced": 9,
+          "gameDuration": 1628
         },
         {
           "Champ": "Akali",
@@ -488,8 +988,10 @@
             "assists": 4
           },
           "ccDealt": 96,
+          "totalMinionsKilled": 139,
           "wardsKilled": 1,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1415
         },
         {
           "Champ": "Cassiopeia",
@@ -581,8 +1083,10 @@
             "assists": 18
           },
           "ccDealt": 5697,
+          "totalMinionsKilled": 213,
           "wardsKilled": 1,
-          "wardsPlaced": 17
+          "wardsPlaced": 17,
+          "gameDuration": 2164
         },
         {
           "Champ": "Akali",
@@ -677,8 +1181,10 @@
             "assists": 2
           },
           "ccDealt": 864,
+          "totalMinionsKilled": 259,
           "wardsKilled": 2,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 2212
         },
         {
           "Champ": "Cassiopeia",
@@ -763,8 +1269,10 @@
             "assists": 3
           },
           "ccDealt": 3345,
+          "totalMinionsKilled": 197,
           "wardsKilled": 2,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1652
         },
         {
           "Champ": "Cassiopeia",
@@ -855,8 +1363,10 @@
             "assists": 10
           },
           "ccDealt": 7934,
+          "totalMinionsKilled": 266,
           "wardsKilled": 9,
-          "wardsPlaced": 19
+          "wardsPlaced": 19,
+          "gameDuration": 2320
         },
         {
           "Champ": "Jayce",
@@ -936,8 +1446,10 @@
             "assists": 3
           },
           "ccDealt": 241,
+          "totalMinionsKilled": 154,
           "wardsKilled": 3,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1298
         },
         {
           "Champ": "Irelia",
@@ -1017,8 +1529,10 @@
             "assists": 1
           },
           "ccDealt": 44,
+          "totalMinionsKilled": 150,
           "wardsKilled": 0,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1270
         },
         {
           "Champ": "Riven",
@@ -1094,8 +1608,10 @@
             "assists": 2
           },
           "ccDealt": 76,
+          "totalMinionsKilled": 133,
           "wardsKilled": 1,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1162
         },
         {
           "Champ": "Cassiopeia",
@@ -1189,517 +1705,10 @@
             "assists": 3
           },
           "ccDealt": 6681,
+          "totalMinionsKilled": 191,
           "wardsKilled": 6,
-          "wardsPlaced": 17
-        },
-        {
-          "Champ": "Cassiopeia",
-          "Patch": "9.1.",
-          "Date": 1547584463549,
-          "Enemy Team": [
-            "Fiddlesticks",
-            "Draven",
-            "Lee Sin",
-            "Akali",
-            "Viktor"
-          ],
-          "Ally Team": [
-            "Graves",
-            "Cassiopeia",
-            "Tryndamere",
-            "Zyra",
-            "Aatrox"
-          ],
-          "Item Slot 1": "Corrupting Potion",
-          "Item Slot 2": "Blasting Wand",
-          "Item Slot 3": "Luden's Echo",
-          "Item Slot 4": "Liandry's Torment",
-          "Item Slot 5": "Rylai's Crystal Scepter",
-          "Item Slot 6": "Oblivion Orb",
-          "Build Order": [
-            "Corrupting Potion",
-            "Warding Totem (Trinket)",
-            "The Dark Seal",
-            "Control Ward",
-            "Amplifying Tome",
-            "Amplifying Tome",
-            "Sapphire Crystal",
-            "Lost Chapter",
-            "Blasting Wand",
-            "Luden's Echo",
-            "Amplifying Tome",
-            "Haunting Guise",
-            "Blasting Wand",
-            "Liandry's Torment",
-            "Control Ward",
-            "Blasting Wand",
-            "Amplifying Tome",
-            "Elixir of Sorcery",
-            "Rylai's Crystal Scepter",
-            "Elixir of Sorcery",
-            "Amplifying Tome",
-            "Oblivion Orb",
-            "Elixir of Sorcery",
-            "Blasting Wand"
-          ],
-          "Mastery 1": "Arcane Comet",
-          "Mastery 2": "Manaflow Band",
-          "Mastery 3": "Transcendence",
-          "Mastery 4": "Gathering Storm",
-          "Mastery 5": "Cheap Shot",
-          "Mastery 6": "Ravenous Hunter",
-          "Max": [
-            "Q",
-            "W",
-            "E"
-          ],
-          "Skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R",
-            "W",
-            "W",
-            "E",
-            "E",
-            "R",
-            "E"
-          ],
-          "Victory": false,
-          "Blue Side": true,
-          "Summ Spell 1": "Teleport",
-          "Summ Spell 2": "Flash",
-          "kda": {
-            "kills": 12,
-            "deaths": 12,
-            "assists": 6
-          },
-          "ccDealt": 5593,
-          "wardsKilled": 7,
-          "wardsPlaced": 12
-        },
-        {
-          "Champ": "Urgot",
-          "Patch": "9.1.",
-          "Date": 1547571906707,
-          "Enemy Team": [
-            "Ezreal",
-            "Irelia",
-            "Riven",
-            "Kha'Zix",
-            "Leona"
-          ],
-          "Ally Team": [
-            "Nunu",
-            "Caitlyn",
-            "Pyke",
-            "Twisted Fate",
-            "Urgot"
-          ],
-          "Item Slot 1": "Righteous Glory",
-          "Item Slot 2": "The Black Cleaver",
-          "Item Slot 3": "Cull",
-          "Item Slot 4": "Ninja Tabi",
-          "Item Slot 5": "Corrupting Potion",
-          "Item Slot 6": " ",
-          "Build Order": [
-            "Corrupting Potion",
-            "Warding Totem (Trinket)",
-            "Cull",
-            "Long Sword",
-            "Ruby Crystal",
-            "Kindlegem",
-            "The Black Cleaver",
-            "Ninja Tabi",
-            "Glacial Shroud",
-            "Control Ward",
-            "Crystalline Bracer",
-            "Righteous Glory"
-          ],
-          "Mastery 1": "Unsealed Spellbook",
-          "Mastery 2": "Magical Footwear",
-          "Mastery 3": "Minion Dematerializer",
-          "Mastery 4": "Cosmic Insight",
-          "Mastery 5": "Demolish",
-          "Mastery 6": "Bone Plating",
-          "Max": [
-            "Q",
-            "W"
-          ],
-          "Skill Order": [
-            "Q",
-            "W",
-            "E",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R",
-            "W"
-          ],
-          "Victory": true,
-          "Blue Side": false,
-          "Summ Spell 1": "Teleport",
-          "Summ Spell 2": "Flash",
-          "kda": {
-            "kills": 4,
-            "deaths": 3,
-            "assists": 4
-          },
-          "ccDealt": 182,
-          "wardsKilled": 0,
-          "wardsPlaced": 6
-        },
-        {
-          "Champ": "Graves",
-          "Patch": "9.1.",
-          "Date": 1547570217133,
-          "Enemy Team": [
-            "Riven",
-            "Shaco",
-            "Lissandra",
-            "Vayne",
-            "Orn"
-          ],
-          "Ally Team": [
-            "Kassadin",
-            "Sion",
-            "Fiddlesticks",
-            "Tristana",
-            "Graves"
-          ],
-          "Item Slot 1": "The Black Cleaver",
-          "Item Slot 2": "Refillable Potion",
-          "Item Slot 3": " ",
-          "Item Slot 4": " ",
-          "Item Slot 5": "Berserker's Greaves",
-          "Item Slot 6": "Enchantment: Warrior",
-          "Build Order": [
-            "Hunter's Machete",
-            "Refillable Potion",
-            "Warding Totem (Trinket)",
-            "Long Sword",
-            "Long Sword",
-            "Boots of Speed",
-            "Skirmisher's Sabre",
-            "Dagger",
-            "Oracle Alteration",
-            "Enchantment: Warrior",
-            "Berserker's Greaves",
-            "Long Sword",
-            "Ruby Crystal",
-            "Phage",
-            "Kindlegem",
-            "Ruby Crystal",
-            "Phage",
-            "The Black Cleaver"
-          ],
-          "Mastery 1": "Fleet Footwork",
-          "Mastery 2": "Triumph",
-          "Mastery 3": "Legend: Alacrity",
-          "Mastery 4": "Coup de Grace",
-          "Mastery 5": "Absolute Focus",
-          "Mastery 6": "Waterwalking",
-          "Max": [
-            "Q"
-          ],
-          "Skill Order": [
-            "E",
-            "Q",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R"
-          ],
-          "Victory": false,
-          "Blue Side": true,
-          "Summ Spell 1": "Smite",
-          "Summ Spell 2": "Flash",
-          "kda": {
-            "kills": 3,
-            "deaths": 9,
-            "assists": 1
-          },
-          "ccDealt": 646,
-          "wardsKilled": 0,
-          "wardsPlaced": 2
-        },
-        {
-          "Champ": "Irelia",
-          "Patch": "9.1.",
-          "Date": 1547568114842,
-          "Enemy Team": [
-            "Lucian",
-            "Elise",
-            "Kled",
-            "Maokai",
-            "Karma"
-          ],
-          "Ally Team": [
-            "Irelia",
-            "Vel'Koz",
-            "Shaco",
-            "Fiora",
-            "Caitlyn"
-          ],
-          "Item Slot 1": "Tiamat",
-          "Item Slot 2": "Corrupting Potion",
-          "Item Slot 3": "Jaurim's Fist",
-          "Item Slot 4": "Trinity Force",
-          "Item Slot 5": "Ninja Tabi",
-          "Item Slot 6": "Control Ward",
-          "Build Order": [
-            "Corrupting Potion",
-            "Warding Totem (Trinket)",
-            "Cull",
-            "Long Sword",
-            "Rejuvenation Bead",
-            "Long Sword",
-            "Tiamat",
-            "Sheen",
-            "Ninja Tabi",
-            "Dagger",
-            "Stinger",
-            "Trinity Force",
-            "Long Sword",
-            "Control Ward",
-            "Control Ward",
-            "Jaurim's Fist"
-          ],
-          "Mastery 1": "Unsealed Spellbook",
-          "Mastery 2": "Magical Footwear",
-          "Mastery 3": "Minion Dematerializer",
-          "Mastery 4": "Cosmic Insight",
-          "Mastery 5": "Demolish",
-          "Mastery 6": "Bone Plating",
-          "Max": [
-            "Q",
-            "E"
-          ],
-          "Skill Order": [
-            "E",
-            "Q",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E"
-          ],
-          "Victory": false,
-          "Blue Side": false,
-          "Summ Spell 1": "Ignite",
-          "Summ Spell 2": "Flash",
-          "kda": {
-            "kills": 1,
-            "deaths": 12,
-            "assists": 5
-          },
-          "ccDealt": 115,
-          "wardsKilled": 0,
-          "wardsPlaced": 8
-        },
-        {
-          "Champ": "Cassiopeia",
-          "Patch": "9.1.",
-          "Date": 1547483884101,
-          "Enemy Team": [
-            "Katarina",
-            "Viktor",
-            "Zac",
-            "Kai'sa",
-            "Vel'Koz"
-          ],
-          "Ally Team": [
-            "Akali",
-            "Lee Sin",
-            "Cassiopeia",
-            "Caitlyn",
-            "Soraka"
-          ],
-          "Item Slot 1": "Corrupting Potion",
-          "Item Slot 2": "The Dark Seal",
-          "Item Slot 3": "Luden's Echo",
-          "Item Slot 4": "Rylai's Crystal Scepter",
-          "Item Slot 5": "Liandry's Torment",
-          "Item Slot 6": "Blasting Wand",
-          "Build Order": [
-            "Corrupting Potion",
-            "Warding Totem (Trinket)",
-            "The Dark Seal",
-            "Control Ward",
-            "Faerie Charm",
-            "Amplifying Tome",
-            "Amplifying Tome",
-            "Control Ward",
-            "Lost Chapter",
-            "Blasting Wand",
-            "Control Ward",
-            "Luden's Echo",
-            "Control Ward",
-            "Haunting Guise",
-            "Blasting Wand",
-            "Liandry's Torment",
-            "Liandry's Torment",
-            "Blasting Wand",
-            "Amplifying Tome",
-            "Rylai's Crystal Scepter",
-            "Blasting Wand"
-          ],
-          "Mastery 1": "Arcane Comet",
-          "Mastery 2": "Manaflow Band",
-          "Mastery 3": "Transcendence",
-          "Mastery 4": "Gathering Storm",
-          "Mastery 5": "Cheap Shot",
-          "Mastery 6": "Ravenous Hunter",
-          "Max": [
-            "Q",
-            "W",
-            "E"
-          ],
-          "Skill Order": [
-            "Q",
-            "E",
-            "Q",
-            "W",
-            "Q",
-            "R",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R",
-            "W",
-            "W",
-            "E",
-            "E",
-            "R",
-            "E"
-          ],
-          "Victory": false,
-          "Blue Side": true,
-          "Summ Spell 1": "Teleport",
-          "Summ Spell 2": "Flash",
-          "kda": {
-            "kills": 7,
-            "deaths": 6,
-            "assists": 11
-          },
-          "ccDealt": 4583,
-          "wardsKilled": 4,
-          "wardsPlaced": 14
-        },
-        {
-          "Champ": "Orn",
-          "Patch": "9.1.",
-          "Date": 1547481509060,
-          "Enemy Team": [
-            "Graves",
-            "Vayne",
-            "Thresh",
-            "Ezreal",
-            "Akali"
-          ],
-          "Ally Team": [
-            "Irelia",
-            "Hecarim",
-            "Zilean",
-            "Orn",
-            "Jhin"
-          ],
-          "Item Slot 1": "Righteous Glory",
-          "Item Slot 2": " ",
-          "Item Slot 3": "Doran's Shield",
-          "Item Slot 4": "Thornmail",
-          "Item Slot 5": "Ninja Tabi",
-          "Item Slot 6": 3379,
-          "Build Order": [
-            "Doran's Shield",
-            "Health Potion",
-            "Warding Totem (Trinket)",
-            "Refillable Potion",
-            "Control Ward",
-            "Rejuvenation Bead",
-            "Ruby Crystal",
-            "Crystalline Bracer",
-            "Sapphire Crystal",
-            "Glacial Shroud",
-            "Ninja Tabi",
-            "Righteous Glory",
-            "Cloth Armor",
-            "Control Ward",
-            "Cloth Armor",
-            3076,
-            "Cloth Armor",
-            "Warden's Mail",
-            "Thornmail",
-            "Control Ward",
-            "Negatron Cloak",
-            "Ruby Crystal",
-            "Catalyst of Aeons",
-            "Abyssal Scepter",
-            3379
-          ],
-          "Mastery 1": "Grasp of the Undying",
-          "Mastery 2": "Demolish",
-          "Mastery 3": "Bone Plating",
-          "Mastery 4": "Overgrowth",
-          "Mastery 5": "Cosmic Insight",
-          "Mastery 6": "Magical Footwear",
-          "Max": [
-            "W",
-            "Q"
-          ],
-          "Skill Order": [
-            "Q",
-            "W",
-            "E",
-            "W",
-            "W",
-            "R",
-            "W",
-            "Q",
-            "W",
-            "Q",
-            "R",
-            "Q",
-            "Q",
-            "E",
-            "E",
-            "R"
-          ],
-          "Victory": false,
-          "Blue Side": false,
-          "Summ Spell 1": "Teleport",
-          "Summ Spell 2": "Flash",
-          "kda": {
-            "kills": 4,
-            "deaths": 6,
-            "assists": 15
-          },
-          "ccDealt": 661,
-          "wardsKilled": 5,
-          "wardsPlaced": 11
+          "wardsPlaced": 17,
+          "gameDuration": 1931
         }
       ]
     },
@@ -1707,6 +1716,467 @@
       "name": "Skudzy",
       "region": "euw1",
       "matches": [
+        {
+          "Champ": "Morgana",
+          "Patch": "9.1.",
+          "Date": 1548089145273,
+          "Enemy Team": [
+            "Kai'sa",
+            "Galio",
+            "Aatrox",
+            "Rakan",
+            "Nunu"
+          ],
+          "Ally Team": [
+            "Sejuani",
+            "Ezreal",
+            "Veigar",
+            "Morgana",
+            "Nidalee"
+          ],
+          "Item Slot 1": "Zhonya's Hourglass",
+          "Item Slot 2": "Control Ward",
+          "Item Slot 3": " ",
+          "Item Slot 4": " ",
+          "Item Slot 5": "Frost Queen's Claim",
+          "Item Slot 6": "Boots of Mobility",
+          "Build Order": [
+            "Spellthief's Edge",
+            "Health Potion",
+            "Health Potion",
+            "Warding Totem (Trinket)",
+            "Frostfang",
+            "Boots of Mobility",
+            "Frostfang",
+            "Ruby Crystal",
+            "Amplifying Tome",
+            "Control Ward",
+            "Control Ward",
+            "Frost Queen's Claim",
+            "Oracle Alteration",
+            "Health Potion",
+            "Control Ward",
+            "Health Potion",
+            "Stopwatch",
+            "Amplifying Tome",
+            "Control Ward",
+            "Seeker's Armguard",
+            "Fiendish Codex",
+            "Zhonya's Hourglass"
+          ],
+          "Mastery 1": "Guardian",
+          "Mastery 2": "Demolish",
+          "Mastery 3": "Bone Plating",
+          "Mastery 4": "Revitalize",
+          "Mastery 5": "Absolute Focus",
+          "Mastery 6": "Manaflow Band",
+          "Max": [
+            "Q"
+          ],
+          "Skill Order": [
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R"
+          ],
+          "Victory": true,
+          "Blue Side": false,
+          "Summ Spell 1": "Ignite",
+          "Summ Spell 2": "Flash",
+          "kda": {
+            "kills": 2,
+            "deaths": 2,
+            "assists": 7
+          },
+          "ccDealt": 83,
+          "totalMinionsKilled": 8,
+          "wardsKilled": 4,
+          "wardsPlaced": 15,
+          "gameDuration": 1299
+        },
+        {
+          "Champ": "Nidalee",
+          "Patch": "9.1.",
+          "Date": 1548082324260,
+          "Enemy Team": [
+            "Aatrox",
+            "Riven",
+            "Xin Zhao",
+            "Morgana",
+            "Cassiopeia"
+          ],
+          "Ally Team": [
+            "Ezreal",
+            "Jayce",
+            "Orianna",
+            "Nidalee",
+            "Pyke"
+          ],
+          "Item Slot 1": "Enchantment: Runic Echoes",
+          "Item Slot 2": "Void Staff",
+          "Item Slot 3": "Lich Bane",
+          "Item Slot 4": "The Dark Seal",
+          "Item Slot 5": "Zhonya's Hourglass",
+          "Item Slot 6": "Sorcerer's Shoes",
+          "Build Order": [
+            "Hunter's Talisman",
+            "Warding Totem (Trinket)",
+            "Refillable Potion",
+            "Fiendish Codex",
+            "The Dark Seal",
+            "Enchantment: Runic Echoes",
+            "Oracle Alteration",
+            "Sheen",
+            "Amplifying Tome",
+            "Control Ward",
+            "Control Ward",
+            "Lich Bane",
+            "Stopwatch",
+            "Sorcerer's Shoes",
+            "Seeker's Armguard",
+            "Zhonya's Hourglass",
+            "Control Ward",
+            "Void Staff"
+          ],
+          "Mastery 1": "Electrocute",
+          "Mastery 2": "Sudden Impact",
+          "Mastery 3": "Eyeball Collection",
+          "Mastery 4": "Ravenous Hunter",
+          "Mastery 5": "Cosmic Insight",
+          "Mastery 6": "Magical Footwear",
+          "Max": [
+            "Q",
+            "E"
+          ],
+          "Skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E",
+            "W",
+            "W"
+          ],
+          "Victory": true,
+          "Blue Side": false,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Smite",
+          "kda": {
+            "kills": 17,
+            "deaths": 3,
+            "assists": 18
+          },
+          "ccDealt": 308,
+          "totalMinionsKilled": 38,
+          "wardsKilled": 3,
+          "wardsPlaced": 4,
+          "gameDuration": 1446
+        },
+        {
+          "Champ": "Kha'Zix",
+          "Patch": "9.1.",
+          "Date": 1548080043636,
+          "Enemy Team": [
+            "Rakan",
+            "Kai'sa",
+            "Xerath",
+            "Gragas",
+            "Riven"
+          ],
+          "Ally Team": [
+            "Irelia",
+            "Kha'Zix",
+            "Galio",
+            "Lissandra",
+            "Jhin"
+          ],
+          "Item Slot 1": "Enchantment: Warrior",
+          "Item Slot 2": "Control Ward",
+          "Item Slot 3": " ",
+          "Item Slot 4": "Duskblade of Draktharr",
+          "Item Slot 5": "Guardian Angel",
+          "Item Slot 6": "Mercury's Treads",
+          "Build Order": [
+            "Hunter's Talisman",
+            "Refillable Potion",
+            "Warding Totem (Trinket)",
+            "Skirmisher's Sabre",
+            "Long Sword",
+            "Control Ward",
+            "Oracle Alteration",
+            "Enchantment: Warrior",
+            "Boots of Speed",
+            "Control Ward",
+            "Control Ward",
+            "Mercury's Treads",
+            "Long Sword",
+            "Serrated Dirk",
+            "Long Sword",
+            "Control Ward",
+            "Duskblade of Draktharr",
+            "Control Ward",
+            "Control Ward",
+            "Stopwatch",
+            "Cloth Armor",
+            "Chain Vest",
+            "Guardian Angel",
+            "Control Ward"
+          ],
+          "Mastery 1": "Electrocute",
+          "Mastery 2": "Sudden Impact",
+          "Mastery 3": "Zombie Ward",
+          "Mastery 4": "Ravenous Hunter",
+          "Mastery 5": "Shield Bash",
+          "Mastery 6": "Absolute Focus",
+          "Max": [
+            "Q",
+            "W"
+          ],
+          "Skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "Victory": true,
+          "Blue Side": true,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Smite",
+          "kda": {
+            "kills": 9,
+            "deaths": 4,
+            "assists": 9
+          },
+          "ccDealt": 307,
+          "totalMinionsKilled": 19,
+          "wardsKilled": 10,
+          "wardsPlaced": 17,
+          "gameDuration": 1732
+        },
+        {
+          "Champ": "Kha'Zix",
+          "Patch": "9.1.",
+          "Date": 1548076917849,
+          "Enemy Team": [
+            "Sejuani",
+            "LeBlanc",
+            "Xayah",
+            "Rakan",
+            "Malphite"
+          ],
+          "Ally Team": [
+            "Pyke",
+            "Karthus",
+            "Kha'Zix",
+            "Vayne",
+            "Lissandra"
+          ],
+          "Item Slot 1": "Enchantment: Warrior",
+          "Item Slot 2": "Maw of Malmortius",
+          "Item Slot 3": "The Black Cleaver",
+          "Item Slot 4": " ",
+          "Item Slot 5": "Guardian Angel",
+          "Item Slot 6": "Mercury's Treads",
+          "Build Order": [
+            "Hunter's Talisman",
+            "Warding Totem (Trinket)",
+            "Refillable Potion",
+            "Skirmisher's Sabre",
+            "Long Sword",
+            "Oracle Alteration",
+            "Control Ward",
+            "Long Sword",
+            "Boots of Speed",
+            "Enchantment: Warrior",
+            "Control Ward",
+            "Long Sword",
+            "Mercury's Treads",
+            "Hexdrinker",
+            "Long Sword",
+            "Phage",
+            "Control Ward",
+            "Kindlegem",
+            "Control Ward",
+            "Control Ward",
+            "The Black Cleaver",
+            "Stopwatch",
+            "B. F. Sword",
+            "Guardian Angel",
+            "Control Ward",
+            "Control Ward",
+            "Maw of Malmortius"
+          ],
+          "Mastery 1": "Electrocute",
+          "Mastery 2": "Sudden Impact",
+          "Mastery 3": "Zombie Ward",
+          "Mastery 4": "Ravenous Hunter",
+          "Mastery 5": "Shield Bash",
+          "Mastery 6": "Absolute Focus",
+          "Max": [
+            "Q",
+            "W",
+            "R",
+            "E"
+          ],
+          "Skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "W",
+            "E",
+            "E",
+            "R",
+            "E",
+            "E"
+          ],
+          "Victory": true,
+          "Blue Side": false,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Smite",
+          "kda": {
+            "kills": 6,
+            "deaths": 7,
+            "assists": 19
+          },
+          "ccDealt": 437,
+          "totalMinionsKilled": 32,
+          "wardsKilled": 4,
+          "wardsPlaced": 10,
+          "gameDuration": 1977
+        },
+        {
+          "Champ": "Shen",
+          "Patch": "9.1.",
+          "Date": 1548023743240,
+          "Enemy Team": [
+            "Evelynn",
+            "Zed",
+            "Irelia",
+            "Vayne",
+            "Alistar"
+          ],
+          "Ally Team": [
+            "Shen",
+            "Twitch",
+            "Galio",
+            "Karma",
+            "Xin Zhao"
+          ],
+          "Item Slot 1": "Doran's Shield",
+          "Item Slot 2": "Warden's Mail",
+          "Item Slot 3": 3076,
+          "Item Slot 4": "Sunfire Cape",
+          "Item Slot 5": "Randuin's Omen",
+          "Item Slot 6": "Ninja Tabi",
+          "Build Order": [
+            "Doran's Shield",
+            "Warding Totem (Trinket)",
+            "Health Potion",
+            "Ruby Crystal",
+            "Cloth Armor",
+            "Control Ward",
+            "Health Potion",
+            "Health Potion",
+            "Bami's Cinder",
+            "Boots of Speed",
+            "Ninja Tabi",
+            "Chain Vest",
+            "Ruby Crystal",
+            "Sunfire Cape",
+            "Control Ward",
+            "Cloth Armor",
+            "Cloth Armor",
+            3076,
+            "Ruby Crystal",
+            "Giant's Belt",
+            "Warden's Mail",
+            "Randuin's Omen",
+            "Warden's Mail"
+          ],
+          "Mastery 1": "Grasp of the Undying",
+          "Mastery 2": "Demolish",
+          "Mastery 3": "Second Wind",
+          "Mastery 4": "Overgrowth",
+          "Mastery 5": "Minion Dematerializer",
+          "Mastery 6": "Cosmic Insight",
+          "Max": [
+            "Q",
+            "E",
+            "W"
+          ],
+          "Skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E",
+            "W",
+            "W",
+            "R",
+            "W"
+          ],
+          "Victory": true,
+          "Blue Side": true,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Teleport",
+          "kda": {
+            "kills": 3,
+            "deaths": 6,
+            "assists": 13
+          },
+          "ccDealt": 482,
+          "totalMinionsKilled": 164,
+          "wardsKilled": 3,
+          "wardsPlaced": 9,
+          "gameDuration": 2039
+        },
         {
           "Champ": "Nidalee",
           "Patch": "9.1.",
@@ -1786,8 +2256,10 @@
             "assists": 2
           },
           "ccDealt": 196,
+          "totalMinionsKilled": 17,
           "wardsKilled": 5,
-          "wardsPlaced": 4
+          "wardsPlaced": 4,
+          "gameDuration": 1265
         },
         {
           "Champ": "Lucian",
@@ -1805,7 +2277,7 @@
             "Yasuo",
             "Braum",
             "Lucian",
-            141
+            "Kayn"
           ],
           "Item Slot 1": "Blade of the Ruined King",
           "Item Slot 2": "Kindlegem",
@@ -1865,8 +2337,10 @@
             "assists": 5
           },
           "ccDealt": 10,
+          "totalMinionsKilled": 150,
           "wardsKilled": 4,
-          "wardsPlaced": 3
+          "wardsPlaced": 3,
+          "gameDuration": 1466
         },
         {
           "Champ": "Kha'Zix",
@@ -1944,8 +2418,10 @@
             "assists": 4
           },
           "ccDealt": 358,
+          "totalMinionsKilled": 13,
           "wardsKilled": 1,
-          "wardsPlaced": 4
+          "wardsPlaced": 4,
+          "gameDuration": 1154
         },
         {
           "Champ": "Ezreal",
@@ -2023,8 +2499,10 @@
             "assists": 6
           },
           "ccDealt": 279,
+          "totalMinionsKilled": 123,
           "wardsKilled": 0,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1547
         },
         {
           "Champ": "Galio",
@@ -2108,8 +2586,10 @@
             "assists": 13
           },
           "ccDealt": 82,
+          "totalMinionsKilled": 137,
           "wardsKilled": 2,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1449
         },
         {
           "Champ": "Kindred",
@@ -2192,8 +2672,10 @@
             "assists": 6
           },
           "ccDealt": 596,
+          "totalMinionsKilled": 33,
           "wardsKilled": 2,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1555
         },
         {
           "Champ": "Camille",
@@ -2291,8 +2773,10 @@
             "assists": 14
           },
           "ccDealt": 500,
+          "totalMinionsKilled": 59,
           "wardsKilled": 6,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1942
         },
         {
           "Champ": "Kha'Zix",
@@ -2382,8 +2866,10 @@
             "assists": 10
           },
           "ccDealt": 457,
+          "totalMinionsKilled": 44,
           "wardsKilled": 7,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1686
         },
         {
           "Champ": "Nidalee",
@@ -2463,8 +2949,10 @@
             "assists": 9
           },
           "ccDealt": 162,
+          "totalMinionsKilled": 21,
           "wardsKilled": 4,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1423
         },
         {
           "Champ": "Poppy",
@@ -2555,8 +3043,10 @@
             "assists": 3
           },
           "ccDealt": 2084,
+          "totalMinionsKilled": 176,
           "wardsKilled": 0,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1538
         },
         {
           "Champ": "Kindred",
@@ -2641,8 +3131,10 @@
             "assists": 8
           },
           "ccDealt": 599,
+          "totalMinionsKilled": 23,
           "wardsKilled": 7,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1468
         },
         {
           "Champ": "Nidalee",
@@ -2736,8 +3228,10 @@
             "assists": 4
           },
           "ccDealt": 182,
+          "totalMinionsKilled": 34,
           "wardsKilled": 10,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 2062
         },
         {
           "Champ": "Kha'Zix",
@@ -2833,8 +3327,10 @@
             "assists": 5
           },
           "ccDealt": 269,
+          "totalMinionsKilled": 36,
           "wardsKilled": 8,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1812
         },
         {
           "Champ": "Kha'Zix",
@@ -2919,8 +3415,10 @@
             "assists": 10
           },
           "ccDealt": 342,
+          "totalMinionsKilled": 16,
           "wardsKilled": 6,
-          "wardsPlaced": 4
+          "wardsPlaced": 4,
+          "gameDuration": 1461
         },
         {
           "Champ": "Nidalee",
@@ -3013,465 +3511,10 @@
             "assists": 12
           },
           "ccDealt": 273,
+          "totalMinionsKilled": 36,
           "wardsKilled": 3,
-          "wardsPlaced": 11
-        },
-        {
-          "Champ": "Nidalee",
-          "Patch": "9.1.",
-          "Date": 1547305860338,
-          "Enemy Team": [
-            "Aurelion Sol",
-            "Lucian",
-            "Fiddlesticks",
-            "Sejuani",
-            "Graves"
-          ],
-          "Ally Team": [
-            "Draven",
-            "Nidalee",
-            "Kled",
-            "Braum",
-            "Jax"
-          ],
-          "Item Slot 1": "Enchantment: Runic Echoes",
-          "Item Slot 2": "Control Ward",
-          "Item Slot 3": "Lich Bane",
-          "Item Slot 4": "The Dark Seal",
-          "Item Slot 5": "Stopwatch",
-          "Item Slot 6": "Ionian Boots of Lucidity",
-          "Build Order": [
-            "Hunter's Talisman",
-            "Warding Totem (Trinket)",
-            "Refillable Potion",
-            "Fiendish Codex",
-            "Skirmisher's Sabre",
-            "The Dark Seal",
-            "Control Ward",
-            "Oracle Alteration",
-            "Enchantment: Runic Echoes",
-            "Ionian Boots of Lucidity",
-            "Control Ward",
-            "Sheen",
-            "Stopwatch",
-            "Control Ward",
-            "Control Ward",
-            "Lich Bane",
-            "Control Ward",
-            "Control Ward"
-          ],
-          "Mastery 1": "Electrocute",
-          "Mastery 2": "Sudden Impact",
-          "Mastery 3": "Eyeball Collection",
-          "Mastery 4": "Ravenous Hunter",
-          "Mastery 5": "Cosmic Insight",
-          "Mastery 6": "Magical Footwear",
-          "Max": [
-            "Q",
-            "E"
-          ],
-          "Skill Order": [
-            "W",
-            "Q",
-            "E",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W"
-          ],
-          "Victory": true,
-          "Blue Side": true,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Smite",
-          "kda": {
-            "kills": 5,
-            "deaths": 4,
-            "assists": 8
-          },
-          "ccDealt": 275,
-          "wardsKilled": 1,
-          "wardsPlaced": 8
-        },
-        {
-          "Champ": "Kha'Zix",
-          "Patch": "9.1.",
-          "Date": 1547303282316,
-          "Enemy Team": [
-            "Ezreal",
-            "Tahm Kench",
-            "Poppy",
-            "Galio",
-            "Nunu"
-          ],
-          "Ally Team": [
-            "Kha'Zix",
-            "Sejuani",
-            "Jhin",
-            "Vayne",
-            "Thresh"
-          ],
-          "Item Slot 1": "Enchantment: Warrior",
-          "Item Slot 2": "Control Ward",
-          "Item Slot 3": "Chain Vest",
-          "Item Slot 4": "The Black Cleaver",
-          "Item Slot 5": "Stopwatch",
-          "Item Slot 6": "Mercury's Treads",
-          "Build Order": [
-            "Hunter's Talisman",
-            "Warding Totem (Trinket)",
-            "Refillable Potion",
-            "Skirmisher's Sabre",
-            "Long Sword",
-            "Long Sword",
-            "Control Ward",
-            "Oracle Alteration",
-            "Enchantment: Warrior",
-            "Control Ward",
-            "Boots of Speed",
-            "Phage",
-            "Mercury's Treads",
-            "The Black Cleaver",
-            "Control Ward",
-            "Stopwatch",
-            "Chain Vest",
-            "Control Ward",
-            "Control Ward"
-          ],
-          "Mastery 1": "Electrocute",
-          "Mastery 2": "Sudden Impact",
-          "Mastery 3": "Ghost Poro",
-          "Mastery 4": "Ravenous Hunter",
-          "Mastery 5": "Shield Bash",
-          "Mastery 6": "Absolute Focus",
-          "Max": [
-            "Q",
-            "W"
-          ],
-          "Skill Order": [
-            "Q",
-            "W",
-            "E",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R",
-            "W",
-            "W",
-            "W"
-          ],
-          "Victory": true,
-          "Blue Side": true,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Smite",
-          "kda": {
-            "kills": 7,
-            "deaths": 2,
-            "assists": 3
-          },
-          "ccDealt": 371,
-          "wardsKilled": 3,
-          "wardsPlaced": 5
-        },
-        {
-          "Champ": "Camille",
-          "Patch": "9.1.",
-          "Date": 1547301484536,
-          "Enemy Team": [
-            "Jhin",
-            "Pyke",
-            "Aatrox",
-            "Ekko",
-            "Riven"
-          ],
-          "Ally Team": [
-            "Morgana",
-            "Camille",
-            "Vayne",
-            "Vladimir",
-            "Ryze"
-          ],
-          "Item Slot 1": "Enchantment: Warrior",
-          "Item Slot 2": "Control Ward",
-          "Item Slot 3": "Sapphire Crystal",
-          "Item Slot 4": "Phage",
-          "Item Slot 5": "Stinger",
-          "Item Slot 6": "Ninja Tabi",
-          "Build Order": [
-            "Hunter's Machete",
-            "Warding Totem (Trinket)",
-            "Refillable Potion",
-            "Skirmisher's Sabre",
-            "Long Sword",
-            "Control Ward",
-            "Oracle Alteration",
-            "Caulfield's Warhammer",
-            "Control Ward",
-            "Enchantment: Warrior",
-            "Boots of Speed",
-            "Long Sword",
-            "Control Ward",
-            "Ninja Tabi",
-            "Phage",
-            "Dagger",
-            "Stinger",
-            "Control Ward",
-            "Sapphire Crystal",
-            "Control Ward",
-            "Control Ward",
-            "Control Ward",
-            "Control Ward"
-          ],
-          "Mastery 1": "Press the Attack",
-          "Mastery 2": "Triumph",
-          "Mastery 3": "Legend: Alacrity",
-          "Mastery 4": "Coup de Grace",
-          "Mastery 5": "Absolute Focus",
-          "Mastery 6": "Waterwalking",
-          "Max": [
-            "E",
-            "Q"
-          ],
-          "Skill Order": [
-            "Q",
-            "E",
-            "W",
-            "E",
-            "E",
-            "R",
-            "E",
-            "Q",
-            "E",
-            "Q",
-            "R",
-            "Q"
-          ],
-          "Victory": false,
-          "Blue Side": true,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Smite",
-          "kda": {
-            "kills": 5,
-            "deaths": 5,
-            "assists": 5
-          },
-          "ccDealt": 467,
-          "wardsKilled": 8,
-          "wardsPlaced": 6
-        },
-        {
-          "Champ": "Kha'Zix",
-          "Patch": "9.1.",
-          "Date": 1547253350799,
-          "Enemy Team": [
-            "Urgot",
-            "Thresh",
-            "Lee Sin",
-            "Syndra",
-            "Sivir"
-          ],
-          "Ally Team": [
-            "Kai'sa",
-            "Braum",
-            "Kha'Zix",
-            "Gangplank",
-            "Lissandra"
-          ],
-          "Item Slot 1": "Enchantment: Warrior",
-          "Item Slot 2": "Phage",
-          "Item Slot 3": " ",
-          "Item Slot 4": "Duskblade of Draktharr",
-          "Item Slot 5": "Guardian Angel",
-          "Item Slot 6": "Mercury's Treads",
-          "Build Order": [
-            "Hunter's Talisman",
-            "Warding Totem (Trinket)",
-            "Refillable Potion",
-            "Skirmisher's Sabre",
-            "Control Ward",
-            "Long Sword",
-            "Long Sword",
-            "Boots of Speed",
-            "Oracle Alteration",
-            "Control Ward",
-            "Enchantment: Warrior",
-            "Long Sword",
-            "Mercury's Treads",
-            "Long Sword",
-            "Control Ward",
-            "Control Ward",
-            "Serrated Dirk",
-            "Caulfield's Warhammer",
-            "Control Ward",
-            "Duskblade of Draktharr",
-            "Stopwatch",
-            "Control Ward",
-            "B. F. Sword",
-            "Guardian Angel",
-            "Control Ward",
-            "Phage"
-          ],
-          "Mastery 1": "Electrocute",
-          "Mastery 2": "Sudden Impact",
-          "Mastery 3": "Eyeball Collection",
-          "Mastery 4": "Ravenous Hunter",
-          "Mastery 5": "Shield Bash",
-          "Mastery 6": "Absolute Focus",
-          "Max": [
-            "Q",
-            "W",
-            "R",
-            "E"
-          ],
-          "Skill Order": [
-            "Q",
-            "W",
-            "E",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R",
-            "W",
-            "W",
-            "W",
-            "E",
-            "E",
-            "R",
-            "R",
-            "E"
-          ],
-          "Victory": true,
-          "Blue Side": true,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Smite",
-          "kda": {
-            "kills": 4,
-            "deaths": 4,
-            "assists": 12
-          },
-          "ccDealt": 481,
-          "wardsKilled": 7,
-          "wardsPlaced": 9
-        },
-        {
-          "Champ": "Nidalee",
-          "Patch": "9.1.",
-          "Date": 1547248787593,
-          "Enemy Team": [
-            "Karthus",
-            "Master Yi",
-            "Poppy",
-            "Ashe",
-            "Vel'Koz"
-          ],
-          "Ally Team": [
-            "Riven",
-            "Thresh",
-            "Xerath",
-            "Lucian",
-            "Nidalee"
-          ],
-          "Item Slot 1": "Enchantment: Runic Echoes",
-          "Item Slot 2": "Banshee's Veil",
-          "Item Slot 3": "Morellonomicon",
-          "Item Slot 4": "Lich Bane",
-          "Item Slot 5": "Zhonya's Hourglass",
-          "Item Slot 6": "Sorcerer's Shoes",
-          "Build Order": [
-            "Hunter's Talisman",
-            "Warding Totem (Trinket)",
-            "Refillable Potion",
-            "Skirmisher's Sabre",
-            "The Dark Seal",
-            "Control Ward",
-            "Enchantment: Runic Echoes",
-            "Oracle Alteration",
-            "Sorcerer's Shoes",
-            "Control Ward",
-            "Aether Wisp",
-            "Control Ward",
-            "Sheen",
-            "Control Ward",
-            "Control Ward",
-            "Control Ward",
-            "Control Ward",
-            "Lich Bane",
-            "Stopwatch",
-            "Control Ward",
-            "Control Ward",
-            "Fiendish Codex",
-            "Seeker's Armguard",
-            "Zhonya's Hourglass",
-            "Blasting Wand",
-            "Amplifying Tome",
-            "Oblivion Orb",
-            "Control Ward",
-            "Morellonomicon",
-            "Control Ward",
-            "Fiendish Codex",
-            "Banshee's Veil",
-            "Elixir of Sorcery"
-          ],
-          "Mastery 1": "Electrocute",
-          "Mastery 2": "Sudden Impact",
-          "Mastery 3": "Eyeball Collection",
-          "Mastery 4": "Ravenous Hunter",
-          "Mastery 5": "Cosmic Insight",
-          "Mastery 6": "Magical Footwear",
-          "Max": [
-            "Q",
-            "E",
-            "W"
-          ],
-          "Skill Order": [
-            "Q",
-            "W",
-            "E",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W",
-            "R",
-            "W",
-            "W"
-          ],
-          "Victory": true,
-          "Blue Side": false,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Smite",
-          "kda": {
-            "kills": 12,
-            "deaths": 8,
-            "assists": 17
-          },
-          "ccDealt": 285,
-          "wardsKilled": 12,
-          "wardsPlaced": 13
+          "wardsPlaced": 11,
+          "gameDuration": 1941
         }
       ]
     },
@@ -3553,8 +3596,10 @@
             "assists": 5
           },
           "ccDealt": 55,
+          "totalMinionsKilled": 13,
           "wardsKilled": 4,
-          "wardsPlaced": 10
+          "wardsPlaced": 10,
+          "gameDuration": 1108
         },
         {
           "Champ": "Zac",
@@ -3635,8 +3680,10 @@
             "assists": 6
           },
           "ccDealt": 609,
+          "totalMinionsKilled": 30,
           "wardsKilled": 6,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1396
         },
         {
           "Champ": "Twisted Fate",
@@ -3731,8 +3778,10 @@
             "assists": 10
           },
           "ccDealt": 311,
+          "totalMinionsKilled": 244,
           "wardsKilled": 7,
-          "wardsPlaced": 15
+          "wardsPlaced": 15,
+          "gameDuration": 2097
         },
         {
           "Champ": "Akali",
@@ -3809,8 +3858,10 @@
             "assists": 4
           },
           "ccDealt": 93,
+          "totalMinionsKilled": 101,
           "wardsKilled": 0,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1079
         },
         {
           "Champ": "Galio",
@@ -3894,8 +3945,10 @@
             "assists": 8
           },
           "ccDealt": 95,
+          "totalMinionsKilled": 184,
           "wardsKilled": 2,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1560
         },
         {
           "Champ": "Irelia",
@@ -3981,8 +4034,10 @@
             "assists": 4
           },
           "ccDealt": 73,
+          "totalMinionsKilled": 180,
           "wardsKilled": 1,
-          "wardsPlaced": 10
+          "wardsPlaced": 10,
+          "gameDuration": 1649
         },
         {
           "Champ": "Heimerdinger",
@@ -4066,8 +4121,10 @@
             "assists": 2
           },
           "ccDealt": 125,
+          "totalMinionsKilled": 167,
           "wardsKilled": 0,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1318
         },
         {
           "Champ": "Zilean",
@@ -4161,8 +4218,10 @@
             "assists": 7
           },
           "ccDealt": 89,
+          "totalMinionsKilled": 35,
           "wardsKilled": 8,
-          "wardsPlaced": 38
+          "wardsPlaced": 38,
+          "gameDuration": 2002
         },
         {
           "Champ": "Swain",
@@ -4251,8 +4310,10 @@
             "assists": 11
           },
           "ccDealt": 198,
+          "totalMinionsKilled": 21,
           "wardsKilled": 13,
-          "wardsPlaced": 39
+          "wardsPlaced": 39,
+          "gameDuration": 1868
         },
         {
           "Champ": "Cassiopeia",
@@ -4332,8 +4393,10 @@
             "assists": 5
           },
           "ccDealt": 4799,
+          "totalMinionsKilled": 234,
           "wardsKilled": 0,
-          "wardsPlaced": 9
+          "wardsPlaced": 9,
+          "gameDuration": 1622
         },
         {
           "Champ": "Morgana",
@@ -4440,8 +4503,10 @@
             "assists": 27
           },
           "ccDealt": 98,
+          "totalMinionsKilled": 26,
           "wardsKilled": 17,
-          "wardsPlaced": 46
+          "wardsPlaced": 46,
+          "gameDuration": 2248
         },
         {
           "Champ": "Heimerdinger",
@@ -4537,8 +4602,10 @@
             "assists": 7
           },
           "ccDealt": 243,
+          "totalMinionsKilled": 294,
           "wardsKilled": 8,
-          "wardsPlaced": 15
+          "wardsPlaced": 15,
+          "gameDuration": 2514
         },
         {
           "Champ": "Akali",
@@ -4647,8 +4714,10 @@
             "assists": 11
           },
           "ccDealt": 125,
+          "totalMinionsKilled": 237,
           "wardsKilled": 8,
-          "wardsPlaced": 14
+          "wardsPlaced": 14,
+          "gameDuration": 2299
         },
         {
           "Champ": "Zoe",
@@ -4730,8 +4799,10 @@
             "assists": 14
           },
           "ccDealt": 246,
+          "totalMinionsKilled": 186,
           "wardsKilled": 3,
-          "wardsPlaced": 12
+          "wardsPlaced": 12,
+          "gameDuration": 1696
         },
         {
           "Champ": "Heimerdinger",
@@ -4820,8 +4891,10 @@
             "assists": 5
           },
           "ccDealt": 114,
+          "totalMinionsKilled": 185,
           "wardsKilled": 4,
-          "wardsPlaced": 12
+          "wardsPlaced": 12,
+          "gameDuration": 1515
         },
         {
           "Champ": "Twisted Fate",
@@ -4905,8 +4978,10 @@
             "assists": 11
           },
           "ccDealt": 253,
+          "totalMinionsKilled": 212,
           "wardsKilled": 3,
-          "wardsPlaced": 10
+          "wardsPlaced": 10,
+          "gameDuration": 1733
         },
         {
           "Champ": "Cho'Gath",
@@ -4990,8 +5065,10 @@
             "assists": 6
           },
           "ccDealt": 784,
+          "totalMinionsKilled": 27,
           "wardsKilled": 0,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1532
         },
         {
           "Champ": "Zilean",
@@ -5079,8 +5156,10 @@
             "assists": 18
           },
           "ccDealt": 58,
+          "totalMinionsKilled": 20,
           "wardsKilled": 3,
-          "wardsPlaced": 25
+          "wardsPlaced": 25,
+          "gameDuration": 1739
         },
         {
           "Champ": "Taliyah",
@@ -5156,8 +5235,10 @@
             "assists": 4
           },
           "ccDealt": 164,
+          "totalMinionsKilled": 48,
           "wardsKilled": 2,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 914
         },
         {
           "Champ": "Akali",
@@ -5256,8 +5337,10 @@
             "assists": 8
           },
           "ccDealt": 103,
+          "totalMinionsKilled": 228,
           "wardsKilled": 6,
-          "wardsPlaced": 12
+          "wardsPlaced": 12,
+          "gameDuration": 2326
         }
       ]
     },
@@ -5265,6 +5348,354 @@
       "name": "Bii",
       "region": "euw1",
       "matches": [
+        {
+          "Champ": "Lucian",
+          "Patch": "9.1.",
+          "Date": 1548084135352,
+          "Enemy Team": [
+            "Aatrox",
+            "Fiora",
+            "Lee Sin",
+            "Caitlyn",
+            "Soraka"
+          ],
+          "Ally Team": [
+            "Irelia",
+            "Camille",
+            "Braum",
+            "Lucian",
+            "Lissandra"
+          ],
+          "Item Slot 1": "Blade of the Ruined King",
+          "Item Slot 2": "Control Ward",
+          "Item Slot 3": "Ninja Tabi",
+          "Item Slot 4": "Phage",
+          "Item Slot 5": "Kindlegem",
+          "Item Slot 6": "Doran's Shield",
+          "Build Order": [
+            "Doran's Blade",
+            "Doran's Shield",
+            "Health Potion",
+            "Warding Totem (Trinket)",
+            "Long Sword",
+            "Long Sword",
+            "Bilgewater Cutlass",
+            "Boots of Speed",
+            "Refillable Potion",
+            "Dagger",
+            "Dagger",
+            "Recurve Bow",
+            "Cloth Armor",
+            "Ninja Tabi",
+            "Blade of the Ruined King",
+            "Long Sword",
+            "Phage",
+            "Farsight Alteration",
+            "Kindlegem",
+            "Control Ward",
+            "Control Ward"
+          ],
+          "Mastery 1": "Press the Attack",
+          "Mastery 2": "Overheal",
+          "Mastery 3": "Legend: Alacrity",
+          "Mastery 4": "Coup de Grace",
+          "Mastery 5": "Manaflow Band",
+          "Mastery 6": "Absolute Focus",
+          "Max": [
+            "Q"
+          ],
+          "Skill Order": [
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R"
+          ],
+          "Victory": false,
+          "Blue Side": false,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Heal",
+          "kda": {
+            "kills": 3,
+            "deaths": 5,
+            "assists": 3
+          },
+          "ccDealt": 13,
+          "totalMinionsKilled": 149,
+          "wardsKilled": 3,
+          "wardsPlaced": 3,
+          "gameDuration": 1280
+        },
+        {
+          "Champ": "Viktor",
+          "Patch": "9.1.",
+          "Date": 1548081590096,
+          "Enemy Team": [
+            "Zoe",
+            "Kai'sa",
+            "Karthus",
+            "Zyra",
+            "Aatrox"
+          ],
+          "Ally Team": [
+            "Karma",
+            "Viktor",
+            "Sejuani",
+            "Yasuo",
+            "Lee Sin"
+          ],
+          "Item Slot 1": "Luden's Echo",
+          "Item Slot 2": "Banshee's Veil",
+          "Item Slot 3": "Blasting Wand",
+          "Item Slot 4": "Perfect Hex Core",
+          "Item Slot 5": "Sorcerer's Shoes",
+          "Item Slot 6": "Aether Wisp",
+          "Build Order": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion",
+            "Warding Totem (Trinket)",
+            "The Dark Seal",
+            "Refillable Potion",
+            "The Hex Core mk-1",
+            "Amplifying Tome",
+            "Lost Chapter",
+            "Blasting Wand",
+            "Luden's Echo",
+            "Control Ward",
+            "Farsight Alteration",
+            "Sorcerer's Shoes",
+            "The Hex Core mk-2",
+            "Control Ward",
+            "Control Ward",
+            "Blasting Wand",
+            "Fiendish Codex",
+            "Perfect Hex Core",
+            "Amplifying Tome",
+            "Fiendish Codex",
+            "Banshee's Veil",
+            "Amplifying Tome",
+            "Blasting Wand",
+            "Aether Wisp"
+          ],
+          "Mastery 1": "Summon Aery",
+          "Mastery 2": "Nullifying Orb",
+          "Mastery 3": "Absolute Focus",
+          "Mastery 4": "Gathering Storm",
+          "Mastery 5": "Biscuit Delivery",
+          "Mastery 6": "Time Warp Tonic",
+          "Max": [
+            "E",
+            "Q",
+            "W"
+          ],
+          "Skill Order": [
+            "E",
+            "Q",
+            "E",
+            "W",
+            "E",
+            "R",
+            "E",
+            "E",
+            "Q",
+            "E",
+            "Q",
+            "R",
+            "Q",
+            "Q",
+            "Q",
+            "W",
+            "W",
+            "W",
+            "R"
+          ],
+          "Victory": false,
+          "Blue Side": false,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Teleport",
+          "kda": {
+            "kills": 2,
+            "deaths": 8,
+            "assists": 6
+          },
+          "ccDealt": 48,
+          "totalMinionsKilled": 267,
+          "wardsKilled": 2,
+          "wardsPlaced": 9,
+          "gameDuration": 2115
+        },
+        {
+          "Champ": "Kai'sa",
+          "Patch": "9.1.",
+          "Date": 1548079882857,
+          "Enemy Team": [
+            "Jhin",
+            "Akali",
+            "Taric",
+            "Kha'Zix",
+            "Yasuo"
+          ],
+          "Ally Team": [
+            "Sejuani",
+            "Irelia",
+            "Syndra",
+            "Rakan",
+            "Kai'sa"
+          ],
+          "Item Slot 1": "Pickaxe",
+          "Item Slot 2": "Control Ward",
+          "Item Slot 3": "Stormrazor",
+          "Item Slot 4": "Recurve Bow",
+          "Item Slot 5": "Berserker's Greaves",
+          "Item Slot 6": "Amplifying Tome",
+          "Build Order": [
+            "Doran's Blade",
+            "Health Potion",
+            "Warding Totem (Trinket)",
+            "Long Sword",
+            "Long Sword",
+            "Refillable Potion",
+            "Control Ward",
+            "B. F. Sword",
+            "Control Ward",
+            "Berserker's Greaves",
+            "Stormrazor",
+            "Dagger",
+            "Recurve Bow",
+            "Control Ward",
+            "Farsight Alteration",
+            "Amplifying Tome",
+            "Pickaxe"
+          ],
+          "Mastery 1": "Fleet Footwork",
+          "Mastery 2": "Overheal",
+          "Mastery 3": "Legend: Alacrity",
+          "Mastery 4": "Coup de Grace",
+          "Mastery 5": "Absolute Focus",
+          "Mastery 6": "Gathering Storm",
+          "Max": [
+            "Q",
+            "E"
+          ],
+          "Skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "E",
+            "R"
+          ],
+          "Victory": false,
+          "Blue Side": true,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Heal",
+          "kda": {
+            "kills": 3,
+            "deaths": 2,
+            "assists": 2
+          },
+          "ccDealt": 0,
+          "totalMinionsKilled": 156,
+          "wardsKilled": 2,
+          "wardsPlaced": 7,
+          "gameDuration": 1308
+        },
+        {
+          "Champ": "Cassiopeia",
+          "Patch": "9.1.",
+          "Date": 1548051329366,
+          "Enemy Team": [
+            "Xin Zhao",
+            "Morgana",
+            "Cho'Gath",
+            "Irelia",
+            "Tristana"
+          ],
+          "Ally Team": [
+            "Gangplank",
+            "Cassiopeia",
+            "Camille",
+            "Lissandra",
+            "Zyra"
+          ],
+          "Item Slot 1": "Liandry's Torment",
+          "Item Slot 2": "Amplifying Tome",
+          "Item Slot 3": "Rylai's Crystal Scepter",
+          "Item Slot 4": "Luden's Echo",
+          "Item Slot 5": "The Dark Seal",
+          "Item Slot 6": " ",
+          "Build Order": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion",
+            "Warding Totem (Trinket)",
+            "Lost Chapter",
+            "Luden's Echo",
+            "Refillable Potion",
+            "Control Ward",
+            "Haunting Guise",
+            "Farsight Alteration",
+            "Rylai's Crystal Scepter",
+            "Blasting Wand",
+            "Control Ward",
+            "Liandry's Torment",
+            "Amplifying Tome",
+            "The Dark Seal"
+          ],
+          "Mastery 1": "Arcane Comet",
+          "Mastery 2": "Manaflow Band",
+          "Mastery 3": "Absolute Focus",
+          "Mastery 4": "Scorch",
+          "Mastery 5": "Taste of Blood",
+          "Mastery 6": "Ravenous Hunter",
+          "Max": [
+            "Q",
+            "W"
+          ],
+          "Skill Order": [
+            "Q",
+            "E",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E"
+          ],
+          "Victory": true,
+          "Blue Side": true,
+          "Summ Spell 1": "Flash",
+          "Summ Spell 2": "Heal",
+          "kda": {
+            "kills": 6,
+            "deaths": 2,
+            "assists": 6
+          },
+          "ccDealt": 1529,
+          "totalMinionsKilled": 188,
+          "wardsKilled": 0,
+          "wardsPlaced": 6,
+          "gameDuration": 1593
+        },
         {
           "Champ": "Kalista",
           "Patch": "9.1.",
@@ -5341,8 +5772,10 @@
             "assists": 8
           },
           "ccDealt": 308,
+          "totalMinionsKilled": 176,
           "wardsKilled": 2,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1296
         },
         {
           "Champ": "Kalista",
@@ -5421,8 +5854,10 @@
             "assists": 2
           },
           "ccDealt": 316,
+          "totalMinionsKilled": 184,
           "wardsKilled": 3,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1404
         },
         {
           "Champ": "Ryze",
@@ -5496,8 +5931,10 @@
             "assists": 2
           },
           "ccDealt": 26,
+          "totalMinionsKilled": 127,
           "wardsKilled": 0,
-          "wardsPlaced": 4
+          "wardsPlaced": 4,
+          "gameDuration": 1230
         },
         {
           "Champ": "Kha'Zix",
@@ -5601,8 +6038,10 @@
             "assists": 11
           },
           "ccDealt": 755,
+          "totalMinionsKilled": 35,
           "wardsKilled": 4,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 2181
         },
         {
           "Champ": "Cassiopeia",
@@ -5681,8 +6120,10 @@
             "assists": 7
           },
           "ccDealt": 1252,
+          "totalMinionsKilled": 193,
           "wardsKilled": 1,
-          "wardsPlaced": 3
+          "wardsPlaced": 3,
+          "gameDuration": 1426
         },
         {
           "Champ": "Cassiopeia",
@@ -5759,8 +6200,10 @@
             "assists": 4
           },
           "ccDealt": 1550,
+          "totalMinionsKilled": 129,
           "wardsKilled": 1,
-          "wardsPlaced": 3
+          "wardsPlaced": 3,
+          "gameDuration": 1324
         },
         {
           "Champ": "Elise",
@@ -5851,8 +6294,10 @@
             "assists": 5
           },
           "ccDealt": 675,
+          "totalMinionsKilled": 41,
           "wardsKilled": 7,
-          "wardsPlaced": 16
+          "wardsPlaced": 16,
+          "gameDuration": 2022
         },
         {
           "Champ": "Elise",
@@ -5939,8 +6384,10 @@
             "assists": 13
           },
           "ccDealt": 385,
+          "totalMinionsKilled": 38,
           "wardsKilled": 6,
-          "wardsPlaced": 15
+          "wardsPlaced": 15,
+          "gameDuration": 1656
         },
         {
           "Champ": "Morgana",
@@ -6010,8 +6457,10 @@
             "assists": 2
           },
           "ccDealt": 45,
+          "totalMinionsKilled": 25,
           "wardsKilled": 3,
-          "wardsPlaced": 4
+          "wardsPlaced": 4,
+          "gameDuration": 935
         },
         {
           "Champ": "Lissandra",
@@ -6092,8 +6541,10 @@
             "assists": 10
           },
           "ccDealt": 288,
+          "totalMinionsKilled": 144,
           "wardsKilled": 1,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1318
         },
         {
           "Champ": "Cassiopeia",
@@ -6187,8 +6638,10 @@
             "assists": 21
           },
           "ccDealt": 4918,
+          "totalMinionsKilled": 255,
           "wardsKilled": 5,
-          "wardsPlaced": 13
+          "wardsPlaced": 13,
+          "gameDuration": 2512
         },
         {
           "Champ": "Ezreal",
@@ -6269,8 +6722,10 @@
             "assists": 12
           },
           "ccDealt": 369,
+          "totalMinionsKilled": 142,
           "wardsKilled": 3,
-          "wardsPlaced": 4
+          "wardsPlaced": 4,
+          "gameDuration": 1573
         },
         {
           "Champ": "Thresh",
@@ -6361,8 +6816,10 @@
             "assists": 27
           },
           "ccDealt": 129,
+          "totalMinionsKilled": 37,
           "wardsKilled": 13,
-          "wardsPlaced": 17
+          "wardsPlaced": 17,
+          "gameDuration": 1799
         },
         {
           "Champ": "Varus",
@@ -6442,8 +6899,10 @@
             "assists": 4
           },
           "ccDealt": 196,
+          "totalMinionsKilled": 136,
           "wardsKilled": 2,
-          "wardsPlaced": 4
+          "wardsPlaced": 4,
+          "gameDuration": 1627
         },
         {
           "Champ": "Lucian",
@@ -6531,8 +6990,10 @@
             "assists": 14
           },
           "ccDealt": 165,
+          "totalMinionsKilled": 168,
           "wardsKilled": 2,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1849
         },
         {
           "Champ": "Caitlyn",
@@ -6620,339 +7081,10 @@
             "assists": 10
           },
           "ccDealt": 187,
+          "totalMinionsKilled": 212,
           "wardsKilled": 4,
-          "wardsPlaced": 5
-        },
-        {
-          "Champ": "Jhin",
-          "Patch": "9.1.",
-          "Date": 1547481509060,
-          "Enemy Team": [
-            "Graves",
-            "Vayne",
-            "Thresh",
-            "Ezreal",
-            "Akali"
-          ],
-          "Ally Team": [
-            "Irelia",
-            "Hecarim",
-            "Zilean",
-            "Orn",
-            "Jhin"
-          ],
-          "Item Slot 1": "Stormrazor",
-          "Item Slot 2": "Executioner's Calling",
-          "Item Slot 3": "Rapid Firecannon",
-          "Item Slot 4": 3371,
-          "Item Slot 5": "Boots of Swiftness",
-          "Item Slot 6": "Guardian Angel",
-          "Build Order": [
-            "Doran's Blade",
-            "Health Potion",
-            "Warding Totem (Trinket)",
-            "Long Sword",
-            "Health Potion",
-            "Refillable Potion",
-            "Boots of Swiftness",
-            "Long Sword",
-            "Dagger",
-            "Boots of Speed",
-            "Boots of Swiftness",
-            "B. F. Sword",
-            "Stormrazor",
-            "Refillable Potion",
-            "Control Ward",
-            "Zeal",
-            "Dagger",
-            "Farsight Alteration",
-            "Rapid Firecannon",
-            "B. F. Sword",
-            "Executioner's Calling",
-            "Pickaxe",
-            "Infinity Edge",
-            3371,
-            "Guardian Angel"
-          ],
-          "Mastery 1": "Fleet Footwork",
-          "Mastery 2": "Overheal",
-          "Mastery 3": "Legend: Bloodline",
-          "Mastery 4": "Coup de Grace",
-          "Mastery 5": "Manaflow Band",
-          "Mastery 6": "Absolute Focus",
-          "Max": [
-            "Q",
-            "W"
-          ],
-          "Skill Order": [
-            "Q",
-            "W",
-            "E",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R",
-            "W",
-            "W",
-            "E",
-            "E",
-            "R"
-          ],
-          "Victory": false,
-          "Blue Side": false,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Heal",
-          "kda": {
-            "kills": 12,
-            "deaths": 4,
-            "assists": 18
-          },
-          "ccDealt": 218,
-          "wardsKilled": 1,
-          "wardsPlaced": 6
-        },
-        {
-          "Champ": "Ezreal",
-          "Patch": "9.1.",
-          "Date": 1547432252660,
-          "Enemy Team": [
-            "Zoe",
-            "Kha'Zix",
-            "Hecarim",
-            "Lux",
-            "Miss Fortune"
-          ],
-          "Ally Team": [
-            "Viktor",
-            "Camille",
-            "Ezreal",
-            "Vladimir",
-            "Vel'Koz"
-          ],
-          "Item Slot 1": "Trinity Force",
-          "Item Slot 2": "Muramana",
-          "Item Slot 3": "Ionian Boots of Lucidity",
-          "Item Slot 4": "Long Sword",
-          "Item Slot 5": 2319,
-          "Item Slot 6": "Doran's Shield",
-          "Build Order": [
-            "Doran's Shield",
-            "Health Potion",
-            "Warding Totem (Trinket)",
-            "Health Potion",
-            "Tear of the Goddess",
-            "Long Sword",
-            "Ruby Crystal",
-            "Phage",
-            "Manamune",
-            "Health Potion",
-            "Sheen",
-            "Trinity Force",
-            "Ionian Boots of Lucidity",
-            "Long Sword"
-          ],
-          "Mastery 1": "Kleptomancy",
-          "Mastery 2": "Magical Footwear",
-          "Mastery 3": "Biscuit Delivery",
-          "Mastery 4": "Cosmic Insight",
-          "Mastery 5": "Manaflow Band",
-          "Mastery 6": "Absolute Focus",
-          "Max": [
-            "Q"
-          ],
-          "Skill Order": [
-            "Q",
-            "E",
-            "Q",
-            "W",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R"
-          ],
-          "Victory": true,
-          "Blue Side": true,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Heal",
-          "kda": {
-            "kills": 12,
-            "deaths": 3,
-            "assists": 2
-          },
-          "ccDealt": 1,
-          "wardsKilled": 3,
-          "wardsPlaced": 5
-        },
-        {
-          "Champ": "Kalista",
-          "Patch": "9.1.",
-          "Date": 1547429907984,
-          "Enemy Team": [
-            "Orianna",
-            "Hecarim",
-            "Elise",
-            "Zoe",
-            "Vel'Koz"
-          ],
-          "Ally Team": [
-            "Irelia",
-            "Karthus",
-            "Kha'Zix",
-            "Kalista",
-            "Renekton"
-          ],
-          "Item Slot 1": "Blade of the Ruined King",
-          "Item Slot 2": "Quicksilver Sash",
-          "Item Slot 3": "Runaan's Hurricane",
-          "Item Slot 4": "Doran's Shield",
-          "Item Slot 5": "Hexdrinker",
-          "Item Slot 6": "Berserker's Greaves",
-          "Build Order": [
-            "Doran's Shield",
-            "Health Potion",
-            "Warding Totem (Trinket)",
-            "Long Sword",
-            "Long Sword",
-            "Health Potion",
-            "Control Ward",
-            "Berserker's Greaves",
-            "Health Potion",
-            "Bilgewater Cutlass",
-            "Dagger",
-            "Recurve Bow",
-            "Refillable Potion",
-            "Blade of the Ruined King",
-            "Control Ward",
-            "Dagger",
-            "Quicksilver Sash",
-            "Zeal",
-            "Farsight Alteration",
-            "Runaan's Hurricane",
-            "Null-Magic Mantle",
-            "Hexdrinker"
-          ],
-          "Mastery 1": "Lethal Tempo",
-          "Mastery 2": "Overheal",
-          "Mastery 3": "Legend: Alacrity",
-          "Mastery 4": "Coup de Grace",
-          "Mastery 5": "Absolute Focus",
-          "Mastery 6": "Gathering Storm",
-          "Max": [
-            "E",
-            "Q"
-          ],
-          "Skill Order": [
-            "E",
-            "W",
-            "Q",
-            "E",
-            "E",
-            "R",
-            "E",
-            "Q",
-            "E",
-            "Q",
-            "R",
-            "Q",
-            "Q",
-            "W",
-            "W"
-          ],
-          "Victory": true,
-          "Blue Side": false,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Heal",
-          "kda": {
-            "kills": 4,
-            "deaths": 9,
-            "assists": 13
-          },
-          "ccDealt": 354,
-          "wardsKilled": 2,
-          "wardsPlaced": 7
-        },
-        {
-          "Champ": "Cassiopeia",
-          "Patch": "9.1.",
-          "Date": 1547238099152,
-          "Enemy Team": [
-            "Nami",
-            "Vladimir",
-            "Vayne",
-            "Kassadin",
-            141
-          ],
-          "Ally Team": [
-            "Jax",
-            "Xin Zhao",
-            "Corki",
-            "Rakan",
-            "Cassiopeia"
-          ],
-          "Item Slot 1": " ",
-          "Item Slot 2": " ",
-          "Item Slot 3": "Luden's Echo",
-          "Item Slot 4": "Haunting Guise",
-          "Item Slot 5": "The Dark Seal",
-          "Item Slot 6": "Doran's Ring",
-          "Build Order": [
-            "Doran's Ring",
-            "Health Potion",
-            "Health Potion",
-            "Warding Totem (Trinket)",
-            "Health Potion",
-            "Health Potion",
-            "The Dark Seal",
-            "Health Potion",
-            "Lost Chapter",
-            "Blasting Wand",
-            "Amplifying Tome",
-            "Health Potion",
-            "Luden's Echo",
-            "Control Ward",
-            "Haunting Guise"
-          ],
-          "Mastery 1": "Arcane Comet",
-          "Mastery 2": "Manaflow Band",
-          "Mastery 3": "Absolute Focus",
-          "Mastery 4": "Scorch",
-          "Mastery 5": "Taste of Blood",
-          "Mastery 6": "Ravenous Hunter",
-          "Max": [
-            "Q"
-          ],
-          "Skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R"
-          ],
-          "Victory": true,
-          "Blue Side": true,
-          "Summ Spell 1": "Flash",
-          "Summ Spell 2": "Heal",
-          "kda": {
-            "kills": 2,
-            "deaths": 1,
-            "assists": 3
-          },
-          "ccDealt": 591,
-          "wardsKilled": 2,
-          "wardsPlaced": 6
+          "wardsPlaced": 5,
+          "gameDuration": 1891
         }
       ]
     },
@@ -7038,8 +7170,10 @@
             "assists": 11
           },
           "ccDealt": 176,
+          "totalMinionsKilled": 17,
           "wardsKilled": 4,
-          "wardsPlaced": 17
+          "wardsPlaced": 17,
+          "gameDuration": 1265
         },
         {
           "Champ": "Braum",
@@ -7057,7 +7191,7 @@
             "Yasuo",
             "Braum",
             "Lucian",
-            141
+            "Kayn"
           ],
           "Item Slot 1": "Zeke's Harbinger",
           "Item Slot 2": "Ruby Crystal",
@@ -7122,8 +7256,10 @@
             "assists": 5
           },
           "ccDealt": 93,
+          "totalMinionsKilled": 34,
           "wardsKilled": 6,
-          "wardsPlaced": 24
+          "wardsPlaced": 24,
+          "gameDuration": 1466
         },
         {
           "Champ": "Rakan",
@@ -7205,8 +7341,10 @@
             "assists": 11
           },
           "ccDealt": 62,
+          "totalMinionsKilled": 6,
           "wardsKilled": 5,
-          "wardsPlaced": 21
+          "wardsPlaced": 21,
+          "gameDuration": 1547
         },
         {
           "Champ": "Rakan",
@@ -7287,8 +7425,10 @@
             "assists": 9
           },
           "ccDealt": 47,
+          "totalMinionsKilled": 8,
           "wardsKilled": 7,
-          "wardsPlaced": 21
+          "wardsPlaced": 21,
+          "gameDuration": 1376
         },
         {
           "Champ": "Rakan",
@@ -7372,8 +7512,10 @@
             "assists": 17
           },
           "ccDealt": 130,
+          "totalMinionsKilled": 13,
           "wardsKilled": 5,
-          "wardsPlaced": 27
+          "wardsPlaced": 27,
+          "gameDuration": 1473
         },
         {
           "Champ": "Braum",
@@ -7460,8 +7602,10 @@
             "assists": 4
           },
           "ccDealt": 149,
+          "totalMinionsKilled": 43,
           "wardsKilled": 1,
-          "wardsPlaced": 29
+          "wardsPlaced": 29,
+          "gameDuration": 1610
         },
         {
           "Champ": "Veigar",
@@ -7542,8 +7686,10 @@
             "assists": 5
           },
           "ccDealt": 84,
+          "totalMinionsKilled": 153,
           "wardsKilled": 1,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1468
         },
         {
           "Champ": "Rakan",
@@ -7622,8 +7768,10 @@
             "assists": 8
           },
           "ccDealt": 56,
+          "totalMinionsKilled": 9,
           "wardsKilled": 4,
-          "wardsPlaced": 17
+          "wardsPlaced": 17,
+          "gameDuration": 1206
         },
         {
           "Champ": "Rakan",
@@ -7721,8 +7869,10 @@
             "assists": 13
           },
           "ccDealt": 98,
+          "totalMinionsKilled": 24,
           "wardsKilled": 11,
-          "wardsPlaced": 41
+          "wardsPlaced": 41,
+          "gameDuration": 1983
         },
         {
           "Champ": "Rakan",
@@ -7804,8 +7954,10 @@
             "assists": 0
           },
           "ccDealt": 17,
+          "totalMinionsKilled": 7,
           "wardsKilled": 3,
-          "wardsPlaced": 19
+          "wardsPlaced": 19,
+          "gameDuration": 1162
         },
         {
           "Champ": "Pyke",
@@ -7892,8 +8044,10 @@
             "assists": 1
           },
           "ccDealt": 66,
+          "totalMinionsKilled": 33,
           "wardsKilled": 5,
-          "wardsPlaced": 20
+          "wardsPlaced": 20,
+          "gameDuration": 1257
         },
         {
           "Champ": "Sion",
@@ -7973,8 +8127,10 @@
             "assists": 4
           },
           "ccDealt": 889,
+          "totalMinionsKilled": 150,
           "wardsKilled": 1,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1396
         },
         {
           "Champ": "Braum",
@@ -8062,8 +8218,10 @@
             "assists": 12
           },
           "ccDealt": 222,
+          "totalMinionsKilled": 51,
           "wardsKilled": 3,
-          "wardsPlaced": 27
+          "wardsPlaced": 27,
+          "gameDuration": 1661
         },
         {
           "Champ": "Rakan",
@@ -8142,8 +8300,10 @@
             "assists": 2
           },
           "ccDealt": 41,
+          "totalMinionsKilled": 6,
           "wardsKilled": 4,
-          "wardsPlaced": 16
+          "wardsPlaced": 16,
+          "gameDuration": 1195
         },
         {
           "Champ": "Braum",
@@ -8225,8 +8385,10 @@
             "assists": 13
           },
           "ccDealt": 108,
+          "totalMinionsKilled": 43,
           "wardsKilled": 3,
-          "wardsPlaced": 24
+          "wardsPlaced": 24,
+          "gameDuration": 1383
         },
         {
           "Champ": "Rakan",
@@ -8321,8 +8483,10 @@
             "assists": 14
           },
           "ccDealt": 239,
+          "totalMinionsKilled": 19,
           "wardsKilled": 7,
-          "wardsPlaced": 47
+          "wardsPlaced": 47,
+          "gameDuration": 1933
         },
         {
           "Champ": "Janna",
@@ -8409,8 +8573,10 @@
             "assists": 5
           },
           "ccDealt": 139,
+          "totalMinionsKilled": 11,
           "wardsKilled": 6,
-          "wardsPlaced": 24
+          "wardsPlaced": 24,
+          "gameDuration": 1484
         },
         {
           "Champ": "Ziggs",
@@ -8493,8 +8659,10 @@
             "assists": 9
           },
           "ccDealt": 480,
+          "totalMinionsKilled": 133,
           "wardsKilled": 3,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1413
         },
         {
           "Champ": "Braum",
@@ -8574,8 +8742,10 @@
             "assists": 3
           },
           "ccDealt": 61,
+          "totalMinionsKilled": 34,
           "wardsKilled": 3,
-          "wardsPlaced": 18
+          "wardsPlaced": 18,
+          "gameDuration": 1272
         },
         {
           "Champ": "Rakan",
@@ -8667,8 +8837,10 @@
             "assists": 17
           },
           "ccDealt": 79,
+          "totalMinionsKilled": 13,
           "wardsKilled": 4,
-          "wardsPlaced": 30
+          "wardsPlaced": 30,
+          "gameDuration": 1628
         }
       ]
     },
@@ -8759,8 +8931,10 @@
             "assists": 2
           },
           "ccDealt": 359,
+          "totalMinionsKilled": 210,
           "wardsKilled": 2,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1870
         },
         {
           "Champ": "Fiora",
@@ -8836,8 +9010,10 @@
             "assists": 0
           },
           "ccDealt": 50,
+          "totalMinionsKilled": 127,
           "wardsKilled": 4,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1220
         },
         {
           "Champ": "Urgot",
@@ -8918,8 +9094,10 @@
             "assists": 4
           },
           "ccDealt": 248,
+          "totalMinionsKilled": 145,
           "wardsKilled": 3,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1446
         },
         {
           "Champ": "Rakan",
@@ -9009,8 +9187,10 @@
             "assists": 22
           },
           "ccDealt": 79,
+          "totalMinionsKilled": 22,
           "wardsKilled": 14,
-          "wardsPlaced": 34
+          "wardsPlaced": 34,
+          "gameDuration": 2099
         },
         {
           "Champ": "Galio",
@@ -9089,8 +9269,10 @@
             "assists": 4
           },
           "ccDealt": 122,
+          "totalMinionsKilled": 147,
           "wardsKilled": 3,
-          "wardsPlaced": 9
+          "wardsPlaced": 9,
+          "gameDuration": 1446
         },
         {
           "Champ": "Kennen",
@@ -9177,8 +9359,10 @@
             "assists": 11
           },
           "ccDealt": 128,
+          "totalMinionsKilled": 146,
           "wardsKilled": 5,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1777
         },
         {
           "Champ": "Urgot",
@@ -9251,8 +9435,10 @@
             "assists": 2
           },
           "ccDealt": 139,
+          "totalMinionsKilled": 127,
           "wardsKilled": 1,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1096
         },
         {
           "Champ": "Jax",
@@ -9324,8 +9510,10 @@
             "assists": 2
           },
           "ccDealt": 100,
+          "totalMinionsKilled": 119,
           "wardsKilled": 1,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1383
         },
         {
           "Champ": "Urgot",
@@ -9403,8 +9591,10 @@
             "assists": 3
           },
           "ccDealt": 191,
+          "totalMinionsKilled": 167,
           "wardsKilled": 2,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1573
         },
         {
           "Champ": "Urgot",
@@ -9485,8 +9675,10 @@
             "assists": 5
           },
           "ccDealt": 380,
+          "totalMinionsKilled": 167,
           "wardsKilled": 3,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1834
         },
         {
           "Champ": "Urgot",
@@ -9563,8 +9755,10 @@
             "assists": 0
           },
           "ccDealt": 287,
+          "totalMinionsKilled": 131,
           "wardsKilled": 2,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1611
         },
         {
           "Champ": "Zilean",
@@ -9651,8 +9845,10 @@
             "assists": 14
           },
           "ccDealt": 415,
+          "totalMinionsKilled": 141,
           "wardsKilled": 0,
-          "wardsPlaced": 14
+          "wardsPlaced": 14,
+          "gameDuration": 1718
         },
         {
           "Champ": "Galio",
@@ -9729,8 +9925,10 @@
             "assists": 7
           },
           "ccDealt": 100,
+          "totalMinionsKilled": 132,
           "wardsKilled": 1,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1469
         },
         {
           "Champ": "Urgot",
@@ -9801,8 +9999,10 @@
             "assists": 2
           },
           "ccDealt": 180,
+          "totalMinionsKilled": 113,
           "wardsKilled": 1,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1009
         },
         {
           "Champ": "Urgot",
@@ -9883,8 +10083,10 @@
             "assists": 5
           },
           "ccDealt": 258,
+          "totalMinionsKilled": 158,
           "wardsKilled": 1,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1351
         },
         {
           "Champ": "Urgot",
@@ -9959,8 +10161,10 @@
             "assists": 6
           },
           "ccDealt": 190,
+          "totalMinionsKilled": 126,
           "wardsKilled": 2,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1231
         },
         {
           "Champ": "Sion",
@@ -10042,8 +10246,10 @@
             "assists": 3
           },
           "ccDealt": 953,
+          "totalMinionsKilled": 182,
           "wardsKilled": 0,
-          "wardsPlaced": 9
+          "wardsPlaced": 9,
+          "gameDuration": 1708
         },
         {
           "Champ": "Galio",
@@ -10122,8 +10328,10 @@
             "assists": 11
           },
           "ccDealt": 132,
+          "totalMinionsKilled": 132,
           "wardsKilled": 1,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1396
         },
         {
           "Champ": "Urgot",
@@ -10194,8 +10402,10 @@
             "assists": 1
           },
           "ccDealt": 108,
+          "totalMinionsKilled": 96,
           "wardsKilled": 2,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1177
         },
         {
           "Champ": "Poppy",
@@ -10285,8 +10495,10 @@
             "assists": 14
           },
           "ccDealt": 3556,
+          "totalMinionsKilled": 192,
           "wardsKilled": 1,
-          "wardsPlaced": 13
+          "wardsPlaced": 13,
+          "gameDuration": 1905
         }
       ]
     },
@@ -10383,8 +10595,10 @@
             "assists": 5
           },
           "ccDealt": 248,
+          "totalMinionsKilled": 228,
           "wardsKilled": 2,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1931
         },
         {
           "Champ": "Cassiopeia",
@@ -10466,8 +10680,10 @@
             "assists": 5
           },
           "ccDealt": 2596,
+          "totalMinionsKilled": 157,
           "wardsKilled": 5,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1598
         },
         {
           "Champ": "Orianna",
@@ -10561,8 +10777,10 @@
             "assists": 13
           },
           "ccDealt": 1244,
+          "totalMinionsKilled": 197,
           "wardsKilled": 7,
-          "wardsPlaced": 15
+          "wardsPlaced": 15,
+          "gameDuration": 2036
         },
         {
           "Champ": "Alistar",
@@ -10650,8 +10868,10 @@
             "assists": 14
           },
           "ccDealt": 60,
+          "totalMinionsKilled": 61,
           "wardsKilled": 5,
-          "wardsPlaced": 27
+          "wardsPlaced": 27,
+          "gameDuration": 1709
         },
         {
           "Champ": "Alistar",
@@ -10732,8 +10952,10 @@
             "assists": 15
           },
           "ccDealt": 60,
+          "totalMinionsKilled": 36,
           "wardsKilled": 1,
-          "wardsPlaced": 16
+          "wardsPlaced": 16,
+          "gameDuration": 1366
         },
         {
           "Champ": "Alistar",
@@ -10814,8 +11036,10 @@
             "assists": 14
           },
           "ccDealt": 65,
+          "totalMinionsKilled": 44,
           "wardsKilled": 3,
-          "wardsPlaced": 19
+          "wardsPlaced": 19,
+          "gameDuration": 1390
         },
         {
           "Champ": "Alistar",
@@ -10893,8 +11117,10 @@
             "assists": 9
           },
           "ccDealt": 76,
+          "totalMinionsKilled": 31,
           "wardsKilled": 5,
-          "wardsPlaced": 18
+          "wardsPlaced": 18,
+          "gameDuration": 1454
         },
         {
           "Champ": "Alistar",
@@ -10905,7 +11131,7 @@
             "Orn",
             "Pyke",
             "Ekko",
-            141
+            "Kayn"
           ],
           "Ally Team": [
             "Alistar",
@@ -10982,8 +11208,10 @@
             "assists": 17
           },
           "ccDealt": 181,
+          "totalMinionsKilled": 49,
           "wardsKilled": 6,
-          "wardsPlaced": 25
+          "wardsPlaced": 25,
+          "gameDuration": 1616
         },
         {
           "Champ": "Rakan",
@@ -11065,8 +11293,10 @@
             "assists": 18
           },
           "ccDealt": 210,
+          "totalMinionsKilled": 13,
           "wardsKilled": 7,
-          "wardsPlaced": 18
+          "wardsPlaced": 18,
+          "gameDuration": 1631
         },
         {
           "Champ": "Rakan",
@@ -11150,8 +11380,10 @@
             "assists": 12
           },
           "ccDealt": 117,
+          "totalMinionsKilled": 8,
           "wardsKilled": 3,
-          "wardsPlaced": 21
+          "wardsPlaced": 21,
+          "gameDuration": 1421
         },
         {
           "Champ": "Alistar",
@@ -11235,8 +11467,10 @@
             "assists": 19
           },
           "ccDealt": 98,
+          "totalMinionsKilled": 42,
           "wardsKilled": 8,
-          "wardsPlaced": 32
+          "wardsPlaced": 32,
+          "gameDuration": 1732
         },
         {
           "Champ": "Alistar",
@@ -11321,8 +11555,10 @@
             "assists": 12
           },
           "ccDealt": 132,
+          "totalMinionsKilled": 48,
           "wardsKilled": 7,
-          "wardsPlaced": 26
+          "wardsPlaced": 26,
+          "gameDuration": 1916
         },
         {
           "Champ": "Lulu",
@@ -11412,8 +11648,10 @@
             "assists": 15
           },
           "ccDealt": 305,
+          "totalMinionsKilled": 82,
           "wardsKilled": 0,
-          "wardsPlaced": 10
+          "wardsPlaced": 10,
+          "gameDuration": 1506
         },
         {
           "Champ": "Alistar",
@@ -11502,8 +11740,10 @@
             "assists": 23
           },
           "ccDealt": 148,
+          "totalMinionsKilled": 92,
           "wardsKilled": 2,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1826
         },
         {
           "Champ": "Alistar",
@@ -11585,8 +11825,10 @@
             "assists": 7
           },
           "ccDealt": 43,
+          "totalMinionsKilled": 30,
           "wardsKilled": 2,
-          "wardsPlaced": 17
+          "wardsPlaced": 17,
+          "gameDuration": 1237
         },
         {
           "Champ": "Alistar",
@@ -11679,8 +11921,10 @@
             "assists": 20
           },
           "ccDealt": 132,
+          "totalMinionsKilled": 51,
           "wardsKilled": 4,
-          "wardsPlaced": 37
+          "wardsPlaced": 37,
+          "gameDuration": 1966
         },
         {
           "Champ": "Rakan",
@@ -11765,8 +12009,10 @@
             "assists": 6
           },
           "ccDealt": 108,
+          "totalMinionsKilled": 22,
           "wardsKilled": 9,
-          "wardsPlaced": 31
+          "wardsPlaced": 31,
+          "gameDuration": 1894
         },
         {
           "Champ": "Rakan",
@@ -11850,8 +12096,10 @@
             "assists": 9
           },
           "ccDealt": 68,
+          "totalMinionsKilled": 21,
           "wardsKilled": 6,
-          "wardsPlaced": 26
+          "wardsPlaced": 26,
+          "gameDuration": 1975
         },
         {
           "Champ": "Alistar",
@@ -11929,8 +12177,10 @@
             "assists": 6
           },
           "ccDealt": 59,
+          "totalMinionsKilled": 42,
           "wardsKilled": 1,
-          "wardsPlaced": 23
+          "wardsPlaced": 23,
+          "gameDuration": 1509
         },
         {
           "Champ": "Rakan",
@@ -12014,8 +12264,10 @@
             "assists": 14
           },
           "ccDealt": 143,
+          "totalMinionsKilled": 6,
           "wardsKilled": 3,
-          "wardsPlaced": 21
+          "wardsPlaced": 21,
+          "gameDuration": 1918
         }
       ]
     },
@@ -12106,8 +12358,10 @@
             "assists": 9
           },
           "ccDealt": 0,
+          "totalMinionsKilled": 139,
           "wardsKilled": 1,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1679
         },
         {
           "Champ": "Jhin",
@@ -12193,8 +12447,10 @@
             "assists": 8
           },
           "ccDealt": 99,
+          "totalMinionsKilled": 206,
           "wardsKilled": 2,
-          "wardsPlaced": 12
+          "wardsPlaced": 12,
+          "gameDuration": 1627
         },
         {
           "Champ": "Lucian",
@@ -12290,8 +12546,10 @@
             "assists": 10
           },
           "ccDealt": 242,
+          "totalMinionsKilled": 218,
           "wardsKilled": 13,
-          "wardsPlaced": 17
+          "wardsPlaced": 17,
+          "gameDuration": 2109
         },
         {
           "Champ": "Lucian",
@@ -12367,8 +12625,10 @@
             "assists": 6
           },
           "ccDealt": 14,
+          "totalMinionsKilled": 177,
           "wardsKilled": 1,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1267
         },
         {
           "Champ": "Orianna",
@@ -12449,8 +12709,10 @@
             "assists": 11
           },
           "ccDealt": 1153,
+          "totalMinionsKilled": 199,
           "wardsKilled": 3,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1433
         },
         {
           "Champ": "Lucian",
@@ -12533,8 +12795,10 @@
             "assists": 5
           },
           "ccDealt": 18,
+          "totalMinionsKilled": 199,
           "wardsKilled": 3,
-          "wardsPlaced": 7
+          "wardsPlaced": 7,
+          "gameDuration": 1477
         },
         {
           "Champ": "Orianna",
@@ -12621,8 +12885,10 @@
             "assists": 21
           },
           "ccDealt": 876,
+          "totalMinionsKilled": 152,
           "wardsKilled": 2,
-          "wardsPlaced": 10
+          "wardsPlaced": 10,
+          "gameDuration": 1624
         },
         {
           "Champ": "Lucian",
@@ -12712,8 +12978,10 @@
             "assists": 11
           },
           "ccDealt": 163,
+          "totalMinionsKilled": 203,
           "wardsKilled": 6,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1925
         },
         {
           "Champ": "Lucian",
@@ -12801,8 +13069,10 @@
             "assists": 5
           },
           "ccDealt": 20,
+          "totalMinionsKilled": 193,
           "wardsKilled": 2,
-          "wardsPlaced": 10
+          "wardsPlaced": 10,
+          "gameDuration": 1544
         },
         {
           "Champ": "Lucian",
@@ -12904,8 +13174,10 @@
             "assists": 11
           },
           "ccDealt": 237,
+          "totalMinionsKilled": 234,
           "wardsKilled": 10,
-          "wardsPlaced": 16
+          "wardsPlaced": 16,
+          "gameDuration": 2287
         },
         {
           "Champ": "Kai'sa",
@@ -12994,8 +13266,10 @@
             "assists": 5
           },
           "ccDealt": 19,
+          "totalMinionsKilled": 151,
           "wardsKilled": 2,
-          "wardsPlaced": 9
+          "wardsPlaced": 9,
+          "gameDuration": 1713
         },
         {
           "Champ": "Lucian",
@@ -13091,8 +13365,10 @@
             "assists": 15
           },
           "ccDealt": 276,
+          "totalMinionsKilled": 193,
           "wardsKilled": 8,
-          "wardsPlaced": 15
+          "wardsPlaced": 15,
+          "gameDuration": 2008
         },
         {
           "Champ": "Kai'sa",
@@ -13156,8 +13432,10 @@
             "assists": 1
           },
           "ccDealt": 0,
+          "totalMinionsKilled": 98,
           "wardsKilled": 1,
-          "wardsPlaced": 3
+          "wardsPlaced": 3,
+          "gameDuration": 735
         },
         {
           "Champ": "Lucian",
@@ -13251,8 +13529,10 @@
             "assists": 17
           },
           "ccDealt": 103,
+          "totalMinionsKilled": 191,
           "wardsKilled": 5,
-          "wardsPlaced": 12
+          "wardsPlaced": 12,
+          "gameDuration": 1994
         },
         {
           "Champ": "Kai'sa",
@@ -13348,8 +13628,10 @@
             "assists": 5
           },
           "ccDealt": 208,
+          "totalMinionsKilled": 183,
           "wardsKilled": 5,
-          "wardsPlaced": 8
+          "wardsPlaced": 8,
+          "gameDuration": 1854
         },
         {
           "Champ": "Urgot",
@@ -13422,8 +13704,10 @@
             "assists": 3
           },
           "ccDealt": 134,
+          "totalMinionsKilled": 126,
           "wardsKilled": 1,
-          "wardsPlaced": 5
+          "wardsPlaced": 5,
+          "gameDuration": 1214
         },
         {
           "Champ": "Lucian",
@@ -13510,8 +13794,10 @@
             "assists": 4
           },
           "ccDealt": 106,
+          "totalMinionsKilled": 187,
           "wardsKilled": 5,
-          "wardsPlaced": 11
+          "wardsPlaced": 11,
+          "gameDuration": 1635
         },
         {
           "Champ": "Cassiopeia",
@@ -13591,8 +13877,10 @@
             "assists": 6
           },
           "ccDealt": 5408,
+          "totalMinionsKilled": 156,
           "wardsKilled": 3,
-          "wardsPlaced": 9
+          "wardsPlaced": 9,
+          "gameDuration": 1851
         },
         {
           "Champ": "Tristana",
@@ -13674,8 +13962,10 @@
             "assists": 9
           },
           "ccDealt": 36,
+          "totalMinionsKilled": 173,
           "wardsKilled": 1,
-          "wardsPlaced": 9
+          "wardsPlaced": 9,
+          "gameDuration": 1778
         },
         {
           "Champ": "Kai'sa",
@@ -13759,8 +14049,10 @@
             "assists": 4
           },
           "ccDealt": 0,
+          "totalMinionsKilled": 148,
           "wardsKilled": 0,
-          "wardsPlaced": 6
+          "wardsPlaced": 6,
+          "gameDuration": 1230
         }
       ]
     }

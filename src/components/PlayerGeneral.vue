@@ -44,29 +44,40 @@
           </div>
 
           <div class="info-block">
-            <div class="info-title">#1 Most Picked</div>
-            <div class="info-value">{{mostPicked1}}</div>
+            <div class="info-title">#1 Picked</div>
+            <div class="info-value">{{mostPicked1.key}} - {{mostPicked1.value}}</div>
           </div>
 
           <div class="info-block">
-            <div class="info-title">#2 Most Picked</div>
-            <div class="info-value">{{mostPicked2}}</div>
+            <div class="info-title">#2 Picked</div>
+            <div class="info-value">{{mostPicked2.key}} - {{mostPicked2.value}}</div>
           </div>
 
           <div class="info-block">
-            <div class="info-title">#3 Most Picked</div>
-            <div class="info-value">{{mostPicked3}}</div>
+            <div class="info-title">#3 Picked</div>
+            <div class="info-value">{{mostPicked3.key}} - {{mostPicked3.value}}</div>
           </div>
 
           <div class="info-block">
-            <div class="info-title">#4 Most Picked</div>
-            <div class="info-value">{{mostPicked4}}</div>
+            <div class="info-title">#4 Picked</div>
+            <div class="info-value">{{mostPicked4.key}} - {{mostPicked4.value}}</div>
           </div>
 
           <div class="info-block">
-            <div class="info-title">#5 Most Picked</div>
-            <div class="info-value">{{mostPicked5}}</div>
+            <div class="info-title">#5 Picked</div>
+            <div class="info-value">{{mostPicked5.key}} - {{mostPicked5.value}}</div>
           </div>
+
+          <div class="info-block">
+            <div class="info-title">CS per minute</div>
+            <div class="info-value">{{Math.round(csPerMinute * 100) / 100}}</div>
+          </div>
+
+          <div class="info-block">
+            <div class="info-title">CC Dealt</div>
+            <div class="info-value">{{Math.round(ccDealt * 100) / 100}}</div>
+          </div>
+
         </div>
       </div>
 
@@ -98,6 +109,8 @@ export default {
         mostPicked3: '',
         mostPicked4: '',
         mostPicked5: '',
+        csPerMinute: 0,
+        ccDealt: 0
       }
   },
   methods:{
@@ -117,8 +130,9 @@ export default {
         assists = 0,
         wardsPlaced = 0,
         wardsKilled = 0,
-        champExistsInArray = false,
-        champsPicked = [];
+        champTally = {},
+        csPerSecond = 0,
+        ccDealt = 0;
 
       for (let match of this.player.matches) {
           kills += match.kda.kills;
@@ -126,6 +140,8 @@ export default {
           assists += match.kda.assists;
           wardsKilled += match.wardsKilled;
           wardsPlaced += match.wardsPlaced;
+          csPerSecond += (match.totalMinionsKilled / (match.gameDuration / 60));
+          ccDealt += match.ccDealt;
 
           if(match.Victory){
               this.wins++;
@@ -134,38 +150,28 @@ export default {
               this.losses++;
           }
 
-          if(champsPicked.length === 0){
-              champsPicked.push({
-                  name: match.Champ,
-                  count: 1
-              });
-          }
-
-          for(let existingChamp of champsPicked){
-              if(existingChamp.name === match.Champ){
-                  champExistsInArray = true;
-              }
-          }
-
-          if(champExistsInArray){
-              console.log(champsPicked);
-              for(let champ in champsPicked){
-                  console.log(champ);
-                  if(champ.name === match.Champ){
-                      champ.count +=1;
-                  }
-              }
-              champExistsInArray = false;
+          if(champTally[match.Champ]){
+              champTally[match.Champ]++;
           }
           else{
-              champsPicked.push({
-                  name: match.Champ,
-                  count: 1
-              });
+              champTally[match.Champ] = 1;
+          }
+
+          var champRecurrance = [];
+
+          for (var key in champTally) {
+              if (champTally.hasOwnProperty(key)) {
+                  champRecurrance.push({
+                      key: key,
+                      value: champTally[key]
+                  });
+              }
           }
       }
 
-      // console.log(champsPicked);
+      champRecurrance.sort(function(obj1, obj2) {
+          return obj2.value - obj1.value;
+      });
 
       this.avgKills = kills / this.matchesLength;
       this.avgDeaths = deaths / this.matchesLength;
@@ -173,6 +179,13 @@ export default {
       this.avgWardsKilled = wardsKilled / this.matchesLength;
       this.avgWardsPlaced = wardsPlaced / this.matchesLength;
       this.kda = (this.avgKills + this.avgAssists) / this.avgDeaths;
+      this.mostPicked1 = champRecurrance[0];
+      this.mostPicked2 = champRecurrance[1];
+      this.mostPicked3 = champRecurrance[2];
+      this.mostPicked4 = champRecurrance[3];
+      this.mostPicked5 = champRecurrance[4];
+      this.csPerMinute = csPerSecond / this.matchesLength;
+      this.ccDealt = ccDealt / this.matchesLength;
   }
 }
 </script>

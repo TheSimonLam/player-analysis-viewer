@@ -5,7 +5,7 @@
     </div>
 
     <div class="section">
-      <div class="player-block" v-for="player in barragePlayerData">
+      <div class="player-block" v-for="player in barrageMatchHistoryPlayerData">
         <playerMatchHistory v-bind:player="player"></playerMatchHistory>
       </div>
     </div>
@@ -15,12 +15,21 @@
     </div>
 
     <div class="section">
-      <div class="player-block" v-for="player in barragePlayerData">
+      <div class="player-block" v-for="player in barrageSoloQPlayerData">
         <player-general v-bind:player="player"></player-general>
       </div>
     </div>
 
-    <!--<teamOverall v-bind:team="teamBarrage"></teamOverall>-->
+    <div class="title-container">
+      <span class="title">Team Average Stats</span>
+    </div>
+
+    <div class="section">
+      <div class="player-block">
+        <teamOverall v-bind:players="barrageSoloQPlayerData" name="Barrage"></teamOverall>
+      </div>
+    </div>
+
     <!--<teamOverall v-bind:team="teamEnclave"></teamOverall>-->
     <!--<teamOverall v-bind:team="teamFnatic"></teamOverall>-->
     <!--<teamOverall v-bind:team="teamDiabolus"></teamOverall>-->
@@ -38,7 +47,8 @@
 import PlayerMatchHistory from './PlayerMatchHistory';
 import PlayerGeneral from './PlayerGeneral';
 import TeamOverall from './TeamOverall';
-const teamBarrage = require("../../teams/soloq-progress/barrage.json");
+const teamBarrageMatchHistory = require("../../teams/soloq-progress/barrage.json");
+const teamBarrageSoloQ = require("../../teams/soloq-scouting/barrage");
 
 export default {
   name: 'Start',
@@ -49,7 +59,8 @@ export default {
   },
   data(){
       return{
-          barragePlayerData: teamBarrage.players
+          barrageMatchHistoryPlayerData: teamBarrageMatchHistory.players,
+          barrageSoloQPlayerData: teamBarrageSoloQ.players
       }
   },
   methods:{

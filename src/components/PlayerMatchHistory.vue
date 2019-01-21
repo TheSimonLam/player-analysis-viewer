@@ -42,6 +42,11 @@
             <div class="info-title">Avg Wards Killed</div>
             <div class="info-value">{{avgWardsKilled}}</div>
           </div>
+
+          <div class="info-block">
+            <div class="info-title">CS per minute</div>
+            <div class="info-value">{{Math.round(csPerMinute * 100) / 100}}</div>
+          </div>
         </div>
       </div>
 
@@ -95,6 +100,7 @@ export default {
         avgAssists: 0,
         avgWardsPlaced: 0,
         avgWardsKilled: 0,
+        csPerMinute: 0
       }
   },
   methods:{
@@ -113,7 +119,8 @@ export default {
         deaths = 0,
         assists = 0,
         wardsPlaced = 0,
-        wardsKilled = 0;
+        wardsKilled = 0,
+        csPerSecond = 0;
 
       for (let match of this.player.matches) {
           kills += match.kda.kills;
@@ -121,6 +128,7 @@ export default {
           assists += match.kda.assists;
           wardsKilled += match.wardsKilled;
           wardsPlaced += match.wardsPlaced;
+          csPerSecond += (match.totalMinionsKilled / (match.gameDuration / 60));
 
           if(match.Victory){
               this.wins++;
@@ -136,6 +144,7 @@ export default {
       this.avgWardsKilled = wardsKilled / this.matchesLength;
       this.avgWardsPlaced = wardsPlaced / this.matchesLength;
       this.kda = (this.avgKills + this.avgAssists) / this.avgDeaths;
+      this.csPerMinute = csPerSecond / this.matchesLength;
   }
 }
 </script>
