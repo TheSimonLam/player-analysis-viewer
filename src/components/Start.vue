@@ -10,10 +10,15 @@
       </div>
     </div>
 
+    <div class="title-container">
+      <span class="title">Other Player's Stats</span>
+    </div>
 
-    <!--<div v-for="player in barragePlayerData">-->
-      <!--<player v-bind:player="player"></player>-->
-    <!--</div>-->
+    <div class="section">
+      <div class="player-block" v-for="player in barragePlayerData">
+        <player-general v-bind:player="player"></player-general>
+      </div>
+    </div>
 
     <!--<teamOverall v-bind:team="teamBarrage"></teamOverall>-->
     <!--<teamOverall v-bind:team="teamEnclave"></teamOverall>-->
@@ -31,7 +36,7 @@
 <script>
 
 import PlayerMatchHistory from './PlayerMatchHistory';
-import Player from './Player';
+import PlayerGeneral from './PlayerGeneral';
 import TeamOverall from './TeamOverall';
 const teamBarrage = require("../../teams/soloq-progress/barrage.json");
 
@@ -39,7 +44,7 @@ export default {
   name: 'Start',
   components: {
       PlayerMatchHistory,
-      Player,
+      PlayerGeneral,
       TeamOverall
   },
   data(){
