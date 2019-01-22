@@ -45,27 +45,32 @@
 
           <div class="info-block">
             <div class="info-title">#1 Picked</div>
-            <div class="info-value">{{mostPicked1.key}} - {{mostPicked1.value}}</div>
+            <div class="info-value">{{mostPicked1.counter}} x {{mostPicked1.name}}</div>
+            <div class="info-value">KDA {{(Math.round(mostPicked1.kda / mostPicked1.counter * 100) / 100)}}</div>
           </div>
 
           <div class="info-block">
             <div class="info-title">#2 Picked</div>
-            <div class="info-value">{{mostPicked2.key}} - {{mostPicked2.value}}</div>
+            <div class="info-value">{{mostPicked2.counter}} x {{mostPicked2.name}}</div>
+            <div class="info-value">KDA {{(Math.round(mostPicked2.kda / mostPicked2.counter * 100) / 100)}}</div>
           </div>
 
           <div class="info-block">
             <div class="info-title">#3 Picked</div>
-            <div class="info-value">{{mostPicked3.key}} - {{mostPicked3.value}}</div>
+            <div class="info-value">{{mostPicked3.counter}} x {{mostPicked3.name}}</div>
+            <div class="info-value">KDA {{(Math.round(mostPicked3.kda / mostPicked3.counter * 100) / 100)}}</div>
           </div>
 
           <div class="info-block">
             <div class="info-title">#4 Picked</div>
-            <div class="info-value">{{mostPicked4.key}} - {{mostPicked4.value}}</div>
+            <div class="info-value">{{mostPicked4.counter}} x {{mostPicked4.name}}</div>
+            <div class="info-value">KDA {{(Math.round(mostPicked4.kda / mostPicked4.counter * 100) / 100)}}</div>
           </div>
 
           <div class="info-block">
             <div class="info-title">#5 Picked</div>
-            <div class="info-value">{{mostPicked5.key}} - {{mostPicked5.value}}</div>
+            <div class="info-value">{{mostPicked5.counter}} x {{mostPicked5.name}}</div>
+            <div class="info-value">KDA {{(Math.round(mostPicked5.kda / mostPicked5.counter * 100) / 100)}}</div>
           </div>
 
           <div class="info-block">
@@ -75,7 +80,7 @@
 
           <div class="info-block">
             <div class="info-title">CC Dealt</div>
-            <div class="info-value">{{Math.round(ccDealt * 100) / 100}}</div>
+            <div class="info-value">{{Math.floor(ccDealt / 60)}}</div>
           </div>
 
         </div>
@@ -90,7 +95,7 @@
 
 
 export default {
-  name: 'PlayerMatchHistory',
+  name: 'PlayerGeneral',
     props: ['player'],
   data(){
       return{
@@ -104,11 +109,11 @@ export default {
         avgAssists: 0,
         avgWardsPlaced: 0,
         avgWardsKilled: 0,
-        mostPicked1: '',
-        mostPicked2: '',
-        mostPicked3: '',
-        mostPicked4: '',
-        mostPicked5: '',
+        mostPicked1: {},
+        mostPicked2: {},
+        mostPicked3: {},
+        mostPicked4: {},
+        mostPicked5: {},
         csPerMinute: 0,
         ccDealt: 0
       }
@@ -132,7 +137,8 @@ export default {
         wardsKilled = 0,
         champTally = {},
         csPerSecond = 0,
-        ccDealt = 0;
+        ccDealt = 0,
+        kdaDeathsFiniteCalc = 1;
 
       for (let match of this.player.matches) {
           kills += match.kda.kills;
@@ -142,6 +148,7 @@ export default {
           wardsPlaced += match.wardsPlaced;
           csPerSecond += (match.totalMinionsKilled / (match.gameDuration / 60));
           ccDealt += match.ccDealt;
+          kdaDeathsFiniteCalc = match.kda.deaths === 0 ? 1 : match.kda.deaths;
 
           if(match.Victory){
               this.wins++;
@@ -150,11 +157,14 @@ export default {
               this.losses++;
           }
 
-          if(champTally[match.Champ]){
-              champTally[match.Champ]++;
+          if(champTally[match.Champ]) {
+              champTally[match.Champ].counter++;
+              champTally[match.Champ].kda += (match.kda.kills + match.kda.assists) / kdaDeathsFiniteCalc;
           }
           else{
-              champTally[match.Champ] = 1;
+              champTally[match.Champ] = {};
+              champTally[match.Champ].counter = 1;
+              champTally[match.Champ].kda = (match.kda.kills + match.kda.assists) / kdaDeathsFiniteCalc;
           }
 
           var champRecurrance = [];
@@ -162,15 +172,16 @@ export default {
           for (var key in champTally) {
               if (champTally.hasOwnProperty(key)) {
                   champRecurrance.push({
-                      key: key,
-                      value: champTally[key]
+                      name: key,
+                      counter: champTally[key].counter,
+                      kda: champTally[key].kda
                   });
               }
           }
       }
 
       champRecurrance.sort(function(obj1, obj2) {
-          return obj2.value - obj1.value;
+          return obj2.counter - obj1.counter;
       });
 
       this.avgKills = kills / this.matchesLength;
