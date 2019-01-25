@@ -86,7 +86,7 @@
         </div>
       </div>
 
-      <div class="disclaimer">*Based on the last 50 games of Solo Q</div>
+      <div class="disclaimer">*Based on the last 100 games of Solo Q</div>
     </div>
   </div>
 </template>
@@ -136,7 +136,7 @@ export default {
         wardsPlaced = 0,
         wardsKilled = 0,
         champTally = {},
-        csPerSecond = 0,
+        csPerMinute = 0,
         ccDealt = 0,
         kdaDeathsFiniteCalc = 1;
 
@@ -146,7 +146,7 @@ export default {
           assists += match.kda.assists;
           wardsKilled += match.wardsKilled;
           wardsPlaced += match.wardsPlaced;
-          csPerSecond += (match.totalMinionsKilled / (match.gameDuration / 60));
+          csPerMinute += (match.totalMinionsKilled / (match.gameDuration / 60));
           ccDealt += match.ccDealt;
           kdaDeathsFiniteCalc = match.kda.deaths === 0 ? 1 : match.kda.deaths;
 
@@ -195,7 +195,7 @@ export default {
       this.mostPicked3 = champRecurrance[2];
       this.mostPicked4 = champRecurrance[3];
       this.mostPicked5 = champRecurrance[4];
-      this.csPerMinute = csPerSecond / this.matchesLength;
+      this.csPerMinute = csPerMinute / this.matchesLength;
       this.ccDealt = ccDealt / this.matchesLength;
   }
 }

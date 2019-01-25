@@ -104,7 +104,7 @@
                     assists = 0,
                     wardsPlaced = 0,
                     wardsKilled = 0,
-                    csPerSecond = 0,
+                    csPerMinute = 0,
                     ccDealt = 0;
 
                 for (let match of player.matches) {
@@ -113,7 +113,7 @@
                     assists += match.kda.assists;
                     wardsKilled += match.wardsKilled;
                     wardsPlaced += match.wardsPlaced;
-                    csPerSecond += (match.totalMinionsKilled / (match.gameDuration / 60));
+                    csPerMinute += (match.totalMinionsKilled / (match.gameDuration / 60));
                     ccDealt += match.ccDealt;
 
                     if(match.Victory){
@@ -130,7 +130,7 @@
                 this.avgWardsKilled += wardsKilled / this.matchesLength;
                 this.avgWardsPlaced += wardsPlaced / this.matchesLength;
                 this.kda += (this.avgKills + this.avgAssists) / this.avgDeaths;
-                this.csPerMinute += csPerSecond / this.matchesLength;
+                this.csPerMinute += csPerMinute / this.matchesLength;
                 this.ccDealt += ccDealt / this.matchesLength;
             }
 
