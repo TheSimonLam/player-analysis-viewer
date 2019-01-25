@@ -6,12 +6,12 @@
     <div v-if="expanded">
 
       <div class="blocks">
-        <div class="kda-block">
-          <div class="kda-title">Avg KDA</div>
-          <div class="kda-value">{{Math.round(kda * 100) / 100}}</div>
-        </div>
-
         <div class="info-block-container">
+
+          <div class="info-block">
+            <div class="info-title">Avg KDA</div>
+            <div class="info-value">{{Math.round(kda * 100) / 100}}</div>
+          </div>
 
           <div class="info-block">
             <div class="info-title">Win/Loss</div>
@@ -231,11 +231,9 @@ export default {
 
   .player-name-container{
     text-align: center;
-    font-size: 2em;
     background: white;
-    padding: 10px;
+    padding: 5px;
     color: #00215c;
-    border-radius: 5px;
   }
 
   .kda-block{
@@ -244,7 +242,7 @@ export default {
     display: inline-block;
     background: white;
     color: #00215c;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 1.5em;
     font-weight: bold;
     margin: 20px;

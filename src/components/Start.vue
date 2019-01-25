@@ -129,22 +129,20 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .title {
-        font-size: 1.5em;
         font-weight: bold;
     }
 
     .title-container {
         text-align: center;
-        padding: 15px;
+        padding: 5px;
     }
 
     .section {
         background-color: #00215c;
         border-radius: 5px;
-        padding: 10px;
     }
 
     .player-block {
-        margin: 10px;
+
     }
 </style>
