@@ -2383,95 +2383,38 @@
       ]
     },
     {
-      "name": "MagiFelix",
+      "name": "Special",
       "region": "euw1",
       "matches": [
         {
-          "champ": "Neeko",
+          "champ": "Irelia",
           "patch": "9.2.",
-          "date": 1548452644994,
+          "date": 1548499309010,
           "enemy Team": [
-            "Gragas",
-            "Morgana",
+            "Karthus",
             "Kai'sa",
-            "Vladimir",
-            "Kha'Zix"
+            "Gragas",
+            "Xin Zhao",
+            "Vel'Koz"
           ],
           "ally Team": [
-            "Irelia",
-            "Cassiopeia",
-            "Thresh",
-            "Sejuani",
-            "Neeko"
+            "Alistar",
+            "Tristana",
+            "Elise",
+            "Riven",
+            "Irelia"
           ],
-          "mastery 1": "Arcane Comet",
-          "mastery 2": "Manaflow Band",
-          "mastery 3": "Transcendence",
-          "mastery 4": "Gathering Storm",
+          "mastery 1": "Conqueror",
+          "mastery 2": "Triumph",
+          "mastery 3": "Legend: Tenacity",
+          "mastery 4": "Coup de Grace",
           "mastery 5": "Minion Dematerializer",
-          "mastery 6": "Magical Footwear",
+          "mastery 6": "Cosmic Insight",
           "max": [
             "Q",
-            "E"
-          ],
-          "skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
             "E",
             "W"
           ],
-          "victory": true,
-          "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
-          "kda": {
-            "kills": 4,
-            "deaths": 3,
-            "assists": 8
-          },
-          "ccDealt": 117,
-          "wardsKilled": 2,
-          "wardsPlaced": 8,
-          "csPerMinAt20Mins": 8.05
-        },
-        {
-          "champ": "Katarina",
-          "patch": "9.2.",
-          "date": 1548447800951,
-          "enemy Team": [
-            "Sion",
-            "Lucian",
-            "Ryze",
-            "Morgana",
-            "Xin Zhao"
-          ],
-          "ally Team": [
-            "Katarina",
-            "Gragas",
-            "Fiora",
-            "Kai'sa",
-            "Karma"
-          ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Last Stand",
-          "mastery 6": "Legend: Tenacity",
-          "max": [
-            "Q",
-            "E"
-          ],
           "skill Order": [
             "Q",
             "E",
@@ -2485,50 +2428,113 @@
             "E",
             "R",
             "E",
+            "E",
+            "W",
+            "W",
+            "R",
+            "W"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 5,
+            "deaths": 2,
+            "assists": 6
+          },
+          "ccDealt": 71,
+          "wardsKilled": 3,
+          "wardsPlaced": 12,
+          "csPerMinAt20Mins": 10.100000000000001
+        },
+        {
+          "champ": "Ryze",
+          "patch": "9.2.",
+          "date": 1548426336099,
+          "enemy Team": [
+            "Yasuo",
+            "Orn",
+            "Lee Sin",
+            "Anivia",
+            "Pyke"
+          ],
+          "ally Team": [
+            "Draven",
+            "Janna",
+            "Ryze",
+            "Ivern",
+            "Sion"
+          ],
+          "mastery 1": "Phase Rush",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Transcendence",
+          "mastery 4": "Scorch",
+          "mastery 5": "Minion Dematerializer",
+          "mastery 6": "Cosmic Insight",
+          "max": [
+            "Q",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "R",
+            "E",
+            "Q",
             "E",
             "W",
             "W"
           ],
           "victory": false,
-          "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
+          "blue Side": false,
+          "summ Spell 1": "Teleport",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 3,
-            "deaths": 3,
-            "assists": 6
+            "kills": 4,
+            "deaths": 13,
+            "assists": 8
           },
-          "ccDealt": 22,
-          "wardsKilled": 3,
-          "wardsPlaced": 13,
-          "csPerMinAt20Mins": 7.8
+          "ccDealt": 379,
+          "wardsKilled": 1,
+          "wardsPlaced": 16,
+          "csPerMinAt20Mins": 5.949999999999999
         },
         {
-          "champ": "Irelia",
+          "champ": "Jayce",
           "patch": "9.2.",
-          "date": 1548442583967,
+          "date": 1548414254791,
           "enemy Team": [
-            "Lissandra",
-            "Alistar",
-            "Diana",
-            "Kayn",
-            "Vayne"
+            "Xin Zhao",
+            "Irelia",
+            "Orn",
+            "Thresh",
+            "Varus"
           ],
           "ally Team": [
-            "Irelia",
-            "Tahm Kench",
-            "Elise",
+            "Jayce",
+            "Lucian",
+            "Alistar",
             "Urgot",
-            "Veigar"
+            "Elise"
           ],
-          "mastery 1": "Conqueror",
-          "mastery 2": "Triumph",
-          "mastery 3": "Legend: Bloodline",
-          "mastery 4": "Last Stand",
-          "mastery 5": "Magical Footwear",
-          "mastery 6": "Future's Market",
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Taste of Blood",
+          "mastery 6": "Ravenous Hunter",
           "max": [
             "Q",
+            "W",
             "E"
           ],
           "skill Order": [
@@ -2537,56 +2543,119 @@
             "W",
             "Q",
             "Q",
-            "R",
+            "W",
             "Q",
-            "E",
+            "W",
             "Q",
+            "W",
+            "Q",
+            "W",
+            "W",
             "E",
-            "R",
             "E",
             "E"
           ],
           "victory": true,
           "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Cleanse",
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
           "kda": {
             "kills": 4,
-            "deaths": 4,
+            "deaths": 10,
             "assists": 7
           },
-          "ccDealt": 53,
+          "ccDealt": 216,
           "wardsKilled": 6,
-          "wardsPlaced": 10,
-          "csPerMinAt20Mins": 8.4
+          "wardsPlaced": 12,
+          "csPerMinAt20Mins": 7.75
         },
         {
-          "champ": "Katarina",
+          "champ": "Jayce",
           "patch": "9.2.",
-          "date": 1548439555155,
+          "date": 1548366965908,
           "enemy Team": [
-            "Kai'sa",
-            "Jayce",
-            "Lee Sin",
-            "Zyra",
-            "Zoe"
+            "Aatrox",
+            "Sion",
+            "Alistar",
+            "Heimerdinger",
+            "Zilean"
           ],
           "ally Team": [
-            "Shyvana",
-            "Katarina",
-            "Aatrox",
-            "Ezreal",
-            "Nami"
+            "Lucian",
+            "Nocturne",
+            "Braum",
+            "Jayce",
+            "Akali"
           ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Last Stand",
-          "mastery 6": "Legend: Tenacity",
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Taste of Blood",
+          "mastery 6": "Ravenous Hunter",
           "max": [
             "Q",
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "Q",
             "E",
+            "W",
+            "Q",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "E",
+            "E",
+            "E"
+          ],
+          "victory": false,
+          "blue Side": false,
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 17,
+            "deaths": 5,
+            "assists": 6
+          },
+          "ccDealt": 1192,
+          "wardsKilled": 3,
+          "wardsPlaced": 13,
+          "csPerMinAt20Mins": 6.9
+        },
+        {
+          "champ": "Jayce",
+          "patch": "9.2.",
+          "date": 1548365172051,
+          "enemy Team": [
+            "Zoe",
+            "Karma",
+            "Shen",
+            "Kai'sa",
+            "Nocturne"
+          ],
+          "ally Team": [
+            "Rumble",
+            "Gragas",
+            "Lee Sin",
+            "Jayce",
+            "Lucian"
+          ],
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Taste of Blood",
+          "mastery 6": "Ravenous Hunter",
+          "max": [
+            "Q",
             "W"
           ],
           "skill Order": [
@@ -2595,58 +2664,289 @@
             "W",
             "Q",
             "Q",
-            "R",
+            "W",
             "Q",
-            "E",
+            "W",
             "Q",
-            "E",
-            "R",
-            "E",
-            "E",
             "W",
-            "W",
-            "R",
-            "W",
-            "W"
+            "Q"
           ],
-          "victory": true,
-          "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Cleanse",
+          "victory": false,
+          "blue Side": false,
+          "summ Spell 1": "Cleanse",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 11,
-            "deaths": 4,
-            "assists": 5
+            "kills": 4,
+            "deaths": 8,
+            "assists": 3
           },
-          "ccDealt": 75,
-          "wardsKilled": 3,
-          "wardsPlaced": 17,
-          "csPerMinAt20Mins": 8.2
+          "ccDealt": 184,
+          "wardsKilled": 2,
+          "wardsPlaced": 9,
+          "csPerMinAt20Mins": 6
         },
         {
-          "champ": "Katarina",
+          "champ": "Jayce",
           "patch": "9.2.",
-          "date": 1548431175158,
+          "date": 1548329332255,
           "enemy Team": [
-            "Kayn",
-            "Sion",
-            "Kassadin",
-            "Ezreal",
+            "Irelia",
+            "Gragas",
+            "Lissandra",
+            "Kai'sa",
+            "Thresh"
+          ],
+          "ally Team": [
+            "Heimerdinger",
+            "Lucian",
+            "Fiddlesticks",
+            "Xin Zhao",
+            "Jayce"
+          ],
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Taste of Blood",
+          "mastery 6": "Ravenous Hunter",
+          "max": [
+            "Q",
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "W",
+            "Q",
+            "Q",
+            "Q",
+            "W",
+            "W",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "E",
+            "E",
+            "E"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "summ Spell 1": "Cleanse",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 9,
+            "deaths": 5,
+            "assists": 7
+          },
+          "ccDealt": 343,
+          "wardsKilled": 5,
+          "wardsPlaced": 16,
+          "csPerMinAt20Mins": 7.6499999999999995
+        },
+        {
+          "champ": "Jayce",
+          "patch": "9.2.",
+          "date": 1548326540775,
+          "enemy Team": [
+            "Kha'Zix",
+            "Urgot",
+            "Akali",
+            "Sivir",
             "Taric"
           ],
           "ally Team": [
-            "Katarina",
-            "Lucian",
-            "Jax",
-            "Udyr",
-            "Zilean"
+            "Pyke",
+            "Ivern",
+            "Jayce",
+            "Kennen",
+            "Kai'sa"
           ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Last Stand",
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Taste of Blood",
+          "mastery 6": "Ravenous Hunter",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "W",
+            "Q",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 8,
+            "deaths": 2,
+            "assists": 2
+          },
+          "ccDealt": 353,
+          "wardsKilled": 7,
+          "wardsPlaced": 14,
+          "csPerMinAt20Mins": 8.9
+        },
+        {
+          "champ": "Urgot",
+          "patch": "9.1.",
+          "date": 1548154595599,
+          "enemy Team": [
+            "Galio",
+            "Camille",
+            "Aatrox",
+            "Ezreal",
+            "Zyra"
+          ],
+          "ally Team": [
+            "Lucian",
+            "Urgot",
+            "Illaoi",
+            "Janna",
+            "Elise"
+          ],
+          "mastery 1": "Unsealed Spellbook",
+          "mastery 2": "Magical Footwear",
+          "mastery 3": "Minion Dematerializer",
+          "mastery 4": "Cosmic Insight",
+          "mastery 5": 8401,
+          "mastery 6": "Revitalize",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "summ Spell 1": "Teleport",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 6,
+            "deaths": 5,
+            "assists": 6
+          },
+          "ccDealt": 432,
+          "wardsKilled": 5,
+          "wardsPlaced": 10,
+          "csPerMinAt20Mins": 8.25
+        },
+        {
+          "champ": "Urgot",
+          "patch": "9.1.",
+          "date": 1548105231547,
+          "enemy Team": [
+            "Jayce",
+            "Irelia",
+            "Leona",
+            "Lucian",
+            "Swain"
+          ],
+          "ally Team": [
+            "Urgot",
+            "Rakan",
+            "Sejuani",
+            "Xin Zhao",
+            "Ezreal"
+          ],
+          "mastery 1": "Unsealed Spellbook",
+          "mastery 2": "Magical Footwear",
+          "mastery 3": "Minion Dematerializer",
+          "mastery 4": "Cosmic Insight",
+          "mastery 5": "Revitalize",
+          "mastery 6": 8401,
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "summ Spell 1": "Teleport",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 6,
+            "deaths": 8,
+            "assists": 9
+          },
+          "ccDealt": 255,
+          "wardsKilled": 3,
+          "wardsPlaced": 11,
+          "csPerMinAt20Mins": 6.55
+        },
+        {
+          "champ": "Vladimir",
+          "patch": "9.1.",
+          "date": 1548068348976,
+          "enemy Team": [
+            "Sejuani",
+            "Akali",
+            "Riven",
+            "Braum",
+            "Lucian"
+          ],
+          "ally Team": [
+            "Kha'Zix",
+            "Vladimir",
+            "Irelia",
+            "Miss Fortune",
+            "Pyke"
+          ],
+          "mastery 1": "Phase Rush",
+          "mastery 2": "Shield Bash",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Minion Dematerializer",
+          "mastery 6": "Cosmic Insight",
           "max": [
             "Q",
             "E"
@@ -2665,54 +2965,113 @@
             "R",
             "E",
             "E",
+            "W",
             "W"
           ],
           "victory": true,
           "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 6,
-            "deaths": 3,
-            "assists": 7
+            "kills": 7,
+            "deaths": 1,
+            "assists": 8
           },
-          "ccDealt": 146,
-          "wardsKilled": 3,
-          "wardsPlaced": 7,
-          "csPerMinAt20Mins": 6.949999999999999
+          "ccDealt": 138,
+          "wardsKilled": 1,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 9.600000000000001
         },
         {
-          "champ": "Katarina",
-          "patch": "9.2.",
-          "date": 1548424239239,
+          "champ": "Jayce",
+          "patch": "9.1.",
+          "date": 1548025197050,
           "enemy Team": [
-            "Fizz",
-            "Nocturne",
-            "Lucian",
-            "Thresh",
-            "Dr. Mundo"
+            "Ryze",
+            "LeBlanc",
+            "Ashe",
+            "Lee Sin",
+            "Morgana"
           ],
           "ally Team": [
-            "Katarina",
-            "Varus",
-            "Kha'Zix",
-            "Kled",
-            "Nami"
+            "Rek'Sai",
+            "Camille",
+            "Soraka",
+            "Jayce",
+            "Cassiopeia"
           ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Taste of Blood",
+          "mastery 6": "Ravenous Hunter",
           "max": [
             "Q",
-            "E"
+            "W"
           ],
           "skill Order": [
             "Q",
-            "E",
             "W",
+            "E",
+            "Q",
+            "Q",
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "W"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 5,
+            "deaths": 5,
+            "assists": 8
+          },
+          "ccDealt": 155,
+          "wardsKilled": 5,
+          "wardsPlaced": 7,
+          "csPerMinAt20Mins": 7.45
+        },
+        {
+          "champ": "Zoe",
+          "patch": "9.1.",
+          "date": 1547994870476,
+          "enemy Team": [
+            "Corki",
+            "Kai'sa",
+            "Pyke",
+            "Urgot",
+            "Aatrox"
+          ],
+          "ally Team": [
+            "Bard",
+            "Zoe",
+            "Kalista",
+            "Jax",
+            "Xin Zhao"
+          ],
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Minion Dematerializer",
+          "mastery 6": "Cosmic Insight",
+          "max": [
+            "Q",
+            "E",
+            "W"
+          ],
+          "skill Order": [
+            "Q",
+            "W",
+            "E",
             "Q",
             "Q",
             "R",
@@ -2725,118 +3084,113 @@
             "E",
             "W",
             "W",
-            "R"
+            "R",
+            "W"
           ],
           "victory": true,
           "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 12,
-            "deaths": 7,
-            "assists": 8
+            "kills": 13,
+            "deaths": 6,
+            "assists": 5
           },
-          "ccDealt": 58,
-          "wardsKilled": 1,
-          "wardsPlaced": 16,
-          "csPerMinAt20Mins": 7.199999999999999
+          "ccDealt": 144,
+          "wardsKilled": 2,
+          "wardsPlaced": 14,
+          "csPerMinAt20Mins": 7.949999999999999
         },
         {
-          "champ": "Viktor",
-          "patch": "9.2.",
-          "date": 1548421724134,
+          "champ": "Corki",
+          "patch": "9.1.",
+          "date": 1547992273894,
           "enemy Team": [
-            "Riven",
-            "Zed",
-            "Thresh",
-            "Lucian",
-            "Sejuani"
+            "Braum",
+            "Vayne",
+            "Xin Zhao",
+            "Irelia",
+            "Galio"
           ],
           "ally Team": [
-            "Viktor",
-            "Nami",
-            "Volibear",
+            "Tahm Kench",
+            "Corki",
+            "Elise",
             "Kai'sa",
-            "Lee Sin"
+            "Riven"
           ],
           "mastery 1": "Kleptomancy",
           "mastery 2": "Magical Footwear",
           "mastery 3": "Minion Dematerializer",
           "mastery 4": "Cosmic Insight",
-          "mastery 5": "Transcendence",
-          "mastery 6": "Gathering Storm",
+          "mastery 5": "Manaflow Band",
+          "mastery 6": "Absolute Focus",
           "max": [
             "Q",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "W",
+            "Q",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
             "E",
             "W"
           ],
-          "skill Order": [
-            "Q",
-            "E",
-            "Q",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W",
-            "W",
-            "R"
-          ],
-          "victory": false,
+          "victory": true,
           "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Teleport",
+          "summ Spell 1": "Cleanse",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 5,
-            "deaths": 4,
+            "kills": 6,
+            "deaths": 5,
             "assists": 7
           },
-          "ccDealt": 379,
-          "wardsKilled": 7,
+          "ccDealt": 245,
+          "wardsKilled": 5,
           "wardsPlaced": 11,
-          "csPerMinAt20Mins": 8.3
+          "csPerMinAt20Mins": 8.65
         },
         {
-          "champ": "Lissandra",
-          "patch": "9.2.",
-          "date": 1548373154240,
+          "champ": "Zoe",
+          "patch": "9.1.",
+          "date": 1547846787396,
           "enemy Team": [
-            "Gangplank",
-            "Jayce",
-            "Janna",
-            "Caitlyn",
-            "Diana"
+            "Vladimir",
+            "Poppy",
+            "Tahm Kench",
+            "Lee Sin",
+            "Akali"
           ],
           "ally Team": [
-            "Lissandra",
-            "Jax",
+            "Gragas",
+            "Zoe",
             "Ezreal",
-            "Vladimir",
-            "Karma"
+            "Thresh",
+            "Jax"
           ],
-          "mastery 1": "Aftershock",
-          "mastery 2": "Demolish",
-          "mastery 3": "Bone Plating",
-          "mastery 4": "Overgrowth",
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
           "mastery 5": "Minion Dematerializer",
-          "mastery 6": "Magical Footwear",
+          "mastery 6": "Cosmic Insight",
           "max": [
             "Q",
             "E"
           ],
           "skill Order": [
             "Q",
-            "E",
             "W",
+            "E",
             "Q",
             "Q",
             "R",
@@ -2848,167 +3202,48 @@
             "E",
             "E",
             "W",
-            "W",
-            "R"
+            "W"
           ],
           "victory": false,
           "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Teleport",
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 3,
-            "deaths": 8,
-            "assists": 5
+            "kills": 7,
+            "deaths": 3,
+            "assists": 3
           },
-          "ccDealt": 486,
+          "ccDealt": 157,
           "wardsKilled": 3,
-          "wardsPlaced": 9,
-          "csPerMinAt20Mins": 8.4
+          "wardsPlaced": 12,
+          "csPerMinAt20Mins": 8.75
         },
         {
           "champ": "Irelia",
-          "patch": "9.2.",
-          "date": 1548364297931,
+          "patch": "9.1.",
+          "date": 1547751421798,
           "enemy Team": [
-            "Lee Sin",
-            "Poppy",
-            "Vladimir",
-            "Morgana",
-            "Draven"
+            "Kalista",
+            "Zilean",
+            "Zed",
+            "Aatrox",
+            "Jarvan IV"
           ],
           "ally Team": [
-            "Akali",
             "Irelia",
-            "Rengar",
-            "Thresh",
-            "Ezreal"
+            "Kai'sa",
+            "Rumble",
+            "Nidalee",
+            "Neeko"
           ],
           "mastery 1": "Conqueror",
           "mastery 2": "Triumph",
           "mastery 3": "Legend: Alacrity",
           "mastery 4": "Coup de Grace",
-          "mastery 5": "Magical Footwear",
-          "mastery 6": "Time Warp Tonic",
-          "max": [
-            "Q",
-            "E"
-          ],
-          "skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W",
-            "R"
-          ],
-          "victory": true,
-          "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
-          "kda": {
-            "kills": 2,
-            "deaths": 3,
-            "assists": 10
-          },
-          "ccDealt": 80,
-          "wardsKilled": 4,
-          "wardsPlaced": 13,
-          "csPerMinAt20Mins": 8.75
-        },
-        {
-          "champ": "Akali",
-          "patch": "9.1.",
-          "date": 1548286692449,
-          "enemy Team": [
-            "Jayce",
-            "Kayn",
-            "Kassadin",
-            "Ashe",
-            "Rakan"
-          ],
-          "ally Team": [
-            "Lissandra",
-            "Graves",
-            "Lucian",
-            "Lulu",
-            "Akali"
-          ],
-          "mastery 1": "Fleet Footwork",
-          "mastery 2": "Triumph",
-          "mastery 3": "Legend: Tenacity",
-          "mastery 4": "Coup de Grace",
-          "mastery 5": "Second Wind",
+          "mastery 5": "Bone Plating",
           "mastery 6": "Revitalize",
           "max": [
             "Q",
-            "W"
-          ],
-          "skill Order": [
-            "Q",
-            "W",
-            "E",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "W",
-            "Q",
-            "W",
-            "R",
-            "W",
-            "W",
-            "E"
-          ],
-          "victory": true,
-          "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
-          "kda": {
-            "kills": 8,
-            "deaths": 5,
-            "assists": 7
-          },
-          "ccDealt": 72,
-          "wardsKilled": 1,
-          "wardsPlaced": 9,
-          "csPerMinAt20Mins": 7.55
-        },
-        {
-          "champ": "Katarina",
-          "patch": "9.1.",
-          "date": 1548279599501,
-          "enemy Team": [
-            "Nidalee",
-            "Aatrox",
-            "Lucian",
-            "Morgana",
-            "Urgot"
-          ],
-          "ally Team": [
-            "Akali",
-            "Xin Zhao",
-            "Thresh",
-            "Jhin",
-            "Katarina"
-          ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
-          "max": [
-            "Q",
             "E"
           ],
           "skill Order": [
@@ -3023,348 +3258,46 @@
             "Q",
             "E",
             "R",
-            "E",
-            "E",
-            "W"
-          ],
-          "victory": true,
-          "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
-          "kda": {
-            "kills": 14,
-            "deaths": 1,
-            "assists": 7
-          },
-          "ccDealt": 58,
-          "wardsKilled": 1,
-          "wardsPlaced": 9,
-          "csPerMinAt20Mins": 8.45
-        },
-        {
-          "champ": "Katarina",
-          "patch": "9.1.",
-          "date": 1548271919442,
-          "enemy Team": [
-            "Ezreal",
-            "Volibear",
-            "Urgot",
-            "Akali",
-            "Lee Sin"
-          ],
-          "ally Team": [
-            "Kha'Zix",
-            "Lucian",
-            "Irelia",
-            "Katarina",
-            "Braum"
-          ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
-          "max": [
-            "Q",
             "E"
-          ],
-          "skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W"
           ],
           "victory": false,
           "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 8,
-            "deaths": 6,
-            "assists": 2
-          },
-          "ccDealt": 55,
-          "wardsKilled": 1,
-          "wardsPlaced": 10,
-          "csPerMinAt20Mins": 7.15
-        },
-        {
-          "champ": "Katarina",
-          "patch": "9.1.",
-          "date": 1548268457646,
-          "enemy Team": [
-            "Evelynn",
-            "Jax",
-            "Irelia",
-            "Kai'sa",
-            "Rakan"
-          ],
-          "ally Team": [
-            "Katarina",
-            "Lee Sin",
-            "Thresh",
-            "Yasuo",
-            "Jinx"
-          ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
-          "max": [
-            "Q",
-            "E",
-            "W"
-          ],
-          "skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W",
-            "R",
-            "W"
-          ],
-          "victory": true,
-          "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
-          "kda": {
-            "kills": 11,
-            "deaths": 6,
-            "assists": 13
-          },
-          "ccDealt": 64,
-          "wardsKilled": 1,
-          "wardsPlaced": 7,
-          "csPerMinAt20Mins": 7
-        },
-        {
-          "champ": "Katarina",
-          "patch": "9.1.",
-          "date": 1548264955168,
-          "enemy Team": [
-            "Ezreal",
-            "Lee Sin",
-            "Zed",
-            "Vladimir",
-            "Brand"
-          ],
-          "ally Team": [
-            "Alistar",
-            "Katarina",
-            "Jayce",
-            "Xin Zhao",
-            "Akali"
-          ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
-          "max": [
-            "Q",
-            "E",
-            "W"
-          ],
-          "skill Order": [
-            "E",
-            "Q",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W",
-            "R",
-            "W"
-          ],
-          "victory": false,
-          "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
-          "kda": {
-            "kills": 18,
-            "deaths": 8,
-            "assists": 6
-          },
-          "ccDealt": 95,
-          "wardsKilled": 1,
-          "wardsPlaced": 13,
-          "csPerMinAt20Mins": 7.5
-        },
-        {
-          "champ": "Katarina",
-          "patch": "9.1.",
-          "date": 1548262784191,
-          "enemy Team": [
-            "Urgot",
-            "Xin Zhao",
-            "Zilean",
-            "Lucian",
-            "Zoe"
-          ],
-          "ally Team": [
-            "Gragas",
-            "Ezreal",
-            "Rakan",
-            "Akali",
-            "Katarina"
-          ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
-          "max": [
-            "Q",
-            "E"
-          ],
-          "skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W"
-          ],
-          "victory": true,
-          "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Cleanse",
-          "kda": {
-            "kills": 8,
-            "deaths": 3,
-            "assists": 3
-          },
-          "ccDealt": 58,
-          "wardsKilled": 1,
-          "wardsPlaced": 12,
-          "csPerMinAt20Mins": 7.55
-        },
-        {
-          "champ": "Katarina",
-          "patch": "9.1.",
-          "date": 1548258615269,
-          "enemy Team": [
-            "Camille",
-            "Xin Zhao",
-            "Zoe",
-            "Kai'sa",
-            "Galio"
-          ],
-          "ally Team": [
-            "Braum",
-            "Lucian",
-            "Sejuani",
-            "Jayce",
-            "Katarina"
-          ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
-          "max": [
-            "Q",
-            "E"
-          ],
-          "skill Order": [
-            "Q",
-            "E",
-            "W",
-            "Q",
-            "Q",
-            "R",
-            "Q",
-            "E",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "W",
-            "W"
-          ],
-          "victory": false,
-          "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Cleanse",
-          "kda": {
-            "kills": 17,
+            "kills": 1,
             "deaths": 7,
-            "assists": 9
+            "assists": 1
           },
-          "ccDealt": 43,
-          "wardsKilled": 0,
-          "wardsPlaced": 9,
-          "csPerMinAt20Mins": 7.199999999999999
+          "ccDealt": 57,
+          "wardsKilled": 2,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 8.25
         },
         {
-          "champ": "Katarina",
+          "champ": "Neeko",
           "patch": "9.1.",
-          "date": 1548253762262,
+          "date": 1547645563505,
           "enemy Team": [
-            "Sion",
-            "Veigar",
-            "Alistar",
-            "Jayce",
-            "Karthus"
+            "Lucian",
+            "Kha'Zix",
+            "Braum",
+            "Vladimir",
+            "Cassiopeia"
           ],
           "ally Team": [
-            "Aatrox",
-            "Kha'Zix",
-            "Katarina",
-            "Zoe",
-            "Orn"
+            "Lee Sin",
+            "Lulu",
+            "Riven",
+            "Neeko",
+            "Ezreal"
           ],
-          "mastery 1": "Electrocute",
-          "mastery 2": "Sudden Impact",
-          "mastery 3": "Eyeball Collection",
-          "mastery 4": "Ravenous Hunter",
-          "mastery 5": "Triumph",
-          "mastery 6": "Coup de Grace",
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Minion Dematerializer",
+          "mastery 6": "Cosmic Insight",
           "max": [
             "Q",
             "E",
@@ -3387,113 +3320,113 @@
             "W",
             "W",
             "R",
+            "W",
             "W"
           ],
-          "victory": true,
+          "victory": false,
           "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 13,
-            "deaths": 6,
-            "assists": 8
+            "kills": 12,
+            "deaths": 10,
+            "assists": 10
           },
-          "ccDealt": 19,
-          "wardsKilled": 2,
-          "wardsPlaced": 13,
-          "csPerMinAt20Mins": 6.35
+          "ccDealt": 249,
+          "wardsKilled": 4,
+          "wardsPlaced": 18,
+          "csPerMinAt20Mins": 8.7
         },
         {
           "champ": "Ryze",
           "patch": "9.1.",
-          "date": 1548203180582,
+          "date": 1547589239491,
           "enemy Team": [
-            "Taric",
-            "Corki",
-            "Kha'Zix",
-            "Akali",
-            "Leona"
+            "Graves",
+            "Sion",
+            "Vayne",
+            "Thresh",
+            "LeBlanc"
           ],
           "ally Team": [
-            "Lucian",
-            "Braum",
-            "Jayce",
-            "Twitch",
-            "Ryze"
+            "Gragas",
+            "Sivir",
+            "Pyke",
+            "Ryze",
+            "Orn"
           ],
-          "mastery 1": "Phase Rush",
-          "mastery 2": "Manaflow Band",
-          "mastery 3": "Transcendence",
-          "mastery 4": "Gathering Storm",
-          "mastery 5": "Taste of Blood",
-          "mastery 6": "Ravenous Hunter",
+          "mastery 1": "Aftershock",
+          "mastery 2": 8401,
+          "mastery 3": "Bone Plating",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Manaflow Band",
+          "mastery 6": "Transcendence",
           "max": [
-            "E",
-            "Q"
+            "Q",
+            "E"
           ],
           "skill Order": [
             "W",
             "E",
             "Q",
+            "E",
             "Q",
-            "Q",
-            "E",
-            "R",
-            "E",
-            "E",
-            "E",
             "R",
             "Q",
             "Q",
-            "Q"
+            "E",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "E"
           ],
           "victory": true,
           "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Teleport",
+          "summ Spell 1": "Teleport",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 7,
-            "deaths": 4,
-            "assists": 7
+            "kills": 6,
+            "deaths": 3,
+            "assists": 5
           },
-          "ccDealt": 39,
+          "ccDealt": 41,
           "wardsKilled": 1,
-          "wardsPlaced": 10,
-          "csPerMinAt20Mins": 7.9
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 8.1
         },
         {
-          "champ": "Corki",
+          "champ": "Zed",
           "patch": "9.1.",
-          "date": 1548115338264,
+          "date": 1547586975848,
           "enemy Team": [
-            "Vayne",
-            "Janna",
-            "Galio",
-            "Xin Zhao",
-            "Zed"
+            "Tristana",
+            "Rakan",
+            "Kayn",
+            "Kassadin",
+            "Irelia"
           ],
           "ally Team": [
-            "Rek'Sai",
-            "Cassiopeia",
-            "Urgot",
-            "Corki",
-            "Thresh"
+            "Vladimir",
+            "Lee Sin",
+            "Sejuani",
+            "Ezreal",
+            "Zed"
           ],
-          "mastery 1": "Fleet Footwork",
-          "mastery 2": "Triumph",
-          "mastery 3": "Legend: Alacrity",
-          "mastery 4": "Coup de Grace",
+          "mastery 1": "Electrocute",
+          "mastery 2": "Taste of Blood",
+          "mastery 3": "Ghost Poro",
+          "mastery 4": "Ravenous Hunter",
           "mastery 5": "Absolute Focus",
-          "mastery 6": "Gathering Storm",
+          "mastery 6": "Scorch",
           "max": [
             "Q",
-            "E",
-            "W"
+            "E"
           ],
           "skill Order": [
-            "E",
             "Q",
             "W",
+            "E",
             "Q",
             "Q",
             "R",
@@ -3505,83 +3438,141 @@
             "E",
             "E",
             "W",
-            "W",
-            "R",
             "W"
           ],
           "victory": false,
           "blue Side": true,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Teleport",
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 15,
-            "deaths": 8,
-            "assists": 10
+            "kills": 11,
+            "deaths": 4,
+            "assists": 1
           },
-          "ccDealt": 57,
-          "wardsKilled": 8,
+          "ccDealt": 172,
+          "wardsKilled": 6,
           "wardsPlaced": 13,
-          "csPerMinAt20Mins": 6.6
+          "csPerMinAt20Mins": 8.149999999999999
         },
         {
-          "champ": "Akali",
+          "champ": "Ryze",
           "patch": "9.1.",
-          "date": 1548072519698,
+          "date": 1547506985870,
           "enemy Team": [
-            "Riven",
+            "Vayne",
+            "Irelia",
             "Kha'Zix",
-            "Jayce",
-            "Brand",
-            "Zyra"
+            "Lulu",
+            "Ahri"
           ],
           "ally Team": [
-            "Akali",
-            "Alistar",
-            "Lucian",
-            "Karthus",
-            "Urgot"
+            "Kai'sa",
+            "Zilean",
+            "Ryze",
+            "Kindred",
+            "Poppy"
           ],
-          "mastery 1": "Phase Rush",
-          "mastery 2": "Shield Bash",
-          "mastery 3": "Absolute Focus",
-          "mastery 4": "Gathering Storm",
-          "mastery 5": "Second Wind",
-          "mastery 6": "Revitalize",
+          "mastery 1": "Aftershock",
+          "mastery 2": "Demolish",
+          "mastery 3": "Second Wind",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Manaflow Band",
+          "mastery 6": "Transcendence",
           "max": [
             "Q",
+            "E",
             "W"
           ],
           "skill Order": [
-            "Q",
-            "W",
             "E",
+            "W",
             "Q",
             "Q",
+            "E",
             "R",
             "Q",
-            "W",
+            "Q",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E",
             "Q",
             "W",
-            "R",
             "W",
             "W",
-            "E",
-            "E",
-            "R"
+            "W"
           ],
-          "victory": false,
-          "blue Side": false,
-          "summ Spell 1": "Flash",
-          "summ Spell 2": "Ignite",
+          "victory": true,
+          "blue Side": true,
+          "summ Spell 1": "Teleport",
+          "summ Spell 2": "Flash",
           "kda": {
-            "kills": 7,
-            "deaths": 5,
+            "kills": 16,
+            "deaths": 9,
             "assists": 5
           },
-          "ccDealt": 127,
+          "ccDealt": 599,
+          "wardsKilled": 2,
+          "wardsPlaced": 13,
+          "csPerMinAt20Mins": 7.5
+        },
+        {
+          "champ": "Neeko",
+          "patch": "9.1.",
+          "date": 1547474442079,
+          "enemy Team": [
+            "Riven",
+            "Gragas",
+            "Vayne",
+            "Rakan",
+            "Aatrox"
+          ],
+          "ally Team": [
+            "Lucian",
+            "Fiora",
+            "Thresh",
+            "Neeko",
+            "Elise"
+          ],
+          "mastery 1": "Summon Aery",
+          "mastery 2": "Manaflow Band",
+          "mastery 3": "Absolute Focus",
+          "mastery 4": "Scorch",
+          "mastery 5": "Minion Dematerializer",
+          "mastery 6": "Cosmic Insight",
+          "max": [
+            "Q",
+            "E"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "summ Spell 1": "Ignite",
+          "summ Spell 2": "Flash",
+          "kda": {
+            "kills": 4,
+            "deaths": 3,
+            "assists": 5
+          },
+          "ccDealt": 113,
           "wardsKilled": 2,
           "wardsPlaced": 9,
-          "csPerMinAt20Mins": 8
+          "csPerMinAt20Mins": 7.700000000000001
         }
       ]
     },

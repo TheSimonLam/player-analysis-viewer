@@ -89,7 +89,7 @@
         </div>
 
         <div class="player-block" style="background-color: lightskyblue">
-            <teamOverall v-bind:players="diabolusSoloQPlayerData" name="lightcoral"></teamOverall>
+            <teamOverall v-bind:players="diabolusSoloQPlayerData" name="Diabolus"></teamOverall>
         </div>
 
         <div class="player-block" style="background-color: lightsteelblue">
@@ -105,7 +105,7 @@
         </div>
 
         <div class="player-block" style="background-color: lightsalmon">
-            <teamOverall v-bind:players="xlSoloQPlayerData" name="Xl"></teamOverall>
+            <teamOverall v-bind:players="xlSoloQPlayerData" name="xL"></teamOverall>
         </div>
 
         <div class="player-block" style="background-color: lightcyan">
@@ -145,6 +145,8 @@
                 fnaticSoloQPlayerData: teamFnaticSoloQ.players,
                 xlSoloQPlayerData: teamXlSoloQ.players,
                 darkspawnSoloQPlayerData: teamDarkspawnSoloQ.players
+                //Use the below to split the player array to get specific role. 0,1 is Top lane
+                // darkspawnSoloQPlayerData: teamDarkspawnSoloQ.players.slice(0,1)
             }
         },
         methods: {}

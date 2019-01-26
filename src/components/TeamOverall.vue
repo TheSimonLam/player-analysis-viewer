@@ -146,6 +146,9 @@
             this.mostPicked5 = this.mostPicked5 / this.playersLength;
             this.csPerMinAt20 = this.csPerMinAt20 / this.playersLength;
             this.ccDealt = this.ccDealt / this.playersLength;
+
+            //To calculate NinjaScore
+            // console.log(this.name + " " + (this.avgKda + this.avgWardsPlaced + this.csPerMinAt20 + this.avgWardsKilled));
         }
     }
 </script>

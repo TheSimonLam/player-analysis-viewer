@@ -192,6 +192,10 @@ export default {
       this.mostPicked5 = champRecurrance[4];
       this.csPerMinAt20 = csPerMinAt20 / this.matchesLength;
       this.ccDealt = ccDealt / this.matchesLength;
+
+      //To calculate NinjaScore
+      // console.log(this.player.name + " " + (this.kda + this.avgWardsPlaced + this.csPerMinAt20 + this.avgWardsKilled));
+
   }
 }
 </script>
