@@ -43,39 +43,34 @@
             <div class="info-value">{{avgWardsKilled}}</div>
           </div>
 
-          <div class="info-block">
-            <div class="info-title">#1 Picked</div>
-            <div class="info-value">{{mostPicked1.counter}} x {{mostPicked1.name}}</div>
+          <div class="info-block" v-if="mostPicked1">
+            <div class="info-title">{{mostPicked1.counter}} x {{mostPicked1.name}}</div>
             <div class="info-value">KDA {{(Math.round(mostPicked1.kda / mostPicked1.counter * 100) / 100)}}</div>
           </div>
 
-          <div class="info-block">
-            <div class="info-title">#2 Picked</div>
-            <div class="info-value">{{mostPicked2.counter}} x {{mostPicked2.name}}</div>
+          <div class="info-block" v-if="mostPicked2">
+            <div class="info-title">{{mostPicked2.counter}} x {{mostPicked2.name}}</div>
             <div class="info-value">KDA {{(Math.round(mostPicked2.kda / mostPicked2.counter * 100) / 100)}}</div>
           </div>
 
-          <div class="info-block">
-            <div class="info-title">#3 Picked</div>
-            <div class="info-value">{{mostPicked3.counter}} x {{mostPicked3.name}}</div>
+          <div class="info-block" v-if="mostPicked3">
+            <div class="info-title">{{mostPicked3.counter}} x {{mostPicked3.name}}</div>
             <div class="info-value">KDA {{(Math.round(mostPicked3.kda / mostPicked3.counter * 100) / 100)}}</div>
           </div>
 
-          <div class="info-block">
-            <div class="info-title">#4 Picked</div>
-            <div class="info-value">{{mostPicked4.counter}} x {{mostPicked4.name}}</div>
+          <div class="info-block" v-if="mostPicked4">
+            <div class="info-title">{{mostPicked4.counter}} x {{mostPicked4.name}}</div>
             <div class="info-value">KDA {{(Math.round(mostPicked4.kda / mostPicked4.counter * 100) / 100)}}</div>
           </div>
 
-          <div class="info-block">
-            <div class="info-title">#5 Picked</div>
-            <div class="info-value">{{mostPicked5.counter}} x {{mostPicked5.name}}</div>
+          <div class="info-block" v-if="mostPicked5">
+            <div class="info-title">{{mostPicked5.counter}} x {{mostPicked5.name}}</div>
             <div class="info-value">KDA {{(Math.round(mostPicked5.kda / mostPicked5.counter * 100) / 100)}}</div>
           </div>
 
           <div class="info-block">
-            <div class="info-title">CS per minute</div>
-            <div class="info-value">{{Math.round(csPerMinute * 100) / 100}}</div>
+            <div class="info-title">Avg CS at 20 mins</div>
+            <div class="info-value">{{Math.round(csPerMinAt20 * 100) / 100}}</div>
           </div>
 
           <div class="info-block">
@@ -86,7 +81,7 @@
         </div>
       </div>
 
-      <div class="disclaimer">*Based on the last 100 games of Solo Q</div>
+      <div class="disclaimer">*Based on the last 20 games of SoloQ</div>
     </div>
   </div>
 </template>
@@ -114,7 +109,7 @@ export default {
         mostPicked3: {},
         mostPicked4: {},
         mostPicked5: {},
-        csPerMinute: 0,
+        csPerMinAt20: 0,
         ccDealt: 0
       }
   },
@@ -136,7 +131,7 @@ export default {
         wardsPlaced = 0,
         wardsKilled = 0,
         champTally = {},
-        csPerMinute = 0,
+        csPerMinAt20 = 0,
         ccDealt = 0,
         kdaDeathsFiniteCalc = 1;
 
@@ -146,25 +141,25 @@ export default {
           assists += match.kda.assists;
           wardsKilled += match.wardsKilled;
           wardsPlaced += match.wardsPlaced;
-          csPerMinute += (match.totalMinionsKilled / (match.gameDuration / 60));
+          csPerMinAt20 += match.csPerMinAt20Mins;
           ccDealt += match.ccDealt;
           kdaDeathsFiniteCalc = match.kda.deaths === 0 ? 1 : match.kda.deaths;
 
-          if(match.Victory){
+          if(match.victory){
               this.wins++;
           }
           else{
               this.losses++;
           }
 
-          if(champTally[match.Champ]) {
-              champTally[match.Champ].counter++;
-              champTally[match.Champ].kda += (match.kda.kills + match.kda.assists) / kdaDeathsFiniteCalc;
+          if(champTally[match.champ]) {
+              champTally[match.champ].counter++;
+              champTally[match.champ].kda += (match.kda.kills + match.kda.assists) / kdaDeathsFiniteCalc;
           }
           else{
-              champTally[match.Champ] = {};
-              champTally[match.Champ].counter = 1;
-              champTally[match.Champ].kda = (match.kda.kills + match.kda.assists) / kdaDeathsFiniteCalc;
+              champTally[match.champ] = {};
+              champTally[match.champ].counter = 1;
+              champTally[match.champ].kda = (match.kda.kills + match.kda.assists) / kdaDeathsFiniteCalc;
           }
 
           var champRecurrance = [];
@@ -187,15 +182,15 @@ export default {
       this.avgKills = kills / this.matchesLength;
       this.avgDeaths = deaths / this.matchesLength;
       this.avgAssists = assists / this.matchesLength;
+      this.kda = (this.avgKills + this.avgAssists) / this.avgDeaths;
       this.avgWardsKilled = wardsKilled / this.matchesLength;
       this.avgWardsPlaced = wardsPlaced / this.matchesLength;
-      this.kda = (this.avgKills + this.avgAssists) / this.avgDeaths;
       this.mostPicked1 = champRecurrance[0];
       this.mostPicked2 = champRecurrance[1];
       this.mostPicked3 = champRecurrance[2];
       this.mostPicked4 = champRecurrance[3];
       this.mostPicked5 = champRecurrance[4];
-      this.csPerMinute = csPerMinute / this.matchesLength;
+      this.csPerMinAt20 = csPerMinAt20 / this.matchesLength;
       this.ccDealt = ccDealt / this.matchesLength;
   }
 }
@@ -213,16 +208,14 @@ export default {
 
   .info-block{
     display: inline-block;
-    margin: 10px 1%;
+    margin: 5px 1%;
     background: white;
-    color: #00215c;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 5px;
   }
 
   .info-title{
     display: inline-block;
-    font-size: 1.3em;
   }
 
   .info-value{
@@ -231,34 +224,12 @@ export default {
 
   .player-name-container{
     text-align: center;
-    background: white;
     padding: 5px;
-    color: #00215c;
-  }
-
-  .kda-block{
-    text-align: center;
-    padding: 10px;
-    display: inline-block;
-    background: white;
-    color: #00215c;
-    border-radius: 5px;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 20px;
-  }
-
-  .kda-title{
-    display: inline-block;
-  }
-
-  .kda-value{
-
   }
 
   .disclaimer{
-    color: white;
-    padding: 20px;
+    padding: 5px;
+    font-size: 0.7em;
   }
 
   .win-text{
