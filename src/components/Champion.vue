@@ -1,58 +1,51 @@
 <template>
   <div>
-    <div class="player-name-container" @click="toggleExpand()">
-      <span>{{player.name}}</span>
-    </div>
-    <div v-if="expanded">
+    <div class="blocks">
+      <div class="info-block-container">
 
-      <div class="blocks">
-        <div class="info-block-container">
-
-          <div class="info-block">
-            <div class="info-title">Avg KDA</div>
-            <div class="info-value">{{kda}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Win/Loss</div>
-            <div class="info-value"><span class="win-text">{{wins}}</span> : <span class="loss-text">{{losses}}</span></div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Kills</div>
-            <div class="info-value">{{avgKills}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Deaths</div>
-            <div class="info-value">{{avgDeaths}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Assists</div>
-            <div class="info-value">{{avgAssists}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Wards Placed</div>
-            <div class="info-value">{{avgWardsPlaced}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Wards Killed</div>
-            <div class="info-value">{{avgWardsKilled}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg CS at 20 mins</div>
-            <div class="info-value">{{csPerMinAt20}}</div>
-          </div>
-
+        <div class="info-block">
+          <div class="info-title">Avg KDA</div>
+          <div class="info-value">{{kda}}</div>
         </div>
-      </div>
 
-      <div class="disclaimer">*Based on the last 20 games of SoloQ</div>
+        <div class="info-block">
+          <div class="info-title">Win/Loss</div>
+          <div class="info-value"><span class="win-text">{{wins}}</span> : <span class="loss-text">{{losses}}</span></div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-title">Avg Kills</div>
+          <div class="info-value">{{avgKills}}</div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-title">Avg Deaths</div>
+          <div class="info-value">{{avgDeaths}}</div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-title">Avg Assists</div>
+          <div class="info-value">{{avgAssists}}</div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-title">Avg Wards Placed</div>
+          <div class="info-value">{{avgWardsPlaced}}</div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-title">Avg Wards Killed</div>
+          <div class="info-value">{{avgWardsKilled}}</div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-title">Avg CS at 20 mins</div>
+          <div class="info-value">{{csPerMinAt20}}</div>
+        </div>
+
+      </div>
     </div>
+
   </div>
 </template>
 
@@ -60,11 +53,10 @@
 
 
 export default {
-  name: 'PlayerGeneral',
-    props: ['player'],
+  name: 'Champion',
+    props: ['champ'],
   data(){
       return{
-        expanded: false,
         matchesLength: 0,
         kda: 0,
         wins: 0,
@@ -78,16 +70,13 @@ export default {
       }
   },
   methods:{
-    toggleExpand: function(){
-        this.expanded = !this.expanded
-    },
     convertDate: function(timestamp){
         const theDate = new Date(timestamp);
         return theDate.toDateString();
     }
   },
   created(){
-    this.matchesLength = this.player.matches.length;
+    this.matchesLength = this.champ.matches.length;
 
     let kills = 0,
         deaths = 0,
@@ -97,7 +86,7 @@ export default {
         csPerMinAt20 = 0,
         kdaDeathsFiniteCalc = 1;
 
-      for (let match of this.player.matches) {
+      for (let match of this.champ.matches) {
           kills += match.kda.kills;
           deaths += match.kda.deaths;
           assists += match.kda.assists;
@@ -121,10 +110,6 @@ export default {
       this.avgWardsKilled = Math.round(wardsKilled / this.matchesLength * 100) / 100;
       this.avgWardsPlaced = Math.round(wardsPlaced / this.matchesLength * 100) / 100;
       this.csPerMinAt20 = Math.round(csPerMinAt20 / this.matchesLength * 100) / 100;
-
-      //To calculate NinjaScore
-      // console.log(this.player.name + " " + (this.kda + this.avgWardsPlaced + this.csPerMinAt20 + this.avgWardsKilled));
-
   }
 }
 </script>
