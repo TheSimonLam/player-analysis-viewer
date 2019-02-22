@@ -36,22 +36,48 @@ export default {
     }
   },
   created(){
-      let champions = {};
+      // let champions = {};
+      //
+      // for (let match of this.player.matches) {
+      //
+      //     if(!champions[match.champ]){
+      //         champions[match.champ] = {
+      //             matches: [match]
+      //         };
+      //     }
+      //     else{
+      //         champions[match.champ].matches.push(match);
+      //     }
+      //
 
       for (let match of this.player.matches) {
 
-          if(!champions[match.champ]){
-              champions[match.champ] = {
+          let champExists = false;
+
+          if(!this.champions.length){
+              this.champions.push({
+                  champName: match.champ,
                   matches: [match]
-              };
-          }
-          else{
-              champions[match.champ].matches.push(match);
+              });
           }
 
+          for (let champion of this.champions) {
+              if(champion.champName === match.champ){
+                  champion.matches.push(match);
+                  champExists = true;
+              }
+          }
 
+          if(!champExists){
+              this.champions.push({
+                  champName: match.champ,
+                  matches: [match]
+              })
+          }
       }
-console.log(champions);
+
+      console.log(this.champions);
+
     //TODO: then sort champion array by count
   }
 }
