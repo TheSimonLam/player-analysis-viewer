@@ -36,20 +36,6 @@ export default {
     }
   },
   created(){
-      // let champions = {};
-      //
-      // for (let match of this.player.matches) {
-      //
-      //     if(!champions[match.champ]){
-      //         champions[match.champ] = {
-      //             matches: [match]
-      //         };
-      //     }
-      //     else{
-      //         champions[match.champ].matches.push(match);
-      //     }
-      //
-
       for (let match of this.player.matches) {
 
           let champExists = false;
@@ -57,13 +43,15 @@ export default {
           if(!this.champions.length){
               this.champions.push({
                   champName: match.champ,
-                  matches: [match]
+                  matches: [match],
+                  count: 1
               });
           }
 
           for (let champion of this.champions) {
               if(champion.champName === match.champ){
                   champion.matches.push(match);
+                  champion.count += 1;
                   champExists = true;
               }
           }
@@ -71,12 +59,13 @@ export default {
           if(!champExists){
               this.champions.push({
                   champName: match.champ,
-                  matches: [match]
+                  matches: [match],
+                  count: 1
               })
           }
       }
 
-      console.log(this.champions);
+      this.champions.sort(function(a, b){return b.count-a.count});
 
     //TODO: then sort champion array by count
   }

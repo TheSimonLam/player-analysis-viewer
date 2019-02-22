@@ -3,6 +3,11 @@
     <div class="blocks">
       <div class="info-block-container">
 
+        <div class="info-block" style="min-width: 100px;">
+          <div class="info-title"> </div>
+          <div class="info-value">{{champ.champName}} x {{champ.count}}</div>
+        </div>
+
         <div class="info-block">
           <div class="info-title">Avg KDA</div>
           <div class="info-value">{{kda}}</div>
