@@ -3334,6 +3334,1661 @@
       ]
     },
     {
+      "name": "Sof Sin",
+      "region": "euw1",
+      "matches": [
+        {
+          "champ": "Nocturne",
+          "patch": "9.4.",
+          "date": 1551285466778,
+          "enemy Team": [
+            "Jarvan IV",
+            "Alistar",
+            "Kai'sa",
+            "Rumble",
+            "Cassiopeia"
+          ],
+          "ally Team": [
+            "Riven",
+            "Gragas",
+            "Vladimir",
+            "Ezreal",
+            "Nocturne"
+          ],
+          "mastery 1": "Lethal Tempo",
+          "mastery 2": "Presence of Mind",
+          "mastery 3": "Legend: Alacrity",
+          "mastery 4": "Coup de Grace",
+          "mastery 5": "Absolute Focus",
+          "mastery 6": "Waterwalking",
+          "max": [
+            "Q",
+            "E"
+          ],
+          "skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E",
+            "W",
+            "W"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "kda": {
+            "kills": 5,
+            "deaths": 5,
+            "assists": 15
+          },
+          "wardsKilled": 4,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 0.7
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.4.",
+          "date": 1551283026900,
+          "enemy Team": [
+            "Kha'Zix",
+            "Jarvan IV",
+            "Talon",
+            "Pyke",
+            "Kai'sa"
+          ],
+          "ally Team": [
+            "Ezreal",
+            "Ekko",
+            "Dr. Mundo",
+            "Sejuani",
+            "Thresh"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "W",
+            "Q",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "R",
+            "W",
+            "Q",
+            "W",
+            "E",
+            "R",
+            "Q",
+            "Q",
+            "Q",
+            "E",
+            "R",
+            "E"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 15,
+            "deaths": 7,
+            "assists": 11
+          },
+          "wardsKilled": 1,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 1.2
+        },
+        {
+          "champ": "Jarvan IV",
+          "patch": "9.4.",
+          "date": 1551280868307,
+          "enemy Team": [
+            "Sylas",
+            "Lee Sin",
+            "Lucian",
+            "Braum",
+            "Azir"
+          ],
+          "ally Team": [
+            "Olaf",
+            "Caitlyn",
+            "Alistar",
+            "Twisted Fate",
+            "Jarvan IV"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "kda": {
+            "kills": 10,
+            "deaths": 0,
+            "assists": 19
+          },
+          "wardsKilled": 5,
+          "wardsPlaced": 17,
+          "csPerMinAt20Mins": 0.55
+        },
+        {
+          "champ": "Jarvan IV",
+          "patch": "9.4.",
+          "date": 1551277855841,
+          "enemy Team": [
+            "Zed",
+            "Ezreal",
+            "Dr. Mundo",
+            "Sylas",
+            "Soraka"
+          ],
+          "ally Team": [
+            "Lucian",
+            "Corki",
+            "Jarvan IV",
+            "Zyra",
+            "Cho'Gath"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 4,
+            "deaths": 3,
+            "assists": 4
+          },
+          "wardsKilled": 1,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 1.65
+        },
+        {
+          "champ": "Jarvan IV",
+          "patch": "9.4.",
+          "date": 1551107240550,
+          "enemy Team": [
+            "Draven",
+            "Tahm Kench",
+            "Soraka",
+            "Yasuo",
+            "Taliyah"
+          ],
+          "ally Team": [
+            "Pyke",
+            "Kai'sa",
+            "Jarvan IV",
+            "Irelia",
+            "Aurelion Sol"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "Q",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 9,
+            "deaths": 7,
+            "assists": 6
+          },
+          "wardsKilled": 5,
+          "wardsPlaced": 18,
+          "csPerMinAt20Mins": 1.35
+        },
+        {
+          "champ": "Jarvan IV",
+          "patch": "9.4.",
+          "date": 1551103943479,
+          "enemy Team": [
+            "Ezreal",
+            "Aatrox",
+            "Thresh",
+            "Teemo",
+            "Yasuo"
+          ],
+          "ally Team": [
+            "Jarvan IV",
+            "Sylas",
+            "Karthus",
+            "Jhin",
+            "Tahm Kench"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W"
+          ],
+          "victory": false,
+          "blue Side": false,
+          "kda": {
+            "kills": 5,
+            "deaths": 4,
+            "assists": 8
+          },
+          "wardsKilled": 1,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 1.25
+        },
+        {
+          "champ": "Jarvan IV",
+          "patch": "9.4.",
+          "date": 1551050432938,
+          "enemy Team": [
+            "Kalista",
+            "Braum",
+            "Nautilus",
+            "Diana",
+            "Shaco"
+          ],
+          "ally Team": [
+            "Thresh",
+            "Sivir",
+            "Jayce",
+            "Jarvan IV",
+            "Zoe"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "Q",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E",
+            "W"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 4,
+            "deaths": 5,
+            "assists": 9
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 11,
+          "csPerMinAt20Mins": 1.2
+        },
+        {
+          "champ": "Xin Zhao",
+          "patch": "9.3.",
+          "date": 1549942597761,
+          "enemy Team": [
+            "Zed",
+            "Darius",
+            "Cassiopeia",
+            "Lee Sin",
+            "Zyra"
+          ],
+          "ally Team": [
+            "Tristana",
+            "Corki",
+            "Zilean",
+            "Xin Zhao",
+            "Sylas"
+          ],
+          "mastery 1": 9923,
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "W",
+            "W",
+            "R",
+            "W",
+            "E",
+            "W",
+            "E",
+            "R",
+            "E",
+            "E",
+            "Q",
+            "Q"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 9,
+            "deaths": 9,
+            "assists": 5
+          },
+          "wardsKilled": 4,
+          "wardsPlaced": 14,
+          "csPerMinAt20Mins": 0.75
+        },
+        {
+          "champ": "Olaf",
+          "patch": "9.3.",
+          "date": 1549940373682,
+          "enemy Team": [
+            "Lulu",
+            "Talon",
+            "Elise",
+            "Jinx",
+            "Mordekaiser"
+          ],
+          "ally Team": [
+            "Olaf",
+            "Vladimir",
+            "Riven",
+            "Draven",
+            "Thresh"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Cheap Shot",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Ingenious Hunter",
+          "mastery 5": "Shield Bash",
+          "mastery 6": "Waterwalking",
+          "max": [
+            "Q",
+            "E"
+          ],
+          "skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 5,
+            "deaths": 4,
+            "assists": 3
+          },
+          "wardsKilled": 1,
+          "wardsPlaced": 12,
+          "csPerMinAt20Mins": 1.65
+        },
+        {
+          "champ": "Lee Sin",
+          "patch": "9.3.",
+          "date": 1549890602982,
+          "enemy Team": [
+            "LeBlanc",
+            "Karma",
+            "Nidalee",
+            "Draven",
+            "Janna"
+          ],
+          "ally Team": [
+            "Lee Sin",
+            "Caitlyn",
+            "Volibear",
+            "Orianna",
+            "Morgana"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Legend: Alacrity",
+          "mastery 6": "Triumph",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E",
+            "R"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "kda": {
+            "kills": 4,
+            "deaths": 3,
+            "assists": 20
+          },
+          "wardsKilled": 0,
+          "wardsPlaced": 12,
+          "csPerMinAt20Mins": 1
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.3.",
+          "date": 1549852891446,
+          "enemy Team": [
+            "Lee Sin",
+            "Thresh",
+            "Zed",
+            "Lucian",
+            "Teemo"
+          ],
+          "ally Team": [
+            "Kassadin",
+            "Kennen",
+            "Caitlyn",
+            "Soraka",
+            "Sejuani"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "W",
+            "W",
+            "R",
+            "W",
+            "Q",
+            "W",
+            "Q",
+            "R",
+            "E",
+            "E",
+            "E"
+          ],
+          "victory": false,
+          "blue Side": false,
+          "kda": {
+            "kills": 4,
+            "deaths": 9,
+            "assists": 7
+          },
+          "wardsKilled": 5,
+          "wardsPlaced": 7,
+          "csPerMinAt20Mins": 1.25
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.3.",
+          "date": 1549851029785,
+          "enemy Team": [
+            "Jarvan IV",
+            "Cho'Gath",
+            "Caitlyn",
+            "Lulu",
+            "Neeko"
+          ],
+          "ally Team": [
+            "Akali",
+            "Diana",
+            "Vayne",
+            "Sejuani",
+            "Nami"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Tenacity",
+          "max": [
+            "W"
+          ],
+          "skill Order": [
+            "W",
+            "E",
+            "Q",
+            "W",
+            "W",
+            "R",
+            "W",
+            "Q",
+            "W",
+            "E",
+            "R",
+            "E",
+            "Q"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "kda": {
+            "kills": 12,
+            "deaths": 0,
+            "assists": 12
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 7,
+          "csPerMinAt20Mins": 2.0999999999999996
+        },
+        {
+          "champ": "Elise",
+          "patch": "9.3.",
+          "date": 1549846629568,
+          "enemy Team": [
+            "Kennen",
+            "Ahri",
+            "Lee Sin",
+            "Caitlyn",
+            "Sion"
+          ],
+          "ally Team": [
+            "Zoe",
+            "Fiora",
+            "Zyra",
+            "Elise",
+            "Sivir"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Cheap Shot",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Legend: Alacrity",
+          "mastery 6": "Coup de Grace",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E",
+            "R"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "kda": {
+            "kills": 10,
+            "deaths": 3,
+            "assists": 10
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 10,
+          "csPerMinAt20Mins": 1.25
+        },
+        {
+          "champ": "Kindred",
+          "patch": "9.3.",
+          "date": 1549844869090,
+          "enemy Team": [
+            "Morgana",
+            "Caitlyn",
+            "Lee Sin",
+            "Maokai",
+            "Vel'Koz"
+          ],
+          "ally Team": [
+            "Anivia",
+            "Sivir",
+            "Kindred",
+            "Bard",
+            "LeBlanc"
+          ],
+          "mastery 1": "Lethal Tempo",
+          "mastery 2": "Triumph",
+          "mastery 3": "Legend: Alacrity",
+          "mastery 4": "Coup de Grace",
+          "mastery 5": "Sudden Impact",
+          "mastery 6": "Relentless Hunter",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "kda": {
+            "kills": 9,
+            "deaths": 4,
+            "assists": 8
+          },
+          "wardsKilled": 3,
+          "wardsPlaced": 5,
+          "csPerMinAt20Mins": 1.75
+        },
+        {
+          "champ": "Kha'Zix",
+          "patch": "9.3.",
+          "date": 1549843101486,
+          "enemy Team": [
+            "Jinx",
+            "Rek'Sai",
+            "Fiddlesticks",
+            "Kassadin",
+            "Malphite"
+          ],
+          "ally Team": [
+            "Kennen",
+            "Kha'Zix",
+            "Sylas",
+            "Lucian",
+            "Ahri"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Ravenous Hunter",
+          "mastery 5": "Shield Bash",
+          "mastery 6": "Absolute Focus",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "E",
+            "W",
+            "W"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "kda": {
+            "kills": 12,
+            "deaths": 1,
+            "assists": 6
+          },
+          "wardsKilled": 3,
+          "wardsPlaced": 7,
+          "csPerMinAt20Mins": 1.4000000000000001
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.3.",
+          "date": 1549646681374,
+          "enemy Team": [
+            "Morgana",
+            "Neeko",
+            "Jhin",
+            "Mordekaiser",
+            "Jarvan IV"
+          ],
+          "ally Team": [
+            "Lulu",
+            "Renekton",
+            "Sejuani",
+            "Ekko",
+            "Vayne"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Tenacity",
+          "max": [
+            "W"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "W",
+            "W",
+            "R",
+            "W",
+            "E",
+            "W",
+            "E",
+            "R"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 3,
+            "deaths": 5,
+            "assists": 4
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 1.35
+        },
+        {
+          "champ": "Ivern",
+          "patch": "9.3.",
+          "date": 1549644613628,
+          "enemy Team": [
+            "Kennen",
+            "Vi",
+            "LeBlanc",
+            "Sona",
+            "Draven"
+          ],
+          "ally Team": [
+            "Caitlyn",
+            "Morgana",
+            "Ivern",
+            "Jax",
+            "Talon"
+          ],
+          "mastery 1": "Guardian",
+          "mastery 2": 8401,
+          "mastery 3": "Bone Plating",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Cosmic Insight",
+          "mastery 6": "Future's Market",
+          "max": [
+            "E",
+            "Q"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "W",
+            "E",
+            "E",
+            "R",
+            "E",
+            "Q",
+            "E",
+            "Q",
+            "R",
+            "Q",
+            "Q",
+            "W"
+          ],
+          "victory": false,
+          "blue Side": false,
+          "kda": {
+            "kills": 1,
+            "deaths": 3,
+            "assists": 13
+          },
+          "wardsKilled": 1,
+          "wardsPlaced": 9,
+          "csPerMinAt20Mins": 0.55
+        },
+        {
+          "champ": "Lee Sin",
+          "patch": "9.3.",
+          "date": 1549583407062,
+          "enemy Team": [
+            "Vayne",
+            "Annie",
+            "Karma",
+            "Kindred",
+            "Aatrox"
+          ],
+          "ally Team": [
+            "Yasuo",
+            "Lucian",
+            "LeBlanc",
+            "Lee Sin",
+            "Soraka"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "kda": {
+            "kills": 6,
+            "deaths": 4,
+            "assists": 9
+          },
+          "wardsKilled": 0,
+          "wardsPlaced": 9,
+          "csPerMinAt20Mins": 1.5
+        },
+        {
+          "champ": "Zac",
+          "patch": "9.3.",
+          "date": 1549581149083,
+          "enemy Team": [
+            "Diana",
+            "Sivir",
+            "Sejuani",
+            "Sona",
+            "Orn"
+          ],
+          "ally Team": [
+            "Vel'Koz",
+            "Irelia",
+            "Kai'sa",
+            "Zac",
+            "Thresh"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Demolish",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Magical Footwear",
+          "mastery 6": "Cosmic Insight",
+          "max": [
+            "E",
+            "W"
+          ],
+          "skill Order": [
+            "W",
+            "E",
+            "Q",
+            "E",
+            "E",
+            "R",
+            "E",
+            "W",
+            "E",
+            "W",
+            "R",
+            "W"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 2,
+            "deaths": 4,
+            "assists": 7
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 5,
+          "csPerMinAt20Mins": 1.25
+        },
+        {
+          "champ": "Nunu",
+          "patch": "9.3.",
+          "date": 1549578400455,
+          "enemy Team": [
+            "Yorick",
+            "Caitlyn",
+            "Karma",
+            "Twisted Fate",
+            "Camille"
+          ],
+          "ally Team": [
+            "Jayce",
+            "Ezreal",
+            "Nunu",
+            "Soraka",
+            "Yasuo"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Celerity",
+          "mastery 6": "Waterwalking",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "Q",
+            "W",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W",
+            "E",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "kda": {
+            "kills": 4,
+            "deaths": 6,
+            "assists": 14
+          },
+          "wardsKilled": 6,
+          "wardsPlaced": 11,
+          "csPerMinAt20Mins": 0.3
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.3.",
+          "date": 1549576163466,
+          "enemy Team": [
+            "Fiora",
+            "Tristana",
+            "Nunu",
+            "Zoe",
+            "Ahri"
+          ],
+          "ally Team": [
+            "Vel'Koz",
+            "Irelia",
+            "Sejuani",
+            "Pyke",
+            "Draven"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Tenacity",
+          "max": [
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "R",
+            "W",
+            "E",
+            "W",
+            "E",
+            "R",
+            "E",
+            "E",
+            "Q"
+          ],
+          "victory": false,
+          "blue Side": false,
+          "kda": {
+            "kills": 7,
+            "deaths": 6,
+            "assists": 9
+          },
+          "wardsKilled": 3,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 1.1
+        },
+        {
+          "champ": "Ivern",
+          "patch": "9.3.",
+          "date": 1549573853418,
+          "enemy Team": [
+            "Tristana",
+            "Lee Sin",
+            "Zoe",
+            "Riven",
+            "Alistar"
+          ],
+          "ally Team": [
+            "Kai'sa",
+            "Thresh",
+            "Ivern",
+            "Urgot",
+            "Swain"
+          ],
+          "mastery 1": "Guardian",
+          "mastery 2": 8401,
+          "mastery 3": "Bone Plating",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Future's Market",
+          "mastery 6": "Cosmic Insight",
+          "max": [
+            "E",
+            "Q"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "W",
+            "E",
+            "E",
+            "R",
+            "E",
+            "Q",
+            "E",
+            "Q",
+            "R",
+            "Q",
+            "Q",
+            "W"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 2,
+            "deaths": 3,
+            "assists": 14
+          },
+          "wardsKilled": 5,
+          "wardsPlaced": 6,
+          "csPerMinAt20Mins": 0.9500000000000001
+        },
+        {
+          "champ": "Ivern",
+          "patch": "9.3.",
+          "date": 1549561565894,
+          "enemy Team": [
+            "Shen",
+            "Lissandra",
+            "Elise",
+            "Thresh",
+            "Lucian"
+          ],
+          "ally Team": [
+            "Ivern",
+            "Pyke",
+            "Yasuo",
+            "Tristana",
+            "Jax"
+          ],
+          "mastery 1": "Guardian",
+          "mastery 2": 8401,
+          "mastery 3": "Bone Plating",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Future's Market",
+          "mastery 6": "Cosmic Insight",
+          "max": [
+            "E",
+            "Q"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "W",
+            "E",
+            "E",
+            "R",
+            "E",
+            "Q",
+            "E",
+            "Q",
+            "R",
+            "Q",
+            "Q",
+            "W"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "kda": {
+            "kills": 1,
+            "deaths": 3,
+            "assists": 9
+          },
+          "wardsKilled": 4,
+          "wardsPlaced": 6,
+          "csPerMinAt20Mins": 0.15000000000000002
+        },
+        {
+          "champ": "Ivern",
+          "patch": "9.3.",
+          "date": 1549558119353,
+          "enemy Team": [
+            "Ezreal",
+            "Zilean",
+            "Nidalee",
+            "Jayce",
+            "Urgot"
+          ],
+          "ally Team": [
+            "Malphite",
+            "Ivern",
+            "Kassadin",
+            "Vayne",
+            "Braum"
+          ],
+          "mastery 1": "Guardian",
+          "mastery 2": 8401,
+          "mastery 3": "Bone Plating",
+          "mastery 4": "Revitalize",
+          "mastery 5": "Future's Market",
+          "mastery 6": "Cosmic Insight",
+          "max": [
+            "E",
+            "Q"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "W",
+            "E",
+            "E",
+            "R",
+            "E",
+            "Q",
+            "E",
+            "Q",
+            "R",
+            "Q"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 1,
+            "deaths": 4,
+            "assists": 3
+          },
+          "wardsKilled": 1,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 0.39999999999999997
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.3.",
+          "date": 1549546065851,
+          "enemy Team": [
+            "Shen",
+            "Kha'Zix",
+            "Thresh",
+            "Kai'sa",
+            "Vladimir"
+          ],
+          "ally Team": [
+            "Jayce",
+            "Cassiopeia",
+            "Sejuani",
+            "Pyke",
+            "Ezreal"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "R",
+            "W",
+            "E",
+            "W",
+            "E",
+            "R",
+            "E"
+          ],
+          "victory": true,
+          "blue Side": true,
+          "kda": {
+            "kills": 1,
+            "deaths": 2,
+            "assists": 10
+          },
+          "wardsKilled": 3,
+          "wardsPlaced": 9,
+          "csPerMinAt20Mins": 0.9
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.3.",
+          "date": 1549497158761,
+          "enemy Team": [
+            "Vel'Koz",
+            "Nidalee",
+            "Draven",
+            "Thresh",
+            "Kled"
+          ],
+          "ally Team": [
+            "Sejuani",
+            "Jayce",
+            "Kai'sa",
+            "Cassiopeia",
+            "Blitzcrank"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "R",
+            "W",
+            "E",
+            "W",
+            "E",
+            "R",
+            "E",
+            "E",
+            "Q",
+            "Q"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 1,
+            "deaths": 8,
+            "assists": 12
+          },
+          "wardsKilled": 7,
+          "wardsPlaced": 8,
+          "csPerMinAt20Mins": 0.65
+        },
+        {
+          "champ": "Lee Sin",
+          "patch": "9.3.",
+          "date": 1549495427362,
+          "enemy Team": [
+            "Jarvan IV",
+            "Vayne",
+            "Fiora",
+            "Lissandra",
+            "Blitzcrank"
+          ],
+          "ally Team": [
+            "Gnar",
+            "Sivir",
+            "Lee Sin",
+            "Nautilus",
+            "Yasuo"
+          ],
+          "mastery 1": "Electrocute",
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Legend: Alacrity",
+          "mastery 6": "Triumph",
+          "max": [
+            "Q",
+            "W"
+          ],
+          "skill Order": [
+            "W",
+            "Q",
+            "E",
+            "Q",
+            "Q",
+            "R",
+            "Q",
+            "W",
+            "Q",
+            "W",
+            "R",
+            "W",
+            "W"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "kda": {
+            "kills": 10,
+            "deaths": 1,
+            "assists": 6
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 15,
+          "csPerMinAt20Mins": 1.2
+        },
+        {
+          "champ": "Karthus",
+          "patch": "9.3.",
+          "date": 1549492737190,
+          "enemy Team": [
+            "Fiddlesticks",
+            "Draven",
+            "LeBlanc",
+            "Yorick",
+            "Gangplank"
+          ],
+          "ally Team": [
+            "Lissandra",
+            "Katarina",
+            "Karthus",
+            "Thresh",
+            "Ezreal"
+          ],
+          "mastery 1": "Dark Harvest",
+          "mastery 2": "Taste of Blood",
+          "mastery 3": "Eyeball Collection",
+          "mastery 4": "Ravenous Hunter",
+          "mastery 5": "Presence of Mind",
+          "mastery 6": "Coup de Grace",
+          "max": [
+            "Q",
+            "E",
+            "W"
+          ],
+          "skill Order": [
+            "Q",
+            "E",
+            "Q",
+            "W",
+            "Q",
+            "R",
+            "Q",
+            "E",
+            "Q",
+            "E",
+            "R",
+            "E",
+            "E",
+            "W",
+            "W",
+            "R",
+            "W",
+            "W"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 14,
+            "deaths": 6,
+            "assists": 8
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 12,
+          "csPerMinAt20Mins": 1.8
+        },
+        {
+          "champ": "Xin Zhao",
+          "patch": "9.3.",
+          "date": 1549490500788,
+          "enemy Team": [
+            "Lucian",
+            "Jayce",
+            "Lee Sin",
+            "Nami",
+            "Ekko"
+          ],
+          "ally Team": [
+            "Diana",
+            "Nidalee",
+            "Xin Zhao",
+            "Tahm Kench",
+            "Ezreal"
+          ],
+          "mastery 1": 9923,
+          "mastery 2": "Sudden Impact",
+          "mastery 3": "Zombie Ward",
+          "mastery 4": "Relentless Hunter",
+          "mastery 5": "Legend: Alacrity",
+          "mastery 6": "Triumph",
+          "max": [
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "Q",
+            "W",
+            "W",
+            "W",
+            "R",
+            "W",
+            "E",
+            "W",
+            "E",
+            "R",
+            "E"
+          ],
+          "victory": false,
+          "blue Side": true,
+          "kda": {
+            "kills": 4,
+            "deaths": 5,
+            "assists": 7
+          },
+          "wardsKilled": 2,
+          "wardsPlaced": 11,
+          "csPerMinAt20Mins": 0.6
+        },
+        {
+          "champ": "Sejuani",
+          "patch": "9.3.",
+          "date": 1549487499279,
+          "enemy Team": [
+            "Camille",
+            "Kha'Zix",
+            "Vayne",
+            "Kassadin",
+            "Lulu"
+          ],
+          "ally Team": [
+            "Vladimir",
+            "Lucian",
+            "Riven",
+            "Sejuani",
+            "Pyke"
+          ],
+          "mastery 1": "Aftershock",
+          "mastery 2": "Font of Life",
+          "mastery 3": "Conditioning",
+          "mastery 4": "Overgrowth",
+          "mastery 5": "Triumph",
+          "mastery 6": "Legend: Alacrity",
+          "max": [
+            "W",
+            "E"
+          ],
+          "skill Order": [
+            "E",
+            "W",
+            "Q",
+            "W",
+            "W",
+            "R",
+            "W",
+            "E",
+            "W",
+            "E",
+            "R",
+            "E",
+            "E",
+            "Q",
+            "Q",
+            "R"
+          ],
+          "victory": true,
+          "blue Side": false,
+          "kda": {
+            "kills": 4,
+            "deaths": 4,
+            "assists": 15
+          },
+          "wardsKilled": 3,
+          "wardsPlaced": 10,
+          "csPerMinAt20Mins": 0.65
+        }
+      ]
+    },
+    {
       "name": "Adm",
       "region": "euw1",
       "matches": [
