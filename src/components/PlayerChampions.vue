@@ -5,11 +5,24 @@
     </div>
     <div v-if="expanded">
 
-      <div class="player-block" v-for="champ in champions">
-        <champion v-bind:champ="champ"></champion>
-      </div>
+      <table style="width:100%">
+        <tr>
+          <th>Champion</th>
+          <th>Avg KDA</th>
+          <th>Win/Loss</th>
+          <th>Avg Kills</th>
+          <th>Avg Deaths</th>
+          <th>Avg Assists</th>
+          <th>Avg Wards Placed</th>
+          <th>Avg Wards Killed</th>
+          <th>Avg CS at 20 mins</th>
+        </tr>
+        <template v-for="champ in champions">
+          <champion v-bind:champ="champ"></champion>
+        </template>
+      </table>
 
-      <div class="disclaimer">*Based on the last 20 games of SoloQ</div>
+      <div class="disclaimer">*Based on the last 30 games of SoloQ</div>
     </div>
   </div>
 </template>
@@ -74,28 +87,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .blocks{
-    text-align: center;
-  }
 
-  .info-block-container{
-    text-align: center;
-  }
-
-  .info-block{
-    display: inline-block;
-    margin: 5px 1%;
-    background: white;
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-  .info-title{
-    display: inline-block;
-  }
-
-  .info-value{
-    font-weight: bold;
+  th{
+    text-align: left;
   }
 
   .player-name-container{
@@ -106,13 +100,5 @@ export default {
   .disclaimer{
     padding: 5px;
     font-size: 0.7em;
-  }
-
-  .win-text{
-    color: green;
-  }
-
-  .loss-text{
-    color: red;
   }
 </style>

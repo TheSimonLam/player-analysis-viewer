@@ -1,57 +1,15 @@
 <template>
-  <div>
-    <div class="blocks">
-      <div class="info-block-container">
-
-        <div class="info-block" style="min-width: 100px;">
-          <div class="info-title"> </div>
-          <div class="info-value">{{champ.champName}} x {{champ.count}}</div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Avg KDA</div>
-          <div class="info-value">{{kda}}</div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Win/Loss</div>
-          <div class="info-value"><span class="win-text">{{wins}}</span> : <span class="loss-text">{{losses}}</span></div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Avg Kills</div>
-          <div class="info-value">{{avgKills}}</div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Avg Deaths</div>
-          <div class="info-value">{{avgDeaths}}</div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Avg Assists</div>
-          <div class="info-value">{{avgAssists}}</div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Avg Wards Placed</div>
-          <div class="info-value">{{avgWardsPlaced}}</div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Avg Wards Killed</div>
-          <div class="info-value">{{avgWardsKilled}}</div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-title">Avg CS at 20 mins</div>
-          <div class="info-value">{{csPerMinAt20}}</div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
+  <tr>
+    <td class="info-value">{{champ.champName}} x {{champ.count}}</td>
+    <td class="info-value">{{kda}}</td>
+    <td class="info-value"><span class="win-text">{{wins}}</span> : <span class="loss-text">{{losses}}</span></td>
+    <td class="info-value">{{avgKills}}</td>
+    <td class="info-value">{{avgDeaths}}</td>
+    <td class="info-value">{{avgAssists}}</td>
+    <td class="info-value">{{avgWardsPlaced}}</td>
+    <td class="info-value">{{avgWardsKilled}}</td>
+    <td class="info-value">{{csPerMinAt20}}</td>
+  </tr>
 </template>
 
 <script>
@@ -59,7 +17,7 @@
 
 export default {
   name: 'Champion',
-    props: ['champ'],
+    props: ['champ', 'index'],
   data(){
       return{
         matchesLength: 0,
@@ -121,40 +79,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .blocks{
-    text-align: center;
-  }
-
-  .info-block-container{
-    text-align: center;
-  }
-
-  .info-block{
-    display: inline-block;
-    margin: 5px 1%;
-    background: white;
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-  .info-title{
-    display: inline-block;
-  }
-
-  .info-value{
-    font-weight: bold;
-  }
-
-  .player-name-container{
-    text-align: center;
-    padding: 5px;
-  }
-
-  .disclaimer{
-    padding: 5px;
-    font-size: 0.7em;
-  }
-
   .win-text{
     color: green;
   }

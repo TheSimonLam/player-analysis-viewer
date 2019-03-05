@@ -5,53 +5,30 @@
     </div>
     <div v-if="expanded">
 
-      <div class="blocks">
-        <div class="info-block-container">
+      <table style="width:100%">
+        <tr>
+          <th>Avg KDA</th>
+          <th>Win/Loss</th>
+          <th>Avg Kills</th>
+          <th>Avg Deaths</th>
+          <th>Avg Assists</th>
+          <th>Avg Wards Placed</th>
+          <th>Avg Wards Killed</th>
+          <th>Avg CS at 20 mins</th>
+        </tr>
+        <tr>
+          <td>{{kda}}</td>
+          <td><span class="win-text">{{wins}}</span> : <span class="loss-text">{{losses}}</span></td>
+          <td>{{avgKills}}</td>
+          <td>{{avgDeaths}}</td>
+          <td>{{avgAssists}}</td>
+          <td>{{avgWardsPlaced}}</td>
+          <td>{{avgWardsKilled}}</td>
+          <td>{{csPerMinAt20}}</td>
+        </tr>
+      </table>
 
-          <div class="info-block">
-            <div class="info-title">Avg KDA</div>
-            <div class="info-value">{{kda}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Win/Loss</div>
-            <div class="info-value"><span class="win-text">{{wins}}</span> : <span class="loss-text">{{losses}}</span></div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Kills</div>
-            <div class="info-value">{{avgKills}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Deaths</div>
-            <div class="info-value">{{avgDeaths}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Assists</div>
-            <div class="info-value">{{avgAssists}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Wards Placed</div>
-            <div class="info-value">{{avgWardsPlaced}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg Wards Killed</div>
-            <div class="info-value">{{avgWardsKilled}}</div>
-          </div>
-
-          <div class="info-block">
-            <div class="info-title">Avg CS at 20 mins</div>
-            <div class="info-value">{{csPerMinAt20}}</div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="disclaimer">*Based on the last 20 games of SoloQ</div>
+      <div class="disclaimer">*Based on the last 30 games of SoloQ</div>
     </div>
   </div>
 </template>
@@ -131,28 +108,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .blocks{
-    text-align: center;
-  }
 
-  .info-block-container{
-    text-align: center;
-  }
-
-  .info-block{
-    display: inline-block;
-    margin: 5px 1%;
-    background: white;
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-  .info-title{
-    display: inline-block;
-  }
-
-  .info-value{
-    font-weight: bold;
+  th{
+    text-align: left;
   }
 
   .player-name-container{
