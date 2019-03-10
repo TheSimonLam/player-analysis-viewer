@@ -121,6 +121,14 @@
         </div>
 
         <div class="title-container">
+            <span class="title">Excel</span>
+        </div>
+
+        <div class="player-block" v-for="player in xlSoloQPlayerData" style="background-color: lightsalmon">
+            <player-general v-bind:player="player"></player-general>
+        </div>
+
+        <div class="title-container">
             <span class="title">Enclave</span>
         </div>
 
