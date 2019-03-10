@@ -56,13 +56,13 @@
             <!--<player-champions v-bind:player="player"></player-champions>-->
         <!--</div>-->
 
-        <!--<div class="title-container">-->
-            <!--<span class="title">xL Champion Stats</span>-->
-        <!--</div>-->
+        <div class="title-container">
+            <span class="title">xL Champion Stats</span>
+        </div>
 
-        <!--<div class="player-block" v-for="player in xlSoloQPlayerData" style="background-color: lightsalmon">-->
-            <!--<player-champions v-bind:player="player"></player-champions>-->
-        <!--</div>-->
+        <div class="player-block" v-for="player in xlSoloQPlayerData" style="background-color: lightsalmon">
+            <player-champions v-bind:player="player"></player-champions>
+        </div>
 
         <!--<div class="title-container">-->
             <!--<span class="title">Darkspawn Champion Stats</span>-->
