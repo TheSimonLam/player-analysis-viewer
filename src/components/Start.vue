@@ -8,13 +8,13 @@
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
-        <!--<div class="title-container">-->
-            <!--<span class="title">Enclave Champion Stats</span>-->
-        <!--</div>-->
+        <div class="title-container">
+            <span class="title">Enclave Champion Stats</span>
+        </div>
 
-        <!--<div class="player-block" v-for="player in enclaveSoloQPlayerData" style="background-color: lightseagreen">-->
-            <!--<player-champions v-bind:player="player"></player-champions>-->
-        <!--</div>-->
+        <div class="player-block" v-for="player in enclaveSoloQPlayerData" style="background-color: lightseagreen">
+            <player-champions v-bind:player="player"></player-champions>
+        </div>
 
         <!--<div class="title-container">-->
             <!--<span class="title">MnM Champion Stats</span>-->
