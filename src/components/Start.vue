@@ -48,13 +48,13 @@
             <!--<player-champions v-bind:player="player"></player-champions>-->
         <!--</div>-->
 
-        <!--<div class="title-container">-->
-            <!--<span class="title">Fnatic Champion Stats</span>-->
-        <!--</div>-->
+        <div class="title-container">
+            <span class="title">Fnatic Champion Stats</span>
+        </div>
 
-        <!--<div class="player-block" v-for="player in fnaticSoloQPlayerData" style="background-color: lightgoldenrodyellow">-->
-            <!--<player-champions v-bind:player="player"></player-champions>-->
-        <!--</div>-->
+        <div class="player-block" v-for="player in fnaticSoloQPlayerData" style="background-color: lightgoldenrodyellow">
+            <player-champions v-bind:player="player"></player-champions>
+        </div>
 
         <div class="title-container">
             <span class="title">xL Champion Stats</span>
@@ -165,6 +165,14 @@
         </div>
 
         <div class="player-block" v-for="player in bulldogSoloQPlayerData" style="background-color: lightgray">
+            <player-general v-bind:player="player"></player-general>
+        </div>
+
+        <div class="title-container">
+            <span class="title">Fnatic</span>
+        </div>
+
+        <div class="player-block" v-for="player in fnaticSoloQPlayerData" style="background-color: lightgoldenrodyellow">
             <player-general v-bind:player="player"></player-general>
         </div>
     </div>
