@@ -16,13 +16,13 @@
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
-        <!--<div class="title-container">-->
-            <!--<span class="title">MnM Champion Stats</span>-->
-        <!--</div>-->
+        <div class="title-container">
+            <span class="title">MnM Champion Stats</span>
+        </div>
 
-        <!--<div class="player-block" v-for="player in mnmSoloQPlayerData" style="background-color: lightgoldenrodyellow">-->
-            <!--<player-champions v-bind:player="player"></player-champions>-->
-        <!--</div>-->
+        <div class="player-block" v-for="player in mnmSoloQPlayerData" style="background-color: lightgoldenrodyellow">
+            <player-champions v-bind:player="player"></player-champions>
+        </div>
 
         <!--<div class="title-container">-->
             <!--<span class="title">Diabolus Champion Stats</span>-->
@@ -73,6 +73,14 @@
         <!--</div>-->
 
         <div class="title-container">
+            <span class="title">LFO Champion Stats</span>
+        </div>
+
+        <div class="player-block" v-for="player in lfoSoloQPlayerData" style="background-color: lightslategray">
+            <player-champions v-bind:player="player"></player-champions>
+        </div>
+
+        <div class="title-container">
             <span class="title">Team Average Stats</span>
         </div>
 
@@ -110,6 +118,10 @@
 
         <div class="player-block" style="background-color: lightcyan">
             <teamOverall v-bind:players="darkspawnSoloQPlayerData" name="Darkspawn"></teamOverall>
+        </div>
+
+        <div class="player-block" style="background-color: lightslategray">
+            <teamOverall v-bind:players="lfoSoloQPlayerData" name="LFO"></teamOverall>
         </div>
 
         <div class="title-container">
@@ -175,6 +187,14 @@
         <div class="player-block" v-for="player in fnaticSoloQPlayerData" style="background-color: lightgoldenrodyellow">
             <player-general v-bind:player="player"></player-general>
         </div>
+
+        <div class="title-container">
+            <span class="title">LFO</span>
+        </div>
+
+        <div class="player-block" v-for="player in lfoSoloQPlayerData" style="background-color: lightslategray">
+            <player-general v-bind:player="player"></player-general>
+        </div>
     </div>
 </template>
 
@@ -192,6 +212,7 @@
     const teamFnaticSoloQ = require("../../teams/soloq-scouting/fnatic");
     const teamXlSoloQ = require("../../teams/soloq-scouting/xl");
     const teamDarkspawnSoloQ = require("../../teams/soloq-scouting/darkspawn");
+    const teamLFOSoloQ = require("../../teams/soloq-scouting/lfo");
 
     export default {
         name: 'Start',
@@ -210,7 +231,8 @@
                 bulldogSoloQPlayerData: teamBulldogSoloQ.players,
                 fnaticSoloQPlayerData: teamFnaticSoloQ.players,
                 xlSoloQPlayerData: teamXlSoloQ.players,
-                darkspawnSoloQPlayerData: teamDarkspawnSoloQ.players
+                darkspawnSoloQPlayerData: teamDarkspawnSoloQ.players,
+                lfoSoloQPlayerData: teamLFOSoloQ.players
                 //Use the below to split the player array to get specific role. 0,1 is Top lane
                 // darkspawnSoloQPlayerData: teamDarkspawnSoloQ.players.slice(0,1)
             }
