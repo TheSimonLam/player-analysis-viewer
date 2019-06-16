@@ -4,7 +4,7 @@
             <span class="title">Barrage Champion Stats</span>
         </div>
 
-        <div class="player-block" v-for="player in barrageSoloQPlayerData" style="background-color: lightskyblue">
+        <div class="player-block" v-for="(player, index) in barrageSoloQPlayerData" v-bind:key="index+player.name+1" style="background-color: lightskyblue">
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
@@ -12,7 +12,7 @@
             <span class="title">Enclave Champion Stats</span>
         </div>
 
-        <div class="player-block" v-for="player in enclaveSoloQPlayerData" style="background-color: lightseagreen">
+        <div class="player-block" v-for="(player, index) in enclaveSoloQPlayerData" v-bind:key="index+player.name+2" style="background-color: lightseagreen">
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
@@ -20,39 +20,39 @@
             <span class="title">MnM Champion Stats</span>
         </div>
 
-        <div class="player-block" v-for="player in mnmSoloQPlayerData" style="background-color: lightgoldenrodyellow">
+        <div class="player-block" v-for="(player, index) in mnmSoloQPlayerData" v-bind:key="index+player.name+3" style="background-color: lightgoldenrodyellow">
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
-        <!--<div class="title-container">-->
-            <!--<span class="title">Diabolus Champion Stats</span>-->
-        <!--</div>-->
+        <div class="title-container">
+            <span class="title">Diabolus Champion Stats</span>
+        </div>
 
-        <!--<div class="player-block" v-for="player in diabolusSoloQPlayerData" style="background-color: lightcoral">-->
-            <!--<player-champions v-bind:player="player"></player-champions>-->
-        <!--</div>-->
+        <div class="player-block" v-for="(player, index) in diabolusSoloQPlayerData" v-bind:key="index+player.name+4" style="background-color: lightcoral">
+            <player-champions v-bind:player="player"></player-champions>
+        </div>
 
         <div class="title-container">
             <span class="title">Phelan Champion Stats</span>
         </div>
 
-        <div class="player-block" v-for="player in phelanSoloQPlayerData" style="background-color: lightsteelblue">
+        <div class="player-block" v-for="(player, index) in phelanSoloQPlayerData" v-bind:key="index+player.name+5" style="background-color: lightsteelblue">
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
-        <!--<div class="title-container">-->
-            <!--<span class="title">Bulldog Champion Stats</span>-->
-        <!--</div>-->
+        <div class="title-container">
+            <span class="title">Demise Champion Stats</span>
+        </div>
 
-        <!--<div class="player-block" v-for="player in bulldogSoloQPlayerData" style="background-color: lightgray">-->
-            <!--<player-champions v-bind:player="player"></player-champions>-->
-        <!--</div>-->
+        <div class="player-block" v-for="(player, index) in demiseSoloQPlayerData" v-bind:key="index+player.name+6" style="background-color: lightgray">
+            <player-champions v-bind:player="player"></player-champions>
+        </div>
 
         <div class="title-container">
             <span class="title">Fnatic Champion Stats</span>
         </div>
 
-        <div class="player-block" v-for="player in fnaticSoloQPlayerData" style="background-color: lightgoldenrodyellow">
+        <div class="player-block" v-for="(player, index) in fnaticSoloQPlayerData" v-bind:key="index+player.name+7" style="background-color: lightgoldenrodyellow">
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
@@ -60,23 +60,15 @@
             <span class="title">xL Champion Stats</span>
         </div>
 
-        <div class="player-block" v-for="player in xlSoloQPlayerData" style="background-color: lightsalmon">
+        <div class="player-block" v-for="(player, index) in xlSoloQPlayerData" v-bind:key="index+player.name+8" style="background-color: lightsalmon">
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
-        <!--<div class="title-container">-->
-            <!--<span class="title">Darkspawn Champion Stats</span>-->
-        <!--</div>-->
-
-        <!--<div class="player-block" v-for="player in darkspawnSoloQPlayerData" style="background-color: lightcyan">-->
-            <!--<player-champions v-bind:player="player"></player-champions>-->
-        <!--</div>-->
-
         <div class="title-container">
-            <span class="title">LFO Champion Stats</span>
+            <span class="title">Nvision Champion Stats</span>
         </div>
 
-        <div class="player-block" v-for="player in lfoSoloQPlayerData" style="background-color: lightslategray">
+        <div class="player-block" v-for="(player, index) in nvisionSoloQPlayerData" v-bind:key="index+player.name+9" style="background-color: lightgreen">
             <player-champions v-bind:player="player"></player-champions>
         </div>
 
@@ -105,7 +97,7 @@
         </div>
 
         <div class="player-block" style="background-color: lightgray">
-            <teamOverall v-bind:players="bulldogSoloQPlayerData" name="Bulldog"></teamOverall>
+            <teamOverall v-bind:players="demiseSoloQPlayerData" name="Demise"></teamOverall>
         </div>
 
         <div class="player-block" style="background-color: lightgoldenrodyellow">
@@ -116,19 +108,15 @@
             <teamOverall v-bind:players="xlSoloQPlayerData" name="xL"></teamOverall>
         </div>
 
-        <div class="player-block" style="background-color: lightcyan">
-            <teamOverall v-bind:players="darkspawnSoloQPlayerData" name="Darkspawn"></teamOverall>
-        </div>
-
-        <div class="player-block" style="background-color: lightslategray">
-            <teamOverall v-bind:players="lfoSoloQPlayerData" name="LFO"></teamOverall>
+        <div class="player-block" style="background-color: lightgreen">
+            <teamOverall v-bind:players="nvisionSoloQPlayerData" name="Nvision"></teamOverall>
         </div>
 
         <div class="title-container">
             <span class="title">Barrage</span>
         </div>
 
-        <div class="player-block" v-for="player in barrageSoloQPlayerData" style="background-color: lightskyblue">
+        <div class="player-block" v-for="(player, index) in barrageSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightskyblue">
             <player-general v-bind:player="player"></player-general>
         </div>
 
@@ -136,7 +124,7 @@
             <span class="title">Excel</span>
         </div>
 
-        <div class="player-block" v-for="player in xlSoloQPlayerData" style="background-color: lightsalmon">
+        <div class="player-block" v-for="(player, index) in xlSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightsalmon">
             <player-general v-bind:player="player"></player-general>
         </div>
 
@@ -144,7 +132,7 @@
             <span class="title">Enclave</span>
         </div>
 
-        <div class="player-block" v-for="player in enclaveSoloQPlayerData" style="background-color: lightseagreen">
+        <div class="player-block" v-for="(player, index) in enclaveSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightseagreen">
             <player-general v-bind:player="player"></player-general>
         </div>
 
@@ -152,7 +140,7 @@
             <span class="title">MnM</span>
         </div>
 
-        <div class="player-block" v-for="player in mnmSoloQPlayerData" style="background-color: lightgoldenrodyellow">
+        <div class="player-block" v-for="(player, index) in mnmSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightgoldenrodyellow">
             <player-general v-bind:player="player"></player-general>
         </div>
 
@@ -160,7 +148,7 @@
             <span class="title">Diabolus</span>
         </div>
 
-        <div class="player-block" v-for="player in diabolusSoloQPlayerData" style="background-color: lightcoral">
+        <div class="player-block" v-for="(player, index) in diabolusSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightcoral">
             <player-general v-bind:player="player"></player-general>
         </div>
 
@@ -168,15 +156,15 @@
             <span class="title">Phelan</span>
         </div>
 
-        <div class="player-block" v-for="player in phelanSoloQPlayerData" style="background-color: lightsteelblue">
+        <div class="player-block" v-for="(player, index) in phelanSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightsteelblue">
             <player-general v-bind:player="player"></player-general>
         </div>
 
         <div class="title-container">
-            <span class="title">Bulldog</span>
+            <span class="title">Demise</span>
         </div>
 
-        <div class="player-block" v-for="player in bulldogSoloQPlayerData" style="background-color: lightgray">
+        <div class="player-block" v-for="(player, index) in demiseSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightgray">
             <player-general v-bind:player="player"></player-general>
         </div>
 
@@ -184,15 +172,15 @@
             <span class="title">Fnatic</span>
         </div>
 
-        <div class="player-block" v-for="player in fnaticSoloQPlayerData" style="background-color: lightgoldenrodyellow">
+        <div class="player-block" v-for="(player, index) in fnaticSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightgoldenrodyellow">
             <player-general v-bind:player="player"></player-general>
         </div>
 
         <div class="title-container">
-            <span class="title">LFO</span>
+            <span class="title">Nvision</span>
         </div>
 
-        <div class="player-block" v-for="player in lfoSoloQPlayerData" style="background-color: lightslategray">
+        <div class="player-block" v-for="(player, index) in nvisionSoloQPlayerData" v-bind:key="index+player.name" style="background-color: lightgreen">
             <player-general v-bind:player="player"></player-general>
         </div>
     </div>
@@ -208,11 +196,10 @@
     const teamMnmSoloQ = require("../../teams/soloq-scouting/mnm");
     const teamDiablousSoloQ = require("../../teams/soloq-scouting/diabolus");
     const teamPhelanSoloQ = require("../../teams/soloq-scouting/phelan");
-    const teamBulldogSoloQ = require("../../teams/soloq-scouting/bulldog");
+    const teamDemiseSoloQ = require("../../teams/soloq-scouting/demise");
     const teamFnaticSoloQ = require("../../teams/soloq-scouting/fnatic");
     const teamXlSoloQ = require("../../teams/soloq-scouting/xl");
-    const teamDarkspawnSoloQ = require("../../teams/soloq-scouting/darkspawn");
-    const teamLFOSoloQ = require("../../teams/soloq-scouting/lfo");
+    const teamNvisionSoloQ = require("../../teams/soloq-scouting/nvision");
 
     export default {
         name: 'Start',
@@ -228,20 +215,18 @@
                 mnmSoloQPlayerData: teamMnmSoloQ.players,
                 diabolusSoloQPlayerData: teamDiablousSoloQ.players,
                 phelanSoloQPlayerData: teamPhelanSoloQ.players,
-                bulldogSoloQPlayerData: teamBulldogSoloQ.players,
+                demiseSoloQPlayerData: teamDemiseSoloQ.players,
                 fnaticSoloQPlayerData: teamFnaticSoloQ.players,
                 xlSoloQPlayerData: teamXlSoloQ.players,
-                darkspawnSoloQPlayerData: teamDarkspawnSoloQ.players,
-                lfoSoloQPlayerData: teamLFOSoloQ.players
+                nvisionSoloQPlayerData: teamNvisionSoloQ.players
                 //Use the below to split the player array to get specific role. 0,1 is Top lane
-                // darkspawnSoloQPlayerData: teamDarkspawnSoloQ.players.slice(0,1)
+                // nvisionSoloQPlayerData: teamNvisionSoloQ.players.slice(0,1)
             }
         },
         methods: {}
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .title {
         font-weight: bold;
