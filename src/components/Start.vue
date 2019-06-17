@@ -1,5 +1,7 @@
 <template>
     <div>
+        <Matchups></Matchups>
+
         <div class="title-container">
             <span class="title">Barrage Champion Stats</span>
         </div>
@@ -190,6 +192,7 @@
     import PlayerGeneral from './PlayerGeneral';
     import PlayerChampions from './PlayerChampions';
     import TeamOverall from './TeamOverall';
+    import Matchups from './Matchups';
 
     const teamBarrageSoloQ = require("../../teams/soloq-scouting/barrage");
     const teamEnclaveSoloQ = require("../../teams/soloq-scouting/enclave");
@@ -206,7 +209,8 @@
         components: {
             PlayerGeneral,
             PlayerChampions,
-            TeamOverall
+            TeamOverall,
+            Matchups
         },
         data() {
             return {
