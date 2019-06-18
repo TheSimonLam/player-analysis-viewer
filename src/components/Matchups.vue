@@ -1,6 +1,35 @@
 <template>
   <div>
-    {{adcsPlayedVsYuumi}}
+    <div>
+      <h3>Enemy ADC's Played Vs Yuumi</h3>
+      <div v-for="(enemyAdc, index) in adcsPlayedVsYuumi" v-bind:key=index>
+        <div class="label champ-name">Champ: {{index}}</div>
+        <div class="label victories">Victories: {{enemyAdc.victories}}</div>
+        <div class="label losses">Losses: {{enemyAdc.losses}}</div>
+        <div class="label total">Total: {{enemyAdc.count}}</div>
+      </div>
+    </div>
+
+    <div>
+      <h3>Enemy Supports Played Vs Yuumi</h3>
+      <div v-for="(enemyAdc, index) in supportsPlayedVsYuumi" v-bind:key=index>
+        <div class="label champ-name">Champ: {{index}}</div>
+        <div class="label victories">Victories: {{enemyAdc.victories}}</div>
+        <div class="label losses">Losses: {{enemyAdc.losses}}</div>
+        <div class="label total">Total: {{enemyAdc.count}}</div>
+      </div>
+    </div>
+
+    <div>
+      <h3>Ally ADC's Played with Yuumi</h3>
+      <div v-for="(allyAdc, index) in allyAdcsPlayedWithYuumi" v-bind:key=index>
+        <div class="label champ-name">Champ: {{index}}</div>
+        <div class="label victories">Victories: {{allyAdc.victories}}</div>
+        <div class="label losses">Losses: {{allyAdc.losses}}</div>
+        <div class="label total">Total: {{allyAdc.count}}</div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -194,9 +223,60 @@
                 }
               }
             }
-            console.log(adcsObj);
             return adcsObj;
-          }
+          },
+          supportsPlayedVsYuumi: function () {
+            let supportsObj = {};
+
+            for(let i=0;i<this.matches.length; i++){
+              if(supportsObj[this.matches[i].supportMatchup]){
+                supportsObj[this.matches[i].supportMatchup].count += 1;
+                if(this.matches[i].victory){
+                  supportsObj[this.matches[i].supportMatchup].victories += 1;
+                }
+                else{
+                  supportsObj[this.matches[i].supportMatchup].losses += 1;
+                }
+              }
+              else{
+                supportsObj[this.matches[i].supportMatchup] = {victories: 0, losses: 0};
+                supportsObj[this.matches[i].supportMatchup].count = 1;
+                if(this.matches[i].victory){
+                  supportsObj[this.matches[i].supportMatchup].victories = 1;
+                }
+                else{
+                  supportsObj[this.matches[i].supportMatchup].losses = 1;
+                }
+              }
+            }
+            return supportsObj;
+          },
+          allyAdcsPlayedWithYuumi: function () {
+            let adcsObj = {};
+
+            for(let i=0;i<this.matches.length; i++){
+              if(adcsObj[this.matches[i].adcAlly]){
+                adcsObj[this.matches[i].adcAlly].count += 1;
+                if(this.matches[i].victory){
+                  adcsObj[this.matches[i].adcAlly].victories += 1;
+                }
+                else{
+                  adcsObj[this.matches[i].adcAlly].losses += 1;
+                }
+              }
+              else{
+                adcsObj[this.matches[i].adcAlly] = {victories: 0, losses: 0};
+                adcsObj[this.matches[i].adcAlly].count = 1;
+                if(this.matches[i].victory){
+                  adcsObj[this.matches[i].adcAlly].victories = 1;
+                }
+                else{
+                  adcsObj[this.matches[i].adcAlly].losses = 1;
+                }
+              }
+            }
+            return adcsObj;
+          },
         },
         methods:{
         },
@@ -207,4 +287,24 @@
 
 <style scoped lang="scss">
 
+.label{
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.champ-name{
+  font-weight: bold;
+}
+
+.victories{
+  color: green;
+}
+
+.losses{
+color: red;
+}
+
+.total{
+  color: blue;
+}
 </style>
