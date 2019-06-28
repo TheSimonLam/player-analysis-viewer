@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <Start/>
+    <router-link to="/">Homepage</router-link>
+    <router-link to="/anotherpage">Anotherpage</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Start from './components/Start.vue'
 
 export default {
-  name: 'app',
-  components: {
-      Start
-  }
+  name: 'app'
 }
 </script>
 
