@@ -51,6 +51,7 @@ export default {
   created(){
       for (let match of this.player.matches) {
 
+        // if(match.patch === "9.13"){ //USE THIS TO FILTER BY DATE OR PATCH !
           let champExists = false;
 
           if(!this.champions.length){
@@ -76,6 +77,7 @@ export default {
                   count: 1
               })
           }
+        // }
       }
 
       this.champions.sort(function(a, b){return b.count-a.count});
