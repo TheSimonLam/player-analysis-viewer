@@ -28,7 +28,7 @@
         </tr>
       </table>
 
-      <div class="disclaimer">*Based on the last 20 games of SoloQ of each player on main roster</div>
+      <div class="disclaimer">*Based on the last 30 games of SoloQ of each player on main roster</div>
     </div>
   </div>
 </template>
