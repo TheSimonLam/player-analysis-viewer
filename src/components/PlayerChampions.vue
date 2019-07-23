@@ -51,7 +51,7 @@ export default {
   created(){
       for (let match of this.player.matches) {
 
-        // if(match.patch === "9.13"){ //USE THIS TO FILTER BY DATE OR PATCH !
+        // if(new Date(match.date) >= new Date(1563666540*1000)){ //USE THIS TO FILTER BY DATE OR PATCH !
           let champExists = false;
 
           if(!this.champions.length){
@@ -60,14 +60,16 @@ export default {
                   matches: [match],
                   count: 1
               });
+              champExists = true;
           }
-
-          for (let champion of this.champions) {
-              if(champion.champName === match.champ){
-                  champion.matches.push(match);
-                  champion.count += 1;
-                  champExists = true;
-              }
+          else{
+            for (let champion of this.champions) {
+                if(champion.champName === match.champ){
+                    champion.matches.push(match);
+                    champion.count += 1;
+                    champExists = true;
+                }
+            }
           }
 
           if(!champExists){
