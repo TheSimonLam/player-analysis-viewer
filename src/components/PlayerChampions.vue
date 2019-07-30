@@ -51,7 +51,7 @@ export default {
   created(){
       for (let match of this.player.matches) {
 
-        // if(new Date(match.date) >= new Date(1563666540*1000)){ //USE THIS TO FILTER BY DATE OR PATCH !
+        if(new Date(match.date) >= new Date(1564162200*1000)){ //USE THIS TO FILTER BY DATE OR PATCH !
           let champExists = false;
 
           if(!this.champions.length){
@@ -79,7 +79,7 @@ export default {
                   count: 1
               })
           }
-        // }
+        }
       }
 
       this.champions.sort(function(a, b){return b.count-a.count});
